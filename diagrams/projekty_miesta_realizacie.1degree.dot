@@ -32,7 +32,7 @@ digraph "oneDegreeRelationshipsDiagram" {
       <TR><TD PORT="stat_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">stat_id</TD></TR>
       <TR><TD PORT="created_at" COLSPAN="3" ALIGN="LEFT">created_at</TD></TR>
       <TR><TD PORT="updated_at" COLSPAN="3" ALIGN="LEFT">updated_at</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 4</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">2,300 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">4 &gt;</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 4</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">247 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">4 &gt;</TD></TR>
     </TABLE>>
     URL="miesta_realizacie.html"
     tooltip="miesta_realizacie"
@@ -46,6 +46,7 @@ digraph "oneDegreeRelationshipsDiagram" {
       <TR><TD PORT="itms_href" COLSPAN="3" ALIGN="LEFT">itms_href</TD></TR>
       <TR><TD PORT="itms_created_at" COLSPAN="3" ALIGN="LEFT">itms_created_at</TD></TR>
       <TR><TD PORT="itms_updated_at" COLSPAN="3" ALIGN="LEFT">itms_updated_at</TD></TR>
+      <TR><TD PORT="ekosystem_stav" COLSPAN="3" ALIGN="LEFT">ekosystem_stav</TD></TR>
       <TR><TD PORT="akronym" COLSPAN="3" ALIGN="LEFT">akronym</TD></TR>
       <TR><TD PORT="cislo_zmluvy" COLSPAN="3" ALIGN="LEFT">cislo_zmluvy</TD></TR>
       <TR><TD PORT="datum_konca_hlavnych_aktivit" COLSPAN="3" ALIGN="LEFT">datum_konca_hlavnych_aktivit</TD></TR>
@@ -76,7 +77,7 @@ digraph "oneDegreeRelationshipsDiagram" {
       <TR><TD PORT="zameranie_projektu" COLSPAN="3" ALIGN="LEFT">zameranie_projektu</TD></TR>
       <TR><TD PORT="created_at" COLSPAN="3" ALIGN="LEFT">created_at</TD></TR>
       <TR><TD PORT="updated_at" COLSPAN="3" ALIGN="LEFT">updated_at</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 3</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">1,540 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">19 &gt;</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 3</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">232 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">19 &gt;</TD></TR>
     </TABLE>>
     URL="projekty.html"
     tooltip="projekty"
@@ -88,7 +89,7 @@ digraph "oneDegreeRelationshipsDiagram" {
       <TR><TD PORT="id" COLSPAN="2" BGCOLOR="#bed1b8" ALIGN="LEFT">id</TD><TD PORT="id.type" ALIGN="LEFT">serial[10]</TD></TR>
       <TR><TD PORT="projekt_id" COLSPAN="2" BGCOLOR="#f4f7da" ALIGN="LEFT">projekt_id</TD><TD PORT="projekt_id.type" ALIGN="LEFT">int4[10]</TD></TR>
       <TR><TD PORT="miesto_realizacie_id" COLSPAN="2" BGCOLOR="#f4f7da" ALIGN="LEFT">miesto_realizacie_id</TD><TD PORT="miesto_realizacie_id.type" ALIGN="LEFT">int4[10]</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">3,428 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 &gt;</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">728 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 &gt;</TD></TR>
     </TABLE>>
     URL="projekty_miesta_realizacie.html"
     tooltip="projekty_miesta_realizacie"

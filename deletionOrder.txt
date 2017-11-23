@@ -1,7 +1,7 @@
-kody
 zonfp_aktivity_projekt
 zmluvy_verejne_obstaravania_dodavatelia
 vyzvy_vyhlasene_konkretne_ciele_typy_aktivit
+zop_predkladane_za_subjekty
 zonfp_typy_uzemia
 zonfp_sekundarne_tematicke_okruhy
 zonfp_polozky_rozpoctu

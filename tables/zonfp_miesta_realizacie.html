@@ -17,7 +17,6 @@
  <ul>
   <li><a href='../index.html' title='All tables and views in the schema'>Tables</a></li>
   <li><a href='../relationships.html' title='Diagram of table relationships'>Relationships</a></li>
-  <li><a href='../utilities.html' title='View of tables with neither parents nor children'>Utility&nbsp;Tables</a></li>
   <li><a href='../constraints.html' title='Useful for diagnosing error messages that just give constraint name or number'>Constraints</a></li>
   <li><a href='../anomalies.html' title="Things that might not be quite right">Anomalies</a></li>
   <li><a href='../columns.byTable.html' title="All of the columns in the schema">Columns</a></li>
@@ -84,7 +83,7 @@
 </tr>
 </thead>
 <tbody valign='top'>
-<tr class='even'>
+<tr class='odd'>
  <td class='primaryKey' title='Primary Key'>id</td>
  <td class='detail'>serial</td>
  <td class='detail' align='right'>10</td>
@@ -95,7 +94,7 @@
  <td class='detail'> </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='odd'>
+<tr class='even'>
  <td class='indexedColumn' title='Indexed'>zonfp_id</td>
  <td class='detail'>int4</td>
  <td class='detail' align='right'>10</td>
@@ -105,7 +104,7 @@
  <td class='detail'></td>
  <td class='detail'>
   <table border='0' width='100%' cellspacing='0' cellpadding='0'>
-   <tr class='relative odd' valign='top'>
+   <tr class='relative even' valign='top'>
     <td class='relatedTable detail' title="zonfp_miesta_realizacie.zonfp_id refs zonfp.id via fk_rails_2f9bbaa2d6"><a href='zonfp.html'>zonfp</a><span class='relatedKey'>.id</span>
     </td>
     <td class='constraint detail'>fk_rails_2f9bbaa2d6<span title='Restrict delete:
@@ -115,7 +114,7 @@
  </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='even'>
+<tr class='odd'>
  <td class='indexedColumn' title='Indexed'>miesto_realizacie_id</td>
  <td class='detail'>int4</td>
  <td class='detail' align='right'>10</td>
@@ -125,7 +124,7 @@
  <td class='detail'></td>
  <td class='detail'>
   <table border='0' width='100%' cellspacing='0' cellpadding='0'>
-   <tr class='relative even' valign='top'>
+   <tr class='relative odd' valign='top'>
     <td class='relatedTable detail' title="zonfp_miesta_realizacie.miesto_realizacie_id refs miesta_realizacie.id via fk_rails_4d54ad5583"><a href='miesta_realizacie.html'>miesta_realizacie</a><span class='relatedKey'>.id</span>
     </td>
     <td class='constraint detail'>fk_rails_4d54ad5583<span title='Restrict delete:
@@ -135,7 +134,7 @@
  </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='odd'>
+<tr class='even'>
  <td class='detail'>created_at</td>
  <td class='detail'>timestamp</td>
  <td class='detail' align='right'>29,6</td>
@@ -146,7 +145,7 @@
  <td class='detail'> </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='even'>
+<tr class='odd'>
  <td class='detail'>updated_at</td>
  <td class='detail'>timestamp</td>
  <td class='detail' align='right'>29,6</td>
@@ -158,7 +157,7 @@
  <td class='comment detail'></td>
 </tr>
 </table>
-<p title='5 columns'>Table contained 14,886 rows at Thu Nov 23 14:20 CET 2017<p/>
+<p title='5 columns'>Table contained 729 rows at Thu Nov 23 18:12 CET 2017<p/>
 </td></tr></table>
 <div class='indent'>
 <b>Indexes:</b>
@@ -202,33 +201,33 @@
 <br><form action='get'><b>Close relationships</b><span class='degrees' id='degrees' title='Detail diminishes with increased separation from zonfp_miesta_realizacie'>
 &nbsp;within <label for='oneDegree'><input type='radio' name='degrees' id='oneDegree' checked>one</label>  <label for='twoDegrees'><input type='radio' name='degrees' id='twoDegrees'>two degrees</label> of separation</span><b>:</b></form>
 <map id="oneDegreeRelationshipsDiagram" name="oneDegreeRelationshipsDiagram">
-<area shape="rect" id="node1" href="zonfp_miesta_realizacie.html" title="zonfp_miesta_realizacie" alt="" coords="444,497,719,681">
-<area shape="rect" id="node2" href="miesta_realizacie.html" title="miesta_realizacie" alt="" coords="123,1065,283,1292">
-<area shape="rect" id="node3" href="zonfp.html" title="zonfp" alt="" coords="5,5,400,1048">
+<area shape="rect" id="node1" href="zonfp_miesta_realizacie.html" title="zonfp_miesta_realizacie" alt="" coords="444,509,719,693">
+<area shape="rect" id="node2" href="miesta_realizacie.html" title="miesta_realizacie" alt="" coords="129,1089,277,1316">
+<area shape="rect" id="node3" href="zonfp.html" title="zonfp" alt="" coords="5,5,400,1072">
 </map>
   <a name='diagram'><img id='oneDegreeImg' src='../diagrams/zonfp_miesta_realizacie.1degree.png' usemap='#oneDegreeRelationshipsDiagram' class='diagram' border='0' alt='' align='left'></a>
 <map id="twoDegreesRelationshipsDiagram" name="twoDegreesRelationshipsDiagram">
-<area shape="rect" id="node1" href="miesta_realizacie.html" title="miesta_realizacie" alt="" coords="425,274,585,501">
-<area shape="rect" id="node2" href="nuts_kody.html" title="nuts_kody" alt="" coords="217,346,377,429">
-<area shape="rect" id="node3" href="hodnoty_ciselnikov.html" title="hodnoty_ciselnikov" alt="" coords="5,518,173,601">
-<area shape="rect" id="node4" href="projekty.html" title="projekty" alt="" coords="1140,402,1308,485">
-<area shape="rect" id="node5" href="subjekty.html" title="subjekty" alt="" coords="421,518,589,601">
-<area shape="rect" id="node6" href="zonfp.html" title="zonfp" alt="" coords="633,594,1028,1637">
-<area shape="rect" id="node7" href="projekty_miesta_realizacie.html" title="projekty_miesta_realizacie" alt="" coords="1480,74,1679,157">
-<area shape="rect" id="node8" href="projekty_miesta_realizacie_mimo_uzemia_op.html" title="projekty_miesta_realizacie_mimo_uzemia_op" alt="" coords="1420,326,1739,409">
-<area shape="rect" id="node9" href="zonfp_aktivity_projekt.html" title="zonfp_aktivity_projekt" alt="" coords="1141,502,1307,585">
-<area shape="rect" id="node10" href="zonfp_formy_financovania.html" title="zonfp_formy_financovania" alt="" coords="1125,602,1323,685">
-<area shape="rect" id="node11" href="zonfp_hodnotitelia.html" title="zonfp_hodnotitelia" alt="" coords="1151,702,1297,785">
-<area shape="rect" id="node12" href="zonfp_hospodarske_cinnosti.html" title="zonfp_hospodarske_cinnosti" alt="" coords="1119,802,1329,885">
-<area shape="rect" id="node13" href="zonfp_meratelne_ukazovatele.html" title="zonfp_meratelne_ukazovatele" alt="" coords="1113,902,1335,985">
-<area shape="rect" id="node14" href="zonfp_miesta_realizacie.html" title="zonfp_miesta_realizacie" alt="" coords="1087,101,1361,285">
-<area shape="rect" id="node15" href="zonfp_miesta_realizacie_mimo_uzemia_op.html" title="zonfp_miesta_realizacie_mimo_uzemia_op" alt="" coords="1072,302,1376,385">
-<area shape="rect" id="node16" href="zonfp_oblasti_intervencie.html" title="zonfp_oblasti_intervencie" alt="" coords="1129,1002,1319,1085">
-<area shape="rect" id="node17" href="zonfp_organizacne_zlozky.html" title="zonfp_organizacne_zlozky" alt="" coords="1125,1102,1323,1185">
-<area shape="rect" id="node18" href="zonfp_partneri.html" title="zonfp_partneri" alt="" coords="1150,1440,1298,1522">
-<area shape="rect" id="node19" href="zonfp_polozky_rozpoctu.html" title="zonfp_polozky_rozpoctu" alt="" coords="1132,1613,1316,1696">
-<area shape="rect" id="node20" href="zonfp_sekundarne_tematicke_okruhy.html" title="zonfp_sekundarne_tematicke_okruhy" alt="" coords="1090,1202,1358,1285">
-<area shape="rect" id="node21" href="zonfp_typy_uzemia.html" title="zonfp_typy_uzemia" alt="" coords="1147,1302,1301,1385">
+<area shape="rect" id="node1" href="miesta_realizacie.html" title="miesta_realizacie" alt="" coords="413,275,561,501">
+<area shape="rect" id="node2" href="nuts_kody.html" title="nuts_kody" alt="" coords="217,347,365,429">
+<area shape="rect" id="node3" href="hodnoty_ciselnikov.html" title="hodnoty_ciselnikov" alt="" coords="5,519,173,601">
+<area shape="rect" id="node4" href="projekty.html" title="projekty" alt="" coords="1122,403,1278,485">
+<area shape="rect" id="node5" href="subjekty.html" title="subjekty" alt="" coords="409,519,565,601">
+<area shape="rect" id="node6" href="zonfp.html" title="zonfp" alt="" coords="609,595,1004,1661">
+<area shape="rect" id="node7" href="projekty_miesta_realizacie.html" title="projekty_miesta_realizacie" alt="" coords="1456,75,1655,157">
+<area shape="rect" id="node8" href="projekty_miesta_realizacie_mimo_uzemia_op.html" title="projekty_miesta_realizacie_mimo_uzemia_op" alt="" coords="1396,327,1715,409">
+<area shape="rect" id="node9" href="zonfp_aktivity_projekt.html" title="zonfp_aktivity_projekt" alt="" coords="1117,503,1283,585">
+<area shape="rect" id="node10" href="zonfp_formy_financovania.html" title="zonfp_formy_financovania" alt="" coords="1101,603,1299,685">
+<area shape="rect" id="node11" href="zonfp_hodnotitelia.html" title="zonfp_hodnotitelia" alt="" coords="1127,703,1273,785">
+<area shape="rect" id="node12" href="zonfp_hospodarske_cinnosti.html" title="zonfp_hospodarske_cinnosti" alt="" coords="1095,803,1305,885">
+<area shape="rect" id="node13" href="zonfp_meratelne_ukazovatele.html" title="zonfp_meratelne_ukazovatele" alt="" coords="1089,903,1311,985">
+<area shape="rect" id="node14" href="zonfp_miesta_realizacie.html" title="zonfp_miesta_realizacie" alt="" coords="1063,101,1337,285">
+<area shape="rect" id="node15" href="zonfp_miesta_realizacie_mimo_uzemia_op.html" title="zonfp_miesta_realizacie_mimo_uzemia_op" alt="" coords="1048,303,1352,385">
+<area shape="rect" id="node16" href="zonfp_oblasti_intervencie.html" title="zonfp_oblasti_intervencie" alt="" coords="1105,1003,1295,1085">
+<area shape="rect" id="node17" href="zonfp_organizacne_zlozky.html" title="zonfp_organizacne_zlozky" alt="" coords="1101,1103,1299,1185">
+<area shape="rect" id="node18" href="zonfp_partneri.html" title="zonfp_partneri" alt="" coords="1139,1445,1261,1528">
+<area shape="rect" id="node19" href="zonfp_polozky_rozpoctu.html" title="zonfp_polozky_rozpoctu" alt="" coords="1108,1631,1292,1713">
+<area shape="rect" id="node20" href="zonfp_sekundarne_tematicke_okruhy.html" title="zonfp_sekundarne_tematicke_okruhy" alt="" coords="1066,1203,1334,1285">
+<area shape="rect" id="node21" href="zonfp_typy_uzemia.html" title="zonfp_typy_uzemia" alt="" coords="1123,1303,1277,1385">
 </map>
 
   <a name='diagram'><img id='twoDegreesImg' src='../diagrams/zonfp_miesta_realizacie.2degrees.png' usemap='#twoDegreesRelationshipsDiagram' class='diagram' border='0' alt='' align='left'></a>

@@ -28,6 +28,8 @@ digraph "oneDegreeRelationshipsDiagram" {
   "zop":"predkladana_za_id":w -> "subjekty":"id":e [arrowhead=none dir=back arrowtail=crowodot];
   "zop":"prijimatel_id":w -> "subjekty":"id":e [arrowhead=none dir=back arrowtail=crowodot];
   "zop":"projekt_id":w -> "projekty":"id":e [arrowhead=none dir=back arrowtail=crowodot];
+  "zop_predkladane_za_subjekty":"subjekt_id":w -> "subjekty":"id":e [arrowhead=none dir=back arrowtail=crowodot];
+  "zop_predkladane_za_subjekty":"zop_id":w -> "zop":"id.type":e [arrowhead=none dir=back arrowtail=crowodot];
   "deklarovane_vydavky" [
     label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
@@ -53,7 +55,7 @@ digraph "oneDegreeRelationshipsDiagram" {
       <TR><TD PORT="verejne_obstaravanie_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">verejne_obstaravanie_id</TD></TR>
       <TR><TD PORT="vyska_bez_dph" COLSPAN="3" ALIGN="LEFT">vyska_bez_dph</TD></TR>
       <TR><TD PORT="zmluva_verejne_obstaravanie_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">zmluva_verejne_obstaravanie_id</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 5</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">59,519 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">2 &gt;</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 5</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">2 &gt;</TD></TR>
     </TABLE>>
     URL="deklarovane_vydavky.html"
     tooltip="deklarovane_vydavky"
@@ -67,7 +69,7 @@ digraph "oneDegreeRelationshipsDiagram" {
       <TR><TD PORT="zop_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">zop_id</TD></TR>
       <TR><TD PORT="created_at" COLSPAN="3" ALIGN="LEFT">created_at</TD></TR>
       <TR><TD PORT="updated_at" COLSPAN="3" ALIGN="LEFT">updated_at</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">974 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="nezrovnalosti_suvisiace_zop.html"
     tooltip="nezrovnalosti_suvisiace_zop"
@@ -81,7 +83,7 @@ digraph "oneDegreeRelationshipsDiagram" {
       <TR><TD PORT="zop_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">zop_id</TD></TR>
       <TR><TD PORT="created_at" COLSPAN="3" ALIGN="LEFT">created_at</TD></TR>
       <TR><TD PORT="updated_at" COLSPAN="3" ALIGN="LEFT">updated_at</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">1,010 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="pohladavkove_doklady_suvisiace_zop.html"
     tooltip="pohladavkove_doklady_suvisiace_zop"
@@ -95,6 +97,7 @@ digraph "oneDegreeRelationshipsDiagram" {
       <TR><TD PORT="itms_href" COLSPAN="3" ALIGN="LEFT">itms_href</TD></TR>
       <TR><TD PORT="itms_created_at" COLSPAN="3" ALIGN="LEFT">itms_created_at</TD></TR>
       <TR><TD PORT="itms_updated_at" COLSPAN="3" ALIGN="LEFT">itms_updated_at</TD></TR>
+      <TR><TD PORT="ekosystem_stav" COLSPAN="3" ALIGN="LEFT">ekosystem_stav</TD></TR>
       <TR><TD PORT="akronym" COLSPAN="3" ALIGN="LEFT">akronym</TD></TR>
       <TR><TD PORT="cislo_zmluvy" COLSPAN="3" ALIGN="LEFT">cislo_zmluvy</TD></TR>
       <TR><TD PORT="datum_konca_hlavnych_aktivit" COLSPAN="3" ALIGN="LEFT">datum_konca_hlavnych_aktivit</TD></TR>
@@ -125,7 +128,7 @@ digraph "oneDegreeRelationshipsDiagram" {
       <TR><TD PORT="zameranie_projektu" COLSPAN="3" ALIGN="LEFT">zameranie_projektu</TD></TR>
       <TR><TD PORT="created_at" COLSPAN="3" ALIGN="LEFT">created_at</TD></TR>
       <TR><TD PORT="updated_at" COLSPAN="3" ALIGN="LEFT">updated_at</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 3</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">1,540 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">19 &gt;</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 3</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">232 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">19 &gt;</TD></TR>
     </TABLE>>
     URL="projekty.html"
     tooltip="projekty"
@@ -151,7 +154,7 @@ digraph "oneDegreeRelationshipsDiagram" {
       <TR><TD PORT="ulica_cislo" COLSPAN="3" ALIGN="LEFT">ulica_cislo</TD></TR>
       <TR><TD PORT="created_at" COLSPAN="3" ALIGN="LEFT">created_at</TD></TR>
       <TR><TD PORT="updated_at" COLSPAN="3" ALIGN="LEFT">updated_at</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 3</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">5,310 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">28 &gt;</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 3</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">340 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">29 &gt;</TD></TR>
     </TABLE>>
     URL="subjekty.html"
     tooltip="subjekty"
@@ -165,6 +168,7 @@ digraph "oneDegreeRelationshipsDiagram" {
       <TR><TD PORT="itms_href" COLSPAN="2" ALIGN="LEFT">itms_href</TD><TD PORT="itms_href.type" ALIGN="LEFT">varchar[2147483647]</TD></TR>
       <TR><TD PORT="itms_created_at" COLSPAN="2" ALIGN="LEFT">itms_created_at</TD><TD PORT="itms_created_at.type" ALIGN="LEFT">timestamp[29,6]</TD></TR>
       <TR><TD PORT="itms_updated_at" COLSPAN="2" ALIGN="LEFT">itms_updated_at</TD><TD PORT="itms_updated_at.type" ALIGN="LEFT">timestamp[29,6]</TD></TR>
+      <TR><TD PORT="ekosystem_stav" COLSPAN="2" ALIGN="LEFT">ekosystem_stav</TD><TD PORT="ekosystem_stav.type" ALIGN="LEFT">varchar[2147483647]</TD></TR>
       <TR><TD PORT="datum_prijatia" COLSPAN="2" ALIGN="LEFT">datum_prijatia</TD><TD PORT="datum_prijatia.type" ALIGN="LEFT">timestamp[29,6]</TD></TR>
       <TR><TD PORT="datum_uhrady" COLSPAN="2" ALIGN="LEFT">datum_uhrady</TD><TD PORT="datum_uhrady.type" ALIGN="LEFT">timestamp[29,6]</TD></TR>
       <TR><TD PORT="datum_zamietnutia" COLSPAN="2" ALIGN="LEFT">datum_zamietnutia</TD><TD PORT="datum_zamietnutia.type" ALIGN="LEFT">timestamp[29,6]</TD></TR>
@@ -181,9 +185,23 @@ digraph "oneDegreeRelationshipsDiagram" {
       <TR><TD PORT="vyplaca_sa_partnerovi" COLSPAN="2" ALIGN="LEFT">vyplaca_sa_partnerovi</TD><TD PORT="vyplaca_sa_partnerovi.type" ALIGN="LEFT">bool[1]</TD></TR>
       <TR><TD PORT="zop_je_zaverecna" COLSPAN="2" ALIGN="LEFT">zop_je_zaverecna</TD><TD PORT="zop_je_zaverecna.type" ALIGN="LEFT">bool[1]</TD></TR>
       <TR><TD PORT="zop_predlozena_za_viac_subjektov" COLSPAN="2" ALIGN="LEFT">zop_predlozena_za_viac_subjektov</TD><TD PORT="zop_predlozena_za_viac_subjektov.type" ALIGN="LEFT">bool[1]</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 5</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">2,966 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">4 &gt;</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 5</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">5 &gt;</TD></TR>
     </TABLE>>
     URL="zop.html"
     tooltip="zop"
+  ];
+  "zop_predkladane_za_subjekty" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">zop_predkladane_za_subjekty</TD></TR>
+      <TR><TD PORT="id" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">id</TD></TR>
+      <TR><TD PORT="zop_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">zop_id</TD></TR>
+      <TR><TD PORT="plati_sa_priamo_subjektu" COLSPAN="3" ALIGN="LEFT">plati_sa_priamo_subjektu</TD></TR>
+      <TR><TD PORT="subjekt_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">subjekt_id</TD></TR>
+      <TR><TD PORT="typ_subjektu_na_projekte" COLSPAN="3" ALIGN="LEFT">typ_subjektu_na_projekte</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="zop_predkladane_za_subjekty.html"
+    tooltip="zop_predkladane_za_subjekty"
   ];
 }

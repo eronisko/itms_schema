@@ -86,7 +86,7 @@ zonfp_partneri
 zonfp_polozky_rozpoctu
 zonfp_sekundarne_tematicke_okruhy
 zonfp_typy_uzemia
+zop_predkladane_za_subjekty
 vyzvy_vyhlasene_konkretne_ciele_typy_aktivit
 zmluvy_verejne_obstaravania_dodavatelia
 zonfp_aktivity_projekt
-kody

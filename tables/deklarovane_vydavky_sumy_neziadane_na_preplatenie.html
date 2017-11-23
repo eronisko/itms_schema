@@ -17,7 +17,6 @@
  <ul>
   <li><a href='../index.html' title='All tables and views in the schema'>Tables</a></li>
   <li><a href='../relationships.html' title='Diagram of table relationships'>Relationships</a></li>
-  <li><a href='../utilities.html' title='View of tables with neither parents nor children'>Utility&nbsp;Tables</a></li>
   <li><a href='../constraints.html' title='Useful for diagnosing error messages that just give constraint name or number'>Constraints</a></li>
   <li><a href='../anomalies.html' title="Things that might not be quite right">Anomalies</a></li>
   <li><a href='../columns.byTable.html' title="All of the columns in the schema">Columns</a></li>
@@ -84,7 +83,7 @@
 </tr>
 </thead>
 <tbody valign='top'>
-<tr class='odd'>
+<tr class='even'>
  <td class='primaryKey' title='Primary Key'>id</td>
  <td class='detail'>serial</td>
  <td class='detail' align='right'>10</td>
@@ -95,7 +94,7 @@
  <td class='detail'> </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='even'>
+<tr class='odd'>
  <td class='indexedColumn' title='Indexed'>deklarovany_vydavok_id</td>
  <td class='detail'>int4</td>
  <td class='detail' align='right'>10</td>
@@ -105,7 +104,7 @@
  <td class='detail'></td>
  <td class='detail'>
   <table border='0' width='100%' cellspacing='0' cellpadding='0'>
-   <tr class='relative even' valign='top'>
+   <tr class='relative odd' valign='top'>
     <td class='relatedTable detail' title="deklarovane_vydavky_sumy_neziadane_na_preplatenie.deklarovany_vydavok_id refs deklarovane_vydavky.id via fk_rails_65cd02ab8f"><a href='deklarovane_vydavky.html'>deklarovane_vydavky</a><span class='relatedKey'>.id</span>
     </td>
     <td class='constraint detail'>fk_rails_65cd02ab8f<span title='Restrict delete:
@@ -115,7 +114,7 @@
  </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='odd'>
+<tr class='even'>
  <td class='indexedColumn' title='Indexed'>druh_neziadanej_sumy</td>
  <td class='detail'>varchar</td>
  <td class='detail' align='right'>2147483647</td>
@@ -126,7 +125,7 @@
  <td class='detail'> </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='even'>
+<tr class='odd'>
  <td class='indexedColumn' title='Indexed'>suma_neziadana</td>
  <td class='detail'>numeric</td>
  <td class='detail' align='right'>131089</td>
@@ -138,7 +137,7 @@
  <td class='comment detail'></td>
 </tr>
 </table>
-<p title='4 columns'>Table contained 9,188 rows at Thu Nov 23 14:20 CET 2017<p/>
+<p title='4 columns'>Table contained 0 rows at Thu Nov 23 18:12 CET 2017<p/>
 </td></tr></table>
 <div class='indent'>
 <b>Indexes:</b>
@@ -189,10 +188,10 @@
 <map id="twoDegreesRelationshipsDiagram" name="twoDegreesRelationshipsDiagram">
 <area shape="rect" id="node1" href="deklarovane_vydavky.html" title="deklarovane_vydavky" alt="" coords="480,68,720,631">
 <area shape="rect" id="node2" href="polozky_rozpoctu.html" title="polozky_rozpoctu" alt="" coords="247,344,407,427">
-<area shape="rect" id="node3" href="uctovne_doklady.html" title="uctovne_doklady" alt="" coords="243,444,411,527">
+<area shape="rect" id="node3" href="uctovne_doklady.html" title="uctovne_doklady" alt="" coords="247,444,407,527">
 <area shape="rect" id="node4" href="verejne_obstaravania.html" title="verejne_obstaravania" alt="" coords="5,547,173,629">
 <area shape="rect" id="node5" href="zmluvy_verejne_obstaravania.html" title="zmluvy_verejne_obstaravania" alt="" coords="217,580,436,663">
-<area shape="rect" id="node6" href="zop.html" title="zop" alt="" coords="247,116,407,199">
+<area shape="rect" id="node6" href="zop.html" title="zop" alt="" coords="261,116,393,199">
 <area shape="rect" id="node7" href="deklarovane_vydavky_sumy_neschvalene_na_preplatenie.html" title="deklarovane_vydavky_sumy_neschvalene_na_preplatenie" alt="" coords="764,5,1164,88">
 <area shape="rect" id="node8" href="deklarovane_vydavky_sumy_neziadane_na_preplatenie.html" title="deklarovane_vydavky_sumy_neziadane_na_preplatenie" alt="" coords="768,105,1160,265">
 </map>

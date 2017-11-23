@@ -67,7 +67,7 @@ digraph "oneDegreeRelationshipsDiagram" {
       <TR><TD PORT="vratena_suma_zdroj_sr" COLSPAN="3" ALIGN="LEFT">vratena_suma_zdroj_sr</TD></TR>
       <TR><TD PORT="created_at" COLSPAN="3" ALIGN="LEFT">created_at</TD></TR>
       <TR><TD PORT="updated_at" COLSPAN="3" ALIGN="LEFT">updated_at</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 8</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">221 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">10 &gt;</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 8</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">10 &gt;</TD></TR>
     </TABLE>>
     URL="nezrovnalosti.html"
     tooltip="nezrovnalosti"
@@ -81,7 +81,7 @@ digraph "oneDegreeRelationshipsDiagram" {
       <TR><TD PORT="pohladavkovy_doklad_id" COLSPAN="2" BGCOLOR="#f4f7da" ALIGN="LEFT">pohladavkovy_doklad_id</TD><TD PORT="pohladavkovy_doklad_id.type" ALIGN="LEFT">int4[10]</TD></TR>
       <TR><TD PORT="created_at" COLSPAN="2" ALIGN="LEFT">created_at</TD><TD PORT="created_at.type" ALIGN="LEFT">timestamp[29,6]</TD></TR>
       <TR><TD PORT="updated_at" COLSPAN="2" ALIGN="LEFT">updated_at</TD><TD PORT="updated_at.type" ALIGN="LEFT">timestamp[29,6]</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">171 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 &gt;</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 &gt;</TD></TR>
     </TABLE>>
     URL="nezrovnalosti_suvisiace_pohladavkove_doklady.html"
     tooltip="nezrovnalosti_suvisiace_pohladavkove_doklady"
@@ -120,7 +120,7 @@ digraph "oneDegreeRelationshipsDiagram" {
       <TR><TD PORT="vratena_suma_zdroj_sr" COLSPAN="3" ALIGN="LEFT">vratena_suma_zdroj_sr</TD></TR>
       <TR><TD PORT="created_at" COLSPAN="3" ALIGN="LEFT">created_at</TD></TR>
       <TR><TD PORT="updated_at" COLSPAN="3" ALIGN="LEFT">updated_at</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 7</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">230 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">3 &gt;</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 7</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">3 &gt;</TD></TR>
     </TABLE>>
     URL="pohladavkove_doklady.html"
     tooltip="pohladavkove_doklady"

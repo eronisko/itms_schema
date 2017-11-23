@@ -17,7 +17,6 @@
  <ul>
   <li><a href='../index.html' title='All tables and views in the schema'>Tables</a></li>
   <li><a href='../relationships.html' title='Diagram of table relationships'>Relationships</a></li>
-  <li><a href='../utilities.html' title='View of tables with neither parents nor children'>Utility&nbsp;Tables</a></li>
   <li><a href='../constraints.html' title='Useful for diagnosing error messages that just give constraint name or number'>Constraints</a></li>
   <li><a href='../anomalies.html' title="Things that might not be quite right">Anomalies</a></li>
   <li><a href='../columns.byTable.html' title="All of the columns in the schema">Columns</a></li>
@@ -84,7 +83,7 @@
 </tr>
 </thead>
 <tbody valign='top'>
-<tr class='odd'>
+<tr class='even'>
  <td class='primaryKey' title='Primary Key'>id</td>
  <td class='detail'>serial</td>
  <td class='detail' align='right'>10</td>
@@ -93,25 +92,25 @@
  <td class='detail' align='right'>nextval('itms.typy_aktivit_id_seq'::regclass)</td>
  <td class='detail'>
   <table border='0' width='100%' cellspacing='0' cellpadding='0'>
-   <tr class='relative odd' valign='top'>
+   <tr class='relative even' valign='top'>
     <td class='relatedTable detail' title="aktivity.typ_aktivity_id refs typy_aktivit.id via fk_rails_daa70d785a"><a href='aktivity.html'>aktivity</a><span class='relatedKey'>.typ_aktivity_id</span>
     </td>
     <td class='constraint detail'>fk_rails_daa70d785a<span title='Restrict delete:
  Parent cannot be deleted if children exist'>&nbsp;R</span></td>
    </tr>
-   <tr class='relative odd' valign='top'>
+   <tr class='relative even' valign='top'>
     <td class='relatedTable detail' title="konkretne_ciele_typy_aktivit.typ_aktivity_id refs typy_aktivit.id via fk_rails_2ce092e5a7"><a href='konkretne_ciele_typy_aktivit.html'>konkretne_ciele_typy_aktivit</a><span class='relatedKey'>.typ_aktivity_id</span>
     </td>
     <td class='constraint detail'>fk_rails_2ce092e5a7<span title='Restrict delete:
  Parent cannot be deleted if children exist'>&nbsp;R</span></td>
    </tr>
-   <tr class='relative odd' valign='top'>
+   <tr class='relative even' valign='top'>
     <td class='relatedTable detail' title="vyzvy_vyhlasene_konkretne_ciele_typy_aktivit.typ_aktivity_id refs typy_aktivit.id via fk_rails_ba7c143782"><a href='vyzvy_vyhlasene_konkretne_ciele_typy_aktivit.html'>vyzvy_vyhlasene_konkretne_ciele_typy_aktivit</a><span class='relatedKey'>.typ_aktivity_id</span>
     </td>
     <td class='constraint detail'>fk_rails_ba7c143782<span title='Restrict delete:
  Parent cannot be deleted if children exist'>&nbsp;R</span></td>
    </tr>
-   <tr class='relative odd' valign='top'>
+   <tr class='relative even' valign='top'>
     <td class='relatedTable detail' title="zonfp_aktivity_projekt.typ_aktivity_id refs typy_aktivit.id via fk_rails_4648a655f2"><a href='zonfp_aktivity_projekt.html'>zonfp_aktivity_projekt</a><span class='relatedKey'>.typ_aktivity_id</span>
     </td>
     <td class='constraint detail'>fk_rails_4648a655f2<span title='Restrict delete:
@@ -122,7 +121,7 @@
  <td class='detail'> </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='even'>
+<tr class='odd'>
  <td class='indexedColumn' title='Indexed'>itms_id</td>
  <td class='detail'>int4</td>
  <td class='detail' align='right'>10</td>
@@ -133,7 +132,7 @@
  <td class='detail'> </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='odd'>
+<tr class='even'>
  <td class='detail'>itms_href</td>
  <td class='detail'>varchar</td>
  <td class='detail' align='right'>2147483647</td>
@@ -144,7 +143,7 @@
  <td class='detail'> </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='even'>
+<tr class='odd'>
  <td class='detail'>itms_created_at</td>
  <td class='detail'>timestamp</td>
  <td class='detail' align='right'>29,6</td>
@@ -155,7 +154,7 @@
  <td class='detail'> </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='odd'>
+<tr class='even'>
  <td class='detail'>itms_updated_at</td>
  <td class='detail'>timestamp</td>
  <td class='detail' align='right'>29,6</td>
@@ -166,7 +165,7 @@
  <td class='detail'> </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='even'>
+<tr class='odd'>
  <td class='detail'>kod</td>
  <td class='detail'>varchar</td>
  <td class='detail' align='right'>2147483647</td>
@@ -177,7 +176,7 @@
  <td class='detail'> </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='odd'>
+<tr class='even'>
  <td class='detail'>nazov</td>
  <td class='detail'>varchar</td>
  <td class='detail' align='right'>2147483647</td>
@@ -188,7 +187,7 @@
  <td class='detail'> </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='even'>
+<tr class='odd'>
  <td class='detail'>created_at</td>
  <td class='detail'>timestamp</td>
  <td class='detail' align='right'>29,6</td>
@@ -199,7 +198,7 @@
  <td class='detail'> </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='odd'>
+<tr class='even'>
  <td class='detail'>updated_at</td>
  <td class='detail'>timestamp</td>
  <td class='detail' align='right'>29,6</td>
@@ -211,7 +210,7 @@
  <td class='comment detail'></td>
 </tr>
 </table>
-<p title='9 columns'>Table contained 1,455 rows at Thu Nov 23 14:20 CET 2017<p/>
+<p title='9 columns'>Table contained 435 rows at Thu Nov 23 18:12 CET 2017<p/>
 </td></tr></table>
 <div class='indent'>
 <b>Indexes:</b>
@@ -251,17 +250,17 @@
 </map>
   <a name='diagram'><img id='oneDegreeImg' src='../diagrams/typy_aktivit.1degree.png' usemap='#oneDegreeRelationshipsDiagram' class='diagram' border='0' alt='' align='left'></a>
 <map id="twoDegreesRelationshipsDiagram" name="twoDegreesRelationshipsDiagram">
-<area shape="rect" id="node1" href="aktivity.html" title="aktivity" alt="" coords="608,785,811,1156">
-<area shape="rect" id="node2" href="subjekty.html" title="subjekty" alt="" coords="5,393,173,476">
-<area shape="rect" id="node3" href="typy_aktivit.html" title="typy_aktivit" alt="" coords="217,624,504,904">
-<area shape="rect" id="node4" href="konkretne_ciele_typy_aktivit.html" title="konkretne_ciele_typy_aktivit" alt="" coords="605,589,813,768">
-<area shape="rect" id="node5" href="konkretne_ciele.html" title="konkretne_ciele" alt="" coords="287,504,435,587">
-<area shape="rect" id="node6" href="polozky_rozpoctu.html" title="polozky_rozpoctu" alt="" coords="915,1013,1075,1096">
-<area shape="rect" id="node7" href="projekty_aktivity.html" title="projekty_aktivity" alt="" coords="921,785,1069,868">
-<area shape="rect" id="node8" href="vyzvy_vyhlasene.html" title="vyzvy_vyhlasene" alt="" coords="287,393,435,476">
-<area shape="rect" id="node9" href="vyzvy_vyhlasene_konkretne_ciele_typy_aktivit.html" title="vyzvy_vyhlasene_konkretne_ciele_typy_aktivit" alt="" coords="548,369,871,572">
-<area shape="rect" id="node10" href="zonfp.html" title="zonfp" alt="" coords="277,112,445,195">
-<area shape="rect" id="node11" href="zonfp_aktivity_projekt.html" title="zonfp_aktivity_projekt" alt="" coords="608,5,811,352">
+<area shape="rect" id="node1" href="aktivity.html" title="aktivity" alt="" coords="596,785,799,1156">
+<area shape="rect" id="node2" href="subjekty.html" title="subjekty" alt="" coords="5,393,161,476">
+<area shape="rect" id="node3" href="typy_aktivit.html" title="typy_aktivit" alt="" coords="205,624,492,904">
+<area shape="rect" id="node4" href="konkretne_ciele_typy_aktivit.html" title="konkretne_ciele_typy_aktivit" alt="" coords="593,589,801,768">
+<area shape="rect" id="node5" href="konkretne_ciele.html" title="konkretne_ciele" alt="" coords="279,504,419,587">
+<area shape="rect" id="node6" href="polozky_rozpoctu.html" title="polozky_rozpoctu" alt="" coords="903,1013,1063,1096">
+<area shape="rect" id="node7" href="projekty_aktivity.html" title="projekty_aktivity" alt="" coords="915,785,1051,868">
+<area shape="rect" id="node8" href="vyzvy_vyhlasene.html" title="vyzvy_vyhlasene" alt="" coords="279,393,419,476">
+<area shape="rect" id="node9" href="vyzvy_vyhlasene_konkretne_ciele_typy_aktivit.html" title="vyzvy_vyhlasene_konkretne_ciele_typy_aktivit" alt="" coords="536,369,859,572">
+<area shape="rect" id="node10" href="zonfp.html" title="zonfp" alt="" coords="271,112,427,195">
+<area shape="rect" id="node11" href="zonfp_aktivity_projekt.html" title="zonfp_aktivity_projekt" alt="" coords="596,5,799,352">
 </map>
 
   <a name='diagram'><img id='twoDegreesImg' src='../diagrams/typy_aktivit.2degrees.png' usemap='#twoDegreesRelationshipsDiagram' class='diagram' border='0' alt='' align='left'></a>

@@ -17,7 +17,6 @@
  <ul>
   <li><a href='../index.html' title='All tables and views in the schema'>Tables</a></li>
   <li><a href='../relationships.html' title='Diagram of table relationships'>Relationships</a></li>
-  <li><a href='../utilities.html' title='View of tables with neither parents nor children'>Utility&nbsp;Tables</a></li>
   <li><a href='../constraints.html' title='Useful for diagnosing error messages that just give constraint name or number'>Constraints</a></li>
   <li><a href='../anomalies.html' title="Things that might not be quite right">Anomalies</a></li>
   <li><a href='../columns.byTable.html' title="All of the columns in the schema">Columns</a></li>
@@ -84,7 +83,7 @@
 </tr>
 </thead>
 <tbody valign='top'>
-<tr class='odd'>
+<tr class='even'>
  <td class='primaryKey' title='Primary Key'>id</td>
  <td class='detail'>serial</td>
  <td class='detail' align='right'>10</td>
@@ -95,7 +94,7 @@
  <td class='detail'> </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='even'>
+<tr class='odd'>
  <td class='indexedColumn' title='Indexed'>vyzva_id</td>
  <td class='detail'>int4</td>
  <td class='detail' align='right'>10</td>
@@ -105,7 +104,7 @@
  <td class='detail'></td>
  <td class='detail'>
   <table border='0' width='100%' cellspacing='0' cellpadding='0'>
-   <tr class='relative even' valign='top'>
+   <tr class='relative odd' valign='top'>
     <td class='relatedTable detail' title="vyzvy_vyhlasene_konkretne_ciele_typy_aktivit.vyzva_id refs vyzvy_vyhlasene.id via fk_rails_940d7db37d"><a href='vyzvy_vyhlasene.html'>vyzvy_vyhlasene</a><span class='relatedKey'>.id</span>
     </td>
     <td class='constraint detail'>fk_rails_940d7db37d<span title='Restrict delete:
@@ -115,7 +114,7 @@
  </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='odd'>
+<tr class='even'>
  <td class='indexedColumn' title='Indexed'>konkretny_ciel_id</td>
  <td class='detail'>int4</td>
  <td class='detail' align='right'>10</td>
@@ -125,7 +124,7 @@
  <td class='detail'></td>
  <td class='detail'>
   <table border='0' width='100%' cellspacing='0' cellpadding='0'>
-   <tr class='relative odd' valign='top'>
+   <tr class='relative even' valign='top'>
     <td class='relatedTable detail' title="vyzvy_vyhlasene_konkretne_ciele_typy_aktivit.konkretny_ciel_id refs konkretne_ciele.id via fk_rails_50b7fceecd"><a href='konkretne_ciele.html'>konkretne_ciele</a><span class='relatedKey'>.id</span>
     </td>
     <td class='constraint detail'>fk_rails_50b7fceecd<span title='Restrict delete:
@@ -135,7 +134,7 @@
  </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='even'>
+<tr class='odd'>
  <td class='indexedColumn' title='Indexed'>typ_aktivity_id</td>
  <td class='detail'>int4</td>
  <td class='detail' align='right'>10</td>
@@ -145,7 +144,7 @@
  <td class='detail'></td>
  <td class='detail'>
   <table border='0' width='100%' cellspacing='0' cellpadding='0'>
-   <tr class='relative even' valign='top'>
+   <tr class='relative odd' valign='top'>
     <td class='relatedTable detail' title="vyzvy_vyhlasene_konkretne_ciele_typy_aktivit.typ_aktivity_id refs typy_aktivit.id via fk_rails_ba7c143782"><a href='typy_aktivit.html'>typy_aktivit</a><span class='relatedKey'>.id</span>
     </td>
     <td class='constraint detail'>fk_rails_ba7c143782<span title='Restrict delete:
@@ -155,7 +154,7 @@
  </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='odd'>
+<tr class='even'>
  <td class='detail'>created_at</td>
  <td class='detail'>timestamp</td>
  <td class='detail' align='right'>29,6</td>
@@ -166,7 +165,7 @@
  <td class='detail'> </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='even'>
+<tr class='odd'>
  <td class='detail'>updated_at</td>
  <td class='detail'>timestamp</td>
  <td class='detail' align='right'>29,6</td>
@@ -178,7 +177,7 @@
  <td class='comment detail'></td>
 </tr>
 </table>
-<p title='6 columns'>Table contained 1,527 rows at Thu Nov 23 14:20 CET 2017<p/>
+<p title='6 columns'>Table contained 399 rows at Thu Nov 23 18:12 CET 2017<p/>
 </td></tr></table>
 <div class='indent'>
 <b>Indexes:</b>
@@ -224,32 +223,32 @@
 <map id="oneDegreeRelationshipsDiagram" name="oneDegreeRelationshipsDiagram">
 <area shape="rect" id="node1" href="vyzvy_vyhlasene_konkretne_ciele_typy_aktivit.html" title="vyzvy_vyhlasene_konkretne_ciele_typy_aktivit" alt="" coords="220,463,548,671">
 <area shape="rect" id="node2" href="konkretne_ciele.html" title="konkretne_ciele" alt="" coords="5,513,176,884">
-<area shape="rect" id="node3" href="typy_aktivit.html" title="typy_aktivit" alt="" coords="17,901,165,1176">
+<area shape="rect" id="node3" href="typy_aktivit.html" title="typy_aktivit" alt="" coords="23,901,159,1176">
 <area shape="rect" id="node4" href="vyzvy_vyhlasene.html" title="vyzvy_vyhlasene" alt="" coords="10,5,171,496">
 </map>
   <a name='diagram'><img id='oneDegreeImg' src='../diagrams/vyzvy_vyhlasene_konkretne_ciele_typy_aktivit.1degree.png' usemap='#oneDegreeRelationshipsDiagram' class='diagram' border='0' alt='' align='left'></a>
 <map id="twoDegreesRelationshipsDiagram" name="twoDegreesRelationshipsDiagram">
-<area shape="rect" id="node1" href="aktivity.html" title="aktivity" alt="" coords="728,1161,888,1244">
-<area shape="rect" id="node2" href="subjekty.html" title="subjekty" alt="" coords="217,756,385,839">
-<area shape="rect" id="node3" href="typy_aktivit.html" title="typy_aktivit" alt="" coords="441,917,589,1192">
+<area shape="rect" id="node1" href="aktivity.html" title="aktivity" alt="" coords="722,1161,870,1244">
+<area shape="rect" id="node2" href="subjekty.html" title="subjekty" alt="" coords="217,756,373,839">
+<area shape="rect" id="node3" href="typy_aktivit.html" title="typy_aktivit" alt="" coords="435,917,571,1192">
 <area shape="rect" id="node5" href="hodnoty_ciselnikov.html" title="hodnoty_ciselnikov" alt="" coords="5,443,173,525">
-<area shape="rect" id="node4" href="konkretne_ciele.html" title="konkretne_ciele" alt="" coords="429,1313,600,1684">
-<area shape="rect" id="node6" href="prioritne_osi.html" title="prioritne_osi" alt="" coords="231,1653,371,1736">
-<area shape="rect" id="node7" href="konkretne_ciele_hodnoty_ciselnikov.html" title="konkretne_ciele_hodnoty_ciselnikov" alt="" coords="679,1721,937,1804">
-<area shape="rect" id="node8" href="konkretne_ciele_typy_aktivit.html" title="konkretne_ciele_typy_aktivit" alt="" coords="704,1313,912,1396">
-<area shape="rect" id="node9" href="nezrovnalosti.html" title="nezrovnalosti" alt="" coords="1016,703,1172,785">
-<area shape="rect" id="node10" href="projekty.html" title="projekty" alt="" coords="724,736,892,819">
-<area shape="rect" id="node12" href="vyzvy_vyhlasene.html" title="vyzvy_vyhlasene" alt="" coords="434,225,595,716">
-<area shape="rect" id="node11" href="pohladavkove_doklady.html" title="pohladavkove_doklady" alt="" coords="1216,1237,1391,1320">
-<area shape="rect" id="node13" href="vyzvy_planovane_konkretne_ciele.html" title="vyzvy_planovane_konkretne_ciele" alt="" coords="685,1449,931,1532">
-<area shape="rect" id="node14" href="vyzvy_vyhlasene_doplnujuce_info.html" title="vyzvy_vyhlasene_doplnujuce_info" alt="" coords="685,500,931,583">
-<area shape="rect" id="node15" href="vyzvy_vyhlasene_fondy.html" title="vyzvy_vyhlasene_fondy" alt="" coords="718,100,898,183">
-<area shape="rect" id="node16" href="vyzvy_vyhlasene_konkretne_ciele_typy_aktivit.html" title="vyzvy_vyhlasene_konkretne_ciele_typy_aktivit" alt="" coords="644,936,972,1144">
-<area shape="rect" id="node17" href="vyzvy_vyhlasene_kontaktne_osoby.html" title="vyzvy_vyhlasene_kontaktne_osoby" alt="" coords="681,200,935,283">
-<area shape="rect" id="node18" href="vyzvy_vyhlasene_poskytovatelia.html" title="vyzvy_vyhlasene_poskytovatelia" alt="" coords="691,600,925,683">
-<area shape="rect" id="node19" href="vyzvy_vyhlasene_posudzovane_obdobia.html" title="vyzvy_vyhlasene_posudzovane_obdobia" alt="" coords="663,300,953,383">
-<area shape="rect" id="node20" href="vyzvy_vyhlasene_vyzvy_planovane.html" title="vyzvy_vyhlasene_vyzvy_planovane" alt="" coords="681,400,935,483">
-<area shape="rect" id="node21" href="zonfp_aktivity_projekt.html" title="zonfp_aktivity_projekt" alt="" coords="725,836,891,919">
+<area shape="rect" id="node4" href="konkretne_ciele.html" title="konkretne_ciele" alt="" coords="417,1313,588,1684">
+<area shape="rect" id="node6" href="prioritne_osi.html" title="prioritne_osi" alt="" coords="225,1653,365,1736">
+<area shape="rect" id="node7" href="konkretne_ciele_hodnoty_ciselnikov.html" title="konkretne_ciele_hodnoty_ciselnikov" alt="" coords="667,1721,925,1804">
+<area shape="rect" id="node8" href="konkretne_ciele_typy_aktivit.html" title="konkretne_ciele_typy_aktivit" alt="" coords="692,1313,900,1396">
+<area shape="rect" id="node9" href="nezrovnalosti.html" title="nezrovnalosti" alt="" coords="1004,703,1144,785">
+<area shape="rect" id="node10" href="projekty.html" title="projekty" alt="" coords="718,736,874,819">
+<area shape="rect" id="node12" href="vyzvy_vyhlasene.html" title="vyzvy_vyhlasene" alt="" coords="422,225,583,716">
+<area shape="rect" id="node11" href="pohladavkove_doklady.html" title="pohladavkove_doklady" alt="" coords="1188,1237,1363,1320">
+<area shape="rect" id="node13" href="vyzvy_planovane_konkretne_ciele.html" title="vyzvy_planovane_konkretne_ciele" alt="" coords="673,1449,919,1532">
+<area shape="rect" id="node14" href="vyzvy_vyhlasene_doplnujuce_info.html" title="vyzvy_vyhlasene_doplnujuce_info" alt="" coords="673,500,919,583">
+<area shape="rect" id="node15" href="vyzvy_vyhlasene_fondy.html" title="vyzvy_vyhlasene_fondy" alt="" coords="706,100,886,183">
+<area shape="rect" id="node16" href="vyzvy_vyhlasene_konkretne_ciele_typy_aktivit.html" title="vyzvy_vyhlasene_konkretne_ciele_typy_aktivit" alt="" coords="632,936,960,1144">
+<area shape="rect" id="node17" href="vyzvy_vyhlasene_kontaktne_osoby.html" title="vyzvy_vyhlasene_kontaktne_osoby" alt="" coords="669,200,923,283">
+<area shape="rect" id="node18" href="vyzvy_vyhlasene_poskytovatelia.html" title="vyzvy_vyhlasene_poskytovatelia" alt="" coords="679,600,913,683">
+<area shape="rect" id="node19" href="vyzvy_vyhlasene_posudzovane_obdobia.html" title="vyzvy_vyhlasene_posudzovane_obdobia" alt="" coords="651,300,941,383">
+<area shape="rect" id="node20" href="vyzvy_vyhlasene_vyzvy_planovane.html" title="vyzvy_vyhlasene_vyzvy_planovane" alt="" coords="669,400,923,483">
+<area shape="rect" id="node21" href="zonfp_aktivity_projekt.html" title="zonfp_aktivity_projekt" alt="" coords="713,836,879,919">
 </map>
 
   <a name='diagram'><img id='twoDegreesImg' src='../diagrams/vyzvy_vyhlasene_konkretne_ciele_typy_aktivit.2degrees.png' usemap='#twoDegreesRelationshipsDiagram' class='diagram' border='0' alt='' align='left'></a>

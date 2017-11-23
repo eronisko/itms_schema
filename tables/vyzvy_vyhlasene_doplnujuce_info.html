@@ -17,7 +17,6 @@
  <ul>
   <li><a href='../index.html' title='All tables and views in the schema'>Tables</a></li>
   <li><a href='../relationships.html' title='Diagram of table relationships'>Relationships</a></li>
-  <li><a href='../utilities.html' title='View of tables with neither parents nor children'>Utility&nbsp;Tables</a></li>
   <li><a href='../constraints.html' title='Useful for diagnosing error messages that just give constraint name or number'>Constraints</a></li>
   <li><a href='../anomalies.html' title="Things that might not be quite right">Anomalies</a></li>
   <li><a href='../columns.byTable.html' title="All of the columns in the schema">Columns</a></li>
@@ -84,7 +83,7 @@
 </tr>
 </thead>
 <tbody valign='top'>
-<tr class='even'>
+<tr class='odd'>
  <td class='primaryKey' title='Primary Key'>id</td>
  <td class='detail'>serial</td>
  <td class='detail' align='right'>10</td>
@@ -95,7 +94,7 @@
  <td class='detail'> </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='odd'>
+<tr class='even'>
  <td class='indexedColumn' title='Indexed'>vyzva_id</td>
  <td class='detail'>int4</td>
  <td class='detail' align='right'>10</td>
@@ -105,7 +104,7 @@
  <td class='detail'></td>
  <td class='detail'>
   <table border='0' width='100%' cellspacing='0' cellpadding='0'>
-   <tr class='relative odd' valign='top'>
+   <tr class='relative even' valign='top'>
     <td class='relatedTable detail' title="vyzvy_vyhlasene_doplnujuce_info.vyzva_id refs vyzvy_vyhlasene.id via fk_rails_b0d1bbc3a6"><a href='vyzvy_vyhlasene.html'>vyzvy_vyhlasene</a><span class='relatedKey'>.id</span>
     </td>
     <td class='constraint detail'>fk_rails_b0d1bbc3a6<span title='Restrict delete:
@@ -115,7 +114,7 @@
  </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='even'>
+<tr class='odd'>
  <td class='detail'>nazov</td>
  <td class='detail'>varchar</td>
  <td class='detail' align='right'>2147483647</td>
@@ -126,7 +125,7 @@
  <td class='detail'> </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='odd'>
+<tr class='even'>
  <td class='detail'>url</td>
  <td class='detail'>varchar</td>
  <td class='detail' align='right'>2147483647</td>
@@ -137,7 +136,7 @@
  <td class='detail'> </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='even'>
+<tr class='odd'>
  <td class='detail'>created_at</td>
  <td class='detail'>timestamp</td>
  <td class='detail' align='right'>29,6</td>
@@ -148,7 +147,7 @@
  <td class='detail'> </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='odd'>
+<tr class='even'>
  <td class='detail'>updated_at</td>
  <td class='detail'>timestamp</td>
  <td class='detail' align='right'>29,6</td>
@@ -160,7 +159,7 @@
  <td class='comment detail'></td>
 </tr>
 </table>
-<p title='6 columns'>Table contained 163 rows at Thu Nov 23 14:20 CET 2017<p/>
+<p title='6 columns'>Table contained 52 rows at Thu Nov 23 18:12 CET 2017<p/>
 </td></tr></table>
 <div class='indent'>
 <b>Indexes:</b>
@@ -192,21 +191,21 @@
 <br><form action='get'><b>Close relationships</b><span class='degrees' id='degrees' title='Detail diminishes with increased separation from vyzvy_vyhlasene_doplnujuce_info'>
 &nbsp;within <label for='oneDegree'><input type='radio' name='degrees' id='oneDegree' checked>one</label>  <label for='twoDegrees'><input type='radio' name='degrees' id='twoDegrees'>two degrees</label> of separation</span><b>:</b></form>
 <map id="oneDegreeRelationshipsDiagram" name="oneDegreeRelationshipsDiagram">
-<area shape="rect" id="node1" href="vyzvy_vyhlasene_doplnujuce_info.html" title="vyzvy_vyhlasene_doplnujuce_info" alt="" coords="211,5,480,213">
+<area shape="rect" id="node1" href="vyzvy_vyhlasene_doplnujuce_info.html" title="vyzvy_vyhlasene_doplnujuce_info" alt="" coords="211,5,472,213">
 <area shape="rect" id="node2" href="vyzvy_vyhlasene.html" title="vyzvy_vyhlasene" alt="" coords="5,32,167,523">
 </map>
   <a name='diagram'><img id='oneDegreeImg' src='../diagrams/vyzvy_vyhlasene_doplnujuce_info.1degree.png' usemap='#oneDegreeRelationshipsDiagram' class='diagram' border='0' alt='' align='left'></a>
 <map id="twoDegreesRelationshipsDiagram" name="twoDegreesRelationshipsDiagram">
-<area shape="rect" id="node1" href="projekty.html" title="projekty" alt="" coords="500,5,668,88">
-<area shape="rect" id="node2" href="subjekty.html" title="subjekty" alt="" coords="5,771,173,853">
-<area shape="rect" id="node3" href="vyzvy_vyhlasene.html" title="vyzvy_vyhlasene" alt="" coords="217,411,379,901">
-<area shape="rect" id="node4" href="vyzvy_vyhlasene_doplnujuce_info.html" title="vyzvy_vyhlasene_doplnujuce_info" alt="" coords="449,105,719,313">
-<area shape="rect" id="node5" href="vyzvy_vyhlasene_fondy.html" title="vyzvy_vyhlasene_fondy" alt="" coords="494,331,674,413">
-<area shape="rect" id="node6" href="vyzvy_vyhlasene_konkretne_ciele_typy_aktivit.html" title="vyzvy_vyhlasene_konkretne_ciele_typy_aktivit" alt="" coords="423,431,745,513">
-<area shape="rect" id="node7" href="vyzvy_vyhlasene_kontaktne_osoby.html" title="vyzvy_vyhlasene_kontaktne_osoby" alt="" coords="457,531,711,613">
-<area shape="rect" id="node8" href="vyzvy_vyhlasene_poskytovatelia.html" title="vyzvy_vyhlasene_poskytovatelia" alt="" coords="467,868,701,951">
-<area shape="rect" id="node9" href="vyzvy_vyhlasene_posudzovane_obdobia.html" title="vyzvy_vyhlasene_posudzovane_obdobia" alt="" coords="439,631,729,713">
-<area shape="rect" id="node10" href="vyzvy_vyhlasene_vyzvy_planovane.html" title="vyzvy_vyhlasene_vyzvy_planovane" alt="" coords="457,731,711,813">
+<area shape="rect" id="node1" href="projekty.html" title="projekty" alt="" coords="494,5,650,88">
+<area shape="rect" id="node2" href="subjekty.html" title="subjekty" alt="" coords="5,771,161,853">
+<area shape="rect" id="node3" href="vyzvy_vyhlasene.html" title="vyzvy_vyhlasene" alt="" coords="205,411,367,901">
+<area shape="rect" id="node4" href="vyzvy_vyhlasene_doplnujuce_info.html" title="vyzvy_vyhlasene_doplnujuce_info" alt="" coords="441,105,703,313">
+<area shape="rect" id="node5" href="vyzvy_vyhlasene_fondy.html" title="vyzvy_vyhlasene_fondy" alt="" coords="482,331,662,413">
+<area shape="rect" id="node6" href="vyzvy_vyhlasene_konkretne_ciele_typy_aktivit.html" title="vyzvy_vyhlasene_konkretne_ciele_typy_aktivit" alt="" coords="411,431,733,513">
+<area shape="rect" id="node7" href="vyzvy_vyhlasene_kontaktne_osoby.html" title="vyzvy_vyhlasene_kontaktne_osoby" alt="" coords="445,531,699,613">
+<area shape="rect" id="node8" href="vyzvy_vyhlasene_poskytovatelia.html" title="vyzvy_vyhlasene_poskytovatelia" alt="" coords="455,868,689,951">
+<area shape="rect" id="node9" href="vyzvy_vyhlasene_posudzovane_obdobia.html" title="vyzvy_vyhlasene_posudzovane_obdobia" alt="" coords="427,631,717,713">
+<area shape="rect" id="node10" href="vyzvy_vyhlasene_vyzvy_planovane.html" title="vyzvy_vyhlasene_vyzvy_planovane" alt="" coords="445,731,699,813">
 </map>
 
   <a name='diagram'><img id='twoDegreesImg' src='../diagrams/vyzvy_vyhlasene_doplnujuce_info.2degrees.png' usemap='#twoDegreesRelationshipsDiagram' class='diagram' border='0' alt='' align='left'></a>

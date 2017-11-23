@@ -41,7 +41,7 @@ digraph "oneDegreeRelationshipsDiagram" {
       <TR><TD PORT="typ_vypoctu" COLSPAN="2" ALIGN="LEFT">typ_vypoctu</TD><TD PORT="typ_vypoctu.type" ALIGN="LEFT">varchar[2147483647]</TD></TR>
       <TR><TD PORT="created_at" COLSPAN="2" ALIGN="LEFT">created_at</TD><TD PORT="created_at.type" ALIGN="LEFT">timestamp[29,6]</TD></TR>
       <TR><TD PORT="updated_at" COLSPAN="2" ALIGN="LEFT">updated_at</TD><TD PORT="updated_at.type" ALIGN="LEFT">timestamp[29,6]</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 0</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">855 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">4 &gt;</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 0</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">251 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">4 &gt;</TD></TR>
     </TABLE>>
     URL="projektove_ukazovatele.html"
     tooltip="projektove_ukazovatele"
@@ -55,7 +55,7 @@ digraph "oneDegreeRelationshipsDiagram" {
       <TR><TD PORT="kod_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">kod_id</TD></TR>
       <TR><TD PORT="created_at" COLSPAN="3" ALIGN="LEFT">created_at</TD></TR>
       <TR><TD PORT="updated_at" COLSPAN="3" ALIGN="LEFT">updated_at</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">893 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">257 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="projektove_ukazovatele_casy_plnenia.html"
     tooltip="projektove_ukazovatele_casy_plnenia"
@@ -69,7 +69,7 @@ digraph "oneDegreeRelationshipsDiagram" {
       <TR><TD PORT="kod_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">kod_id</TD></TR>
       <TR><TD PORT="created_at" COLSPAN="3" ALIGN="LEFT">created_at</TD></TR>
       <TR><TD PORT="updated_at" COLSPAN="3" ALIGN="LEFT">updated_at</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">885 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">271 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="projektove_ukazovatele_fondy.html"
     tooltip="projektove_ukazovatele_fondy"
@@ -85,7 +85,7 @@ digraph "oneDegreeRelationshipsDiagram" {
       <TR><TD PORT="hodnota_cielova_celkova" COLSPAN="3" ALIGN="LEFT">hodnota_cielova_celkova</TD></TR>
       <TR><TD PORT="priznak_rizika" COLSPAN="3" ALIGN="LEFT">priznak_rizika</TD></TR>
       <TR><TD PORT="projektovy_ukazovatel_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">projektovy_ukazovatel_id</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">12,035 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">2,446 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="projekty_meratelne_ukazovatele.html"
     tooltip="projekty_meratelne_ukazovatele"
@@ -101,7 +101,7 @@ digraph "oneDegreeRelationshipsDiagram" {
       <TR><TD PORT="hodnota_cielova_celkova" COLSPAN="3" ALIGN="LEFT">hodnota_cielova_celkova</TD></TR>
       <TR><TD PORT="priznak_rizika" COLSPAN="3" ALIGN="LEFT">priznak_rizika</TD></TR>
       <TR><TD PORT="projektovy_ukazovatel_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">projektovy_ukazovatel_id</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">59,402 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">2,446 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="zonfp_meratelne_ukazovatele.html"
     tooltip="zonfp_meratelne_ukazovatele"

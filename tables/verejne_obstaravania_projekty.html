@@ -17,7 +17,6 @@
  <ul>
   <li><a href='../index.html' title='All tables and views in the schema'>Tables</a></li>
   <li><a href='../relationships.html' title='Diagram of table relationships'>Relationships</a></li>
-  <li><a href='../utilities.html' title='View of tables with neither parents nor children'>Utility&nbsp;Tables</a></li>
   <li><a href='../constraints.html' title='Useful for diagnosing error messages that just give constraint name or number'>Constraints</a></li>
   <li><a href='../anomalies.html' title="Things that might not be quite right">Anomalies</a></li>
   <li><a href='../columns.byTable.html' title="All of the columns in the schema">Columns</a></li>
@@ -84,7 +83,7 @@
 </tr>
 </thead>
 <tbody valign='top'>
-<tr class='even'>
+<tr class='odd'>
  <td class='primaryKey' title='Primary Key'>id</td>
  <td class='detail'>serial</td>
  <td class='detail' align='right'>10</td>
@@ -95,7 +94,7 @@
  <td class='detail'> </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='odd'>
+<tr class='even'>
  <td class='indexedColumn' title='Indexed'>verejne_obstaravanie_id</td>
  <td class='detail'>int4</td>
  <td class='detail' align='right'>10</td>
@@ -105,7 +104,7 @@
  <td class='detail'></td>
  <td class='detail'>
   <table border='0' width='100%' cellspacing='0' cellpadding='0'>
-   <tr class='relative odd' valign='top'>
+   <tr class='relative even' valign='top'>
     <td class='relatedTable detail' title="verejne_obstaravania_projekty.verejne_obstaravanie_id refs verejne_obstaravania.id via fk_rails_666b79ae9b"><a href='verejne_obstaravania.html'>verejne_obstaravania</a><span class='relatedKey'>.id</span>
     </td>
     <td class='constraint detail'>fk_rails_666b79ae9b<span title='Restrict delete:
@@ -115,7 +114,7 @@
  </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='even'>
+<tr class='odd'>
  <td class='indexedColumn' title='Indexed'>projekt_id</td>
  <td class='detail'>int4</td>
  <td class='detail' align='right'>10</td>
@@ -125,7 +124,7 @@
  <td class='detail'></td>
  <td class='detail'>
   <table border='0' width='100%' cellspacing='0' cellpadding='0'>
-   <tr class='relative even' valign='top'>
+   <tr class='relative odd' valign='top'>
     <td class='relatedTable detail' title="verejne_obstaravania_projekty.projekt_id refs projekty.id via fk_rails_25e3a0891d"><a href='projekty.html'>projekty</a><span class='relatedKey'>.id</span>
     </td>
     <td class='constraint detail'>fk_rails_25e3a0891d<span title='Restrict delete:
@@ -135,7 +134,7 @@
  </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='odd'>
+<tr class='even'>
  <td class='detail'>created_at</td>
  <td class='detail'>timestamp</td>
  <td class='detail' align='right'>29,6</td>
@@ -146,7 +145,7 @@
  <td class='detail'> </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='even'>
+<tr class='odd'>
  <td class='detail'>updated_at</td>
  <td class='detail'>timestamp</td>
  <td class='detail' align='right'>29,6</td>
@@ -158,7 +157,7 @@
  <td class='comment detail'></td>
 </tr>
 </table>
-<p title='5 columns'>Table contained 944 rows at Thu Nov 23 14:20 CET 2017<p/>
+<p title='5 columns'>Table contained 570 rows at Thu Nov 23 18:12 CET 2017<p/>
 </td></tr></table>
 <div class='indent'>
 <b>Indexes:</b>
@@ -203,46 +202,46 @@
 &nbsp;within <label for='oneDegree'><input type='radio' name='degrees' id='oneDegree' checked>one</label>  <label for='twoDegrees'><input type='radio' name='degrees' id='twoDegrees'>two degrees</label> of separation</span><b>:</b></form>
 <map id="oneDegreeRelationshipsDiagram" name="oneDegreeRelationshipsDiagram">
 <area shape="rect" id="node1" href="verejne_obstaravania_projekty.html" title="verejne_obstaravania_projekty" alt="" coords="404,425,707,609">
-<area shape="rect" id="node2" href="projekty.html" title="projekty" alt="" coords="21,921,344,1820">
+<area shape="rect" id="node2" href="projekty.html" title="projekty" alt="" coords="21,921,344,1844">
 <area shape="rect" id="node3" href="verejne_obstaravania.html" title="verejne_obstaravania" alt="" coords="5,5,360,904">
 </map>
   <a name='diagram'><img id='oneDegreeImg' src='../diagrams/verejne_obstaravania_projekty.1degree.png' usemap='#oneDegreeRelationshipsDiagram' class='diagram' border='0' alt='' align='left'></a>
 <map id="twoDegreesRelationshipsDiagram" name="twoDegreesRelationshipsDiagram">
-<area shape="rect" id="node1" href="deklarovane_vydavky.html" title="deklarovane_vydavky" alt="" coords="1748,2039,1916,2121">
-<area shape="rect" id="node2" href="verejne_obstaravania.html" title="verejne_obstaravania" alt="" coords="429,1929,784,2828">
-<area shape="rect" id="node3" href="zmluvy_verejne_obstaravania.html" title="zmluvy_verejne_obstaravania" alt="" coords="936,1861,1155,1944">
-<area shape="rect" id="node4" href="zop.html" title="zop" alt="" coords="1386,1669,1546,1752">
-<area shape="rect" id="node5" href="dodavatelia.html" title="dodavatelia" alt="" coords="221,1916,381,1999">
-<area shape="rect" id="node6" href="hodnoty_ciselnikov.html" title="hodnoty_ciselnikov" alt="" coords="5,1916,173,1999">
-<area shape="rect" id="node10" href="subjekty.html" title="subjekty" alt="" coords="217,1669,385,1752">
-<area shape="rect" id="node8" href="projekty.html" title="projekty" alt="" coords="884,769,1207,1668">
-<area shape="rect" id="node7" href="monitorovacie_terminy.html" title="monitorovacie_terminy" alt="" coords="1379,733,1553,816">
-<area shape="rect" id="node14" href="zonfp.html" title="zonfp" alt="" coords="523,1449,691,1532">
-<area shape="rect" id="node15" href="vyzvy_vyhlasene.html" title="vyzvy_vyhlasene" alt="" coords="533,1585,681,1668">
-<area shape="rect" id="node9" href="nezrovnalosti.html" title="nezrovnalosti" alt="" coords="1388,1769,1544,1852">
-<area shape="rect" id="node11" href="nezrovnalosti_suvisiace_verejne_obstaravania.html" title="nezrovnalosti_suvisiace_verejne_obstaravania" alt="" coords="1669,2153,1995,2236">
-<area shape="rect" id="node12" href="pohladavkove_doklady.html" title="pohladavkove_doklady" alt="" coords="1745,629,1919,712">
-<area shape="rect" id="node13" href="pohladavkove_doklady_suvisiace_verejne_obstaravania.html" title="pohladavkove_doklady_suvisiace_verejne_obstaravania" alt="" coords="2039,1433,2425,1516">
-<area shape="rect" id="node16" href="projekty_aktivity.html" title="projekty_aktivity" alt="" coords="1392,833,1540,916">
-<area shape="rect" id="node17" href="projekty_formy_financovania.html" title="projekty_formy_financovania" alt="" coords="1360,933,1572,1016">
-<area shape="rect" id="node18" href="projekty_hospodarske_cinnosti.html" title="projekty_hospodarske_cinnosti" alt="" coords="1353,1033,1579,1116">
-<area shape="rect" id="node19" href="projekty_intenzity.html" title="projekty_intenzity" alt="" coords="1392,1133,1540,1216">
-<area shape="rect" id="node20" href="projekty_meratelne_ukazovatele.html" title="projekty_meratelne_ukazovatele" alt="" coords="1348,1269,1584,1352">
-<area shape="rect" id="node21" href="projekty_miesta_realizacie.html" title="projekty_miesta_realizacie" alt="" coords="1367,1369,1565,1452">
-<area shape="rect" id="node22" href="projekty_miesta_realizacie_mimo_uzemia_op.html" title="projekty_miesta_realizacie_mimo_uzemia_op" alt="" coords="1307,1469,1625,1552">
-<area shape="rect" id="node23" href="projekty_oblasti_intervencie.html" title="projekty_oblasti_intervencie" alt="" coords="1363,1569,1569,1652">
-<area shape="rect" id="node24" href="projekty_organizacne_zlozky.html" title="projekty_organizacne_zlozky" alt="" coords="1359,233,1573,316">
-<area shape="rect" id="node25" href="projekty_partneri.html" title="projekty_partneri" alt="" coords="1397,133,1535,216">
-<area shape="rect" id="node26" href="projekty_polozky_rozpoctu.html" title="projekty_polozky_rozpoctu" alt="" coords="1367,333,1565,416">
-<area shape="rect" id="node27" href="projekty_sekundarne_tematicke_okruhy.html" title="projekty_sekundarne_tematicke_okruhy" alt="" coords="1325,433,1607,516">
-<area shape="rect" id="node28" href="projekty_typy_uzemia.html" title="projekty_typy_uzemia" alt="" coords="1382,533,1550,616">
-<area shape="rect" id="node29" href="projekty_uzemne_mechanizmy.html" title="projekty_uzemne_mechanizmy" alt="" coords="1353,633,1579,716">
-<area shape="rect" id="node30" href="verejne_obstaravania_doplnujuce_predmety_doplnkovy_slovnik.html" title="verejne_obstaravania_doplnujuce_predmety_doplnkovy_slovnik" alt="" coords="828,2495,1263,2577">
-<area shape="rect" id="node31" href="verejne_obstaravania_doplnujuce_predmety_hlavny_slovnik.html" title="verejne_obstaravania_doplnujuce_predmety_hlavny_slovnik" alt="" coords="839,2689,1251,2772">
-<area shape="rect" id="node32" href="verejne_obstaravania_hlavne_predmety_doplnkovy_slovnik.html" title="verejne_obstaravania_hlavne_predmety_doplnkovy_slovnik" alt="" coords="841,2837,1249,2920">
-<area shape="rect" id="node33" href="verejne_obstaravania_operacne_programy.html" title="verejne_obstaravania_operacne_programy" alt="" coords="893,2033,1197,2116">
-<area shape="rect" id="node34" href="verejne_obstaravania_projekty.html" title="verejne_obstaravania_projekty" alt="" coords="1315,1869,1617,2053">
-<area shape="rect" id="node35" href="verejne_obstaravania_uctovne_doklady.html" title="verejne_obstaravania_uctovne_doklady" alt="" coords="904,2133,1187,2216">
+<area shape="rect" id="node1" href="deklarovane_vydavky.html" title="deklarovane_vydavky" alt="" coords="1737,2039,1903,2122">
+<area shape="rect" id="node2" href="verejne_obstaravania.html" title="verejne_obstaravania" alt="" coords="417,1930,772,2829">
+<area shape="rect" id="node3" href="zmluvy_verejne_obstaravania.html" title="zmluvy_verejne_obstaravania" alt="" coords="924,1862,1143,1945">
+<area shape="rect" id="node4" href="zop.html" title="zop" alt="" coords="1388,1670,1520,1753">
+<area shape="rect" id="node5" href="dodavatelia.html" title="dodavatelia" alt="" coords="221,1917,369,1999">
+<area shape="rect" id="node6" href="hodnoty_ciselnikov.html" title="hodnoty_ciselnikov" alt="" coords="5,1917,173,1999">
+<area shape="rect" id="node10" href="subjekty.html" title="subjekty" alt="" coords="217,1670,373,1753">
+<area shape="rect" id="node8" href="projekty.html" title="projekty" alt="" coords="872,746,1195,1669">
+<area shape="rect" id="node7" href="monitorovacie_terminy.html" title="monitorovacie_terminy" alt="" coords="1367,734,1541,817">
+<area shape="rect" id="node14" href="zonfp.html" title="zonfp" alt="" coords="517,1450,673,1533">
+<area shape="rect" id="node15" href="vyzvy_vyhlasene.html" title="vyzvy_vyhlasene" alt="" coords="525,1586,665,1669">
+<area shape="rect" id="node9" href="nezrovnalosti.html" title="nezrovnalosti" alt="" coords="1384,1770,1524,1853">
+<area shape="rect" id="node11" href="nezrovnalosti_suvisiace_verejne_obstaravania.html" title="nezrovnalosti_suvisiace_verejne_obstaravania" alt="" coords="1657,2154,1983,2237">
+<area shape="rect" id="node12" href="pohladavkove_doklady.html" title="pohladavkove_doklady" alt="" coords="1733,630,1907,713">
+<area shape="rect" id="node13" href="pohladavkove_doklady_suvisiace_verejne_obstaravania.html" title="pohladavkove_doklady_suvisiace_verejne_obstaravania" alt="" coords="2027,1434,2413,1517">
+<area shape="rect" id="node16" href="projekty_aktivity.html" title="projekty_aktivity" alt="" coords="1386,834,1522,917">
+<area shape="rect" id="node17" href="projekty_formy_financovania.html" title="projekty_formy_financovania" alt="" coords="1348,934,1560,1017">
+<area shape="rect" id="node18" href="projekty_hospodarske_cinnosti.html" title="projekty_hospodarske_cinnosti" alt="" coords="1341,1034,1567,1117">
+<area shape="rect" id="node19" href="projekty_intenzity.html" title="projekty_intenzity" alt="" coords="1384,1134,1524,1217">
+<area shape="rect" id="node20" href="projekty_meratelne_ukazovatele.html" title="projekty_meratelne_ukazovatele" alt="" coords="1336,1270,1572,1353">
+<area shape="rect" id="node21" href="projekty_miesta_realizacie.html" title="projekty_miesta_realizacie" alt="" coords="1355,1370,1553,1453">
+<area shape="rect" id="node22" href="projekty_miesta_realizacie_mimo_uzemia_op.html" title="projekty_miesta_realizacie_mimo_uzemia_op" alt="" coords="1295,1470,1613,1553">
+<area shape="rect" id="node23" href="projekty_oblasti_intervencie.html" title="projekty_oblasti_intervencie" alt="" coords="1351,1570,1557,1653">
+<area shape="rect" id="node24" href="projekty_organizacne_zlozky.html" title="projekty_organizacne_zlozky" alt="" coords="1347,234,1561,317">
+<area shape="rect" id="node25" href="projekty_partneri.html" title="projekty_partneri" alt="" coords="1385,134,1523,217">
+<area shape="rect" id="node26" href="projekty_polozky_rozpoctu.html" title="projekty_polozky_rozpoctu" alt="" coords="1355,334,1553,417">
+<area shape="rect" id="node27" href="projekty_sekundarne_tematicke_okruhy.html" title="projekty_sekundarne_tematicke_okruhy" alt="" coords="1313,434,1595,517">
+<area shape="rect" id="node28" href="projekty_typy_uzemia.html" title="projekty_typy_uzemia" alt="" coords="1370,534,1538,617">
+<area shape="rect" id="node29" href="projekty_uzemne_mechanizmy.html" title="projekty_uzemne_mechanizmy" alt="" coords="1341,634,1567,717">
+<area shape="rect" id="node30" href="verejne_obstaravania_doplnujuce_predmety_doplnkovy_slovnik.html" title="verejne_obstaravania_doplnujuce_predmety_doplnkovy_slovnik" alt="" coords="816,2495,1251,2578">
+<area shape="rect" id="node31" href="verejne_obstaravania_doplnujuce_predmety_hlavny_slovnik.html" title="verejne_obstaravania_doplnujuce_predmety_hlavny_slovnik" alt="" coords="827,2690,1239,2773">
+<area shape="rect" id="node32" href="verejne_obstaravania_hlavne_predmety_doplnkovy_slovnik.html" title="verejne_obstaravania_hlavne_predmety_doplnkovy_slovnik" alt="" coords="829,2838,1237,2921">
+<area shape="rect" id="node33" href="verejne_obstaravania_operacne_programy.html" title="verejne_obstaravania_operacne_programy" alt="" coords="881,2034,1185,2117">
+<area shape="rect" id="node34" href="verejne_obstaravania_projekty.html" title="verejne_obstaravania_projekty" alt="" coords="1303,1870,1605,2054">
+<area shape="rect" id="node35" href="verejne_obstaravania_uctovne_doklady.html" title="verejne_obstaravania_uctovne_doklady" alt="" coords="892,2134,1175,2217">
 </map>
 
   <a name='diagram'><img id='twoDegreesImg' src='../diagrams/verejne_obstaravania_projekty.2degrees.png' usemap='#twoDegreesRelationshipsDiagram' class='diagram' border='0' alt='' align='left'></a>

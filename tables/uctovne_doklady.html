@@ -17,7 +17,6 @@
  <ul>
   <li><a href='../index.html' title='All tables and views in the schema'>Tables</a></li>
   <li><a href='../relationships.html' title='Diagram of table relationships'>Relationships</a></li>
-  <li><a href='../utilities.html' title='View of tables with neither parents nor children'>Utility&nbsp;Tables</a></li>
   <li><a href='../constraints.html' title='Useful for diagnosing error messages that just give constraint name or number'>Constraints</a></li>
   <li><a href='../anomalies.html' title="Things that might not be quite right">Anomalies</a></li>
   <li><a href='../columns.byTable.html' title="All of the columns in the schema">Columns</a></li>
@@ -84,7 +83,7 @@
 </tr>
 </thead>
 <tbody valign='top'>
-<tr class='odd'>
+<tr class='even'>
  <td class='primaryKey' title='Primary Key'>id</td>
  <td class='detail'>serial</td>
  <td class='detail' align='right'>10</td>
@@ -93,19 +92,19 @@
  <td class='detail' align='right'>nextval('itms.uctovne_doklady_id_seq'::regclass)</td>
  <td class='detail'>
   <table border='0' width='100%' cellspacing='0' cellpadding='0'>
-   <tr class='relative odd' valign='top'>
+   <tr class='relative even' valign='top'>
     <td class='relatedTable detail' title="deklarovane_vydavky.uctovny_doklad_id refs uctovne_doklady.id via fk_rails_6af1d0518f"><a href='deklarovane_vydavky.html'>deklarovane_vydavky</a><span class='relatedKey'>.uctovny_doklad_id</span>
     </td>
     <td class='constraint detail'>fk_rails_6af1d0518f<span title='Restrict delete:
  Parent cannot be deleted if children exist'>&nbsp;R</span></td>
    </tr>
-   <tr class='relative odd' valign='top'>
+   <tr class='relative even' valign='top'>
     <td class='relatedTable detail' title="uctovne_doklady_polozky_dokladu.uctovny_doklad_id refs uctovne_doklady.id via fk_rails_390d8ee387"><a href='uctovne_doklady_polozky_dokladu.html'>uctovne_doklady_polozky_dokladu</a><span class='relatedKey'>.uctovny_doklad_id</span>
     </td>
     <td class='constraint detail'>fk_rails_390d8ee387<span title='Restrict delete:
  Parent cannot be deleted if children exist'>&nbsp;R</span></td>
    </tr>
-   <tr class='relative odd' valign='top'>
+   <tr class='relative even' valign='top'>
     <td class='relatedTable detail' title="verejne_obstaravania_uctovne_doklady.uctovny_doklad_id refs uctovne_doklady.id via fk_rails_8e51e82a4a"><a href='verejne_obstaravania_uctovne_doklady.html'>verejne_obstaravania_uctovne_doklady</a><span class='relatedKey'>.uctovny_doklad_id</span>
     </td>
     <td class='constraint detail'>fk_rails_8e51e82a4a<span title='Restrict delete:
@@ -116,7 +115,7 @@
  <td class='detail'> </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='even'>
+<tr class='odd'>
  <td class='indexedColumn' title='Indexed'>itms_id</td>
  <td class='detail'>int4</td>
  <td class='detail' align='right'>10</td>
@@ -127,7 +126,7 @@
  <td class='detail'> </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='odd'>
+<tr class='even'>
  <td class='detail'>itms_href</td>
  <td class='detail'>varchar</td>
  <td class='detail' align='right'>2147483647</td>
@@ -138,7 +137,7 @@
  <td class='detail'> </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='even'>
+<tr class='odd'>
  <td class='detail'>itms_created_at</td>
  <td class='detail'>timestamp</td>
  <td class='detail' align='right'>29,6</td>
@@ -149,7 +148,7 @@
  <td class='detail'> </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='odd'>
+<tr class='even'>
  <td class='detail'>itms_updated_at</td>
  <td class='detail'>timestamp</td>
  <td class='detail' align='right'>29,6</td>
@@ -160,7 +159,7 @@
  <td class='detail'> </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='even'>
+<tr class='odd'>
  <td class='detail'>datum_uhrady</td>
  <td class='detail'>timestamp</td>
  <td class='detail' align='right'>29,6</td>
@@ -171,7 +170,7 @@
  <td class='detail'> </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='odd'>
+<tr class='even'>
  <td class='detail'>datum_vyhotovenia</td>
  <td class='detail'>timestamp</td>
  <td class='detail' align='right'>29,6</td>
@@ -182,7 +181,7 @@
  <td class='detail'> </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='even'>
+<tr class='odd'>
  <td class='indexedColumn' title='Indexed'>dodavatel_dodavatel_obstaravatel_id</td>
  <td class='detail'>int4</td>
  <td class='detail' align='right'>10</td>
@@ -192,7 +191,7 @@
  <td class='detail'></td>
  <td class='detail'>
   <table border='0' width='100%' cellspacing='0' cellpadding='0'>
-   <tr class='relative even' valign='top'>
+   <tr class='relative odd' valign='top'>
     <td class='relatedTable detail' title="uctovne_doklady.dodavatel_dodavatel_obstaravatel_id refs dodavatelia.id via fk_rails_a3e6b23ab9"><a href='dodavatelia.html'>dodavatelia</a><span class='relatedKey'>.id</span>
     </td>
     <td class='constraint detail'>fk_rails_a3e6b23ab9<span title='Restrict delete:
@@ -202,7 +201,7 @@
  </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='odd'>
+<tr class='even'>
  <td class='indexedColumn' title='Indexed'>dodavatel_subjekt_id</td>
  <td class='detail'>int4</td>
  <td class='detail' align='right'>10</td>
@@ -212,7 +211,7 @@
  <td class='detail'></td>
  <td class='detail'>
   <table border='0' width='100%' cellspacing='0' cellpadding='0'>
-   <tr class='relative odd' valign='top'>
+   <tr class='relative even' valign='top'>
     <td class='relatedTable detail' title="uctovne_doklady.dodavatel_subjekt_id refs subjekty.id via fk_rails_d6b4b75adf"><a href='subjekty.html'>subjekty</a><span class='relatedKey'>.id</span>
     </td>
     <td class='constraint detail'>fk_rails_d6b4b75adf<span title='Restrict delete:
@@ -222,7 +221,7 @@
  </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='even'>
+<tr class='odd'>
  <td class='detail'>nazov</td>
  <td class='detail'>varchar</td>
  <td class='detail' align='right'>2147483647</td>
@@ -233,7 +232,7 @@
  <td class='detail'> </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='odd'>
+<tr class='even'>
  <td class='detail'>typ</td>
  <td class='detail'>varchar</td>
  <td class='detail' align='right'>2147483647</td>
@@ -244,7 +243,7 @@
  <td class='detail'> </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='even'>
+<tr class='odd'>
  <td class='indexedColumn' title='Indexed'>vlastnik_dokladu_id</td>
  <td class='detail'>int4</td>
  <td class='detail' align='right'>10</td>
@@ -254,7 +253,7 @@
  <td class='detail'></td>
  <td class='detail'>
   <table border='0' width='100%' cellspacing='0' cellpadding='0'>
-   <tr class='relative even' valign='top'>
+   <tr class='relative odd' valign='top'>
     <td class='relatedTable detail' title="uctovne_doklady.vlastnik_dokladu_id refs subjekty.id via fk_rails_c88d29d579"><a href='subjekty.html'>subjekty</a><span class='relatedKey'>.id</span>
     </td>
     <td class='constraint detail'>fk_rails_c88d29d579<span title='Restrict delete:
@@ -264,7 +263,7 @@
  </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='odd'>
+<tr class='even'>
  <td class='detail'>created_at</td>
  <td class='detail'>timestamp</td>
  <td class='detail' align='right'>29,6</td>
@@ -275,7 +274,7 @@
  <td class='detail'> </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='even'>
+<tr class='odd'>
  <td class='detail'>updated_at</td>
  <td class='detail'>timestamp</td>
  <td class='detail' align='right'>29,6</td>
@@ -287,7 +286,7 @@
  <td class='comment detail'></td>
 </tr>
 </table>
-<p title='14 columns'>Table contained 10,454 rows at Thu Nov 23 14:20 CET 2017<p/>
+<p title='14 columns'>Table contained 2,245 rows at Thu Nov 23 18:12 CET 2017<p/>
 </td></tr></table>
 <div class='indent'>
 <b>Indexes:</b>
@@ -346,38 +345,39 @@
 </map>
   <a name='diagram'><img id='oneDegreeImg' src='../diagrams/uctovne_doklady.1degree.png' usemap='#oneDegreeRelationshipsDiagram' class='diagram' border='0' alt='' align='left'></a>
 <map id="twoDegreesRelationshipsDiagram" name="twoDegreesRelationshipsDiagram">
-<area shape="rect" id="node1" href="aktivity.html" title="aktivity" alt="" coords="845,609,1005,692">
-<area shape="rect" id="node2" href="subjekty.html" title="subjekty" alt="" coords="421,1113,672,1580">
-<area shape="rect" id="node12" href="nuts_kody.html" title="nuts_kody" alt="" coords="217,929,377,1012">
-<area shape="rect" id="node13" href="hodnoty_ciselnikov.html" title="hodnoty_ciselnikov" alt="" coords="5,1021,173,1104">
-<area shape="rect" id="node3" href="deklarovane_vydavky.html" title="deklarovane_vydavky" alt="" coords="1931,55,2171,617">
-<area shape="rect" id="node4" href="polozky_rozpoctu.html" title="polozky_rozpoctu" alt="" coords="1239,343,1399,425">
-<area shape="rect" id="node5" href="uctovne_doklady.html" title="uctovne_doklady" alt="" coords="716,709,1133,1109">
-<area shape="rect" id="node6" href="verejne_obstaravania.html" title="verejne_obstaravania" alt="" coords="841,269,1009,352">
-<area shape="rect" id="node7" href="zmluvy_verejne_obstaravania.html" title="zmluvy_verejne_obstaravania" alt="" coords="1209,175,1428,257">
-<area shape="rect" id="node8" href="zop.html" title="zop" alt="" coords="1574,267,1734,349">
-<area shape="rect" id="node14" href="intenzity.html" title="intenzity" alt="" coords="845,509,1005,592">
-<area shape="rect" id="node11" href="dodavatelia.html" title="dodavatelia" alt="" coords="421,545,672,1012">
-<area shape="rect" id="node17" href="projekty.html" title="projekty" alt="" coords="1235,1307,1403,1389">
-<area shape="rect" id="node9" href="deklarovane_vydavky_sumy_neschvalene_na_preplatenie.html" title="deklarovane_vydavky_sumy_neschvalene_na_preplatenie" alt="" coords="2299,5,2699,88">
-<area shape="rect" id="node10" href="deklarovane_vydavky_sumy_neziadane_na_preplatenie.html" title="deklarovane_vydavky_sumy_neziadane_na_preplatenie" alt="" coords="2305,105,2692,188">
-<area shape="rect" id="node15" href="nezrovnalosti.html" title="nezrovnalosti" alt="" coords="1576,1836,1732,1919">
-<area shape="rect" id="node16" href="operacne_programy.html" title="operacne_programy" alt="" coords="845,1767,1004,1849">
-<area shape="rect" id="node22" href="zonfp.html" title="zonfp" alt="" coords="841,1459,1009,1541">
-<area shape="rect" id="node23" href="vyzvy_vyhlasene.html" title="vyzvy_vyhlasene" alt="" coords="851,1235,999,1317">
-<area shape="rect" id="node18" href="nezrovnalosti_subjekty_ktore_sposobili_nezrovnalost.html" title="nezrovnalosti_subjekty_ktore_sposobili_nezrovnalost" alt="" coords="1868,1891,2235,1973">
-<area shape="rect" id="node19" href="nezrovnalosti_subjekty_ktore_zistili_nezrovnalost.html" title="nezrovnalosti_subjekty_ktore_zistili_nezrovnalost" alt="" coords="1881,2004,2222,2087">
-<area shape="rect" id="node20" href="nezrovnalosti_subjekty_zodpovedne_za_nasledne_konanie.html" title="nezrovnalosti_subjekty_zodpovedne_za_nasledne_konanie" alt="" coords="1848,1784,2255,1867">
-<area shape="rect" id="node21" href="pohladavkove_doklady.html" title="pohladavkove_doklady" alt="" coords="1964,1383,2139,1465">
-<area shape="rect" id="node24" href="projekty_partneri.html" title="projekty_partneri" alt="" coords="1585,1196,1723,1279">
-<area shape="rect" id="node25" href="uctovne_doklady_polozky_dokladu.html" title="uctovne_doklady_polozky_dokladu" alt="" coords="1193,675,1444,1117">
-<area shape="rect" id="node26" href="verejne_obstaravania_uctovne_doklady.html" title="verejne_obstaravania_uctovne_doklady" alt="" coords="1177,443,1460,621">
-<area shape="rect" id="node27" href="vyzvy_planovane.html" title="vyzvy_planovane" alt="" coords="851,1631,999,1713">
-<area shape="rect" id="node28" href="vyzvy_planovane_poskytovatelia.html" title="vyzvy_planovane_poskytovatelia" alt="" coords="1200,1659,1437,1741">
-<area shape="rect" id="node29" href="vyzvy_vyhlasene_poskytovatelia.html" title="vyzvy_vyhlasene_poskytovatelia" alt="" coords="1201,1207,1436,1289">
-<area shape="rect" id="node30" href="zmluvy_verejne_obstaravania_dodavatelia.html" title="zmluvy_verejne_obstaravania_dodavatelia" alt="" coords="1504,131,1804,213">
-<area shape="rect" id="node31" href="zonfp_aktivity_projekt.html" title="zonfp_aktivity_projekt" alt="" coords="1235,1559,1402,1641">
-<area shape="rect" id="node32" href="zonfp_partneri.html" title="zonfp_partneri" alt="" coords="1245,1459,1393,1541">
+<area shape="rect" id="node1" href="aktivity.html" title="aktivity" alt="" coords="839,445,987,528">
+<area shape="rect" id="node2" href="subjekty.html" title="subjekty" alt="" coords="409,1219,660,1685">
+<area shape="rect" id="node12" href="nuts_kody.html" title="nuts_kody" alt="" coords="217,1243,365,1325">
+<area shape="rect" id="node13" href="hodnoty_ciselnikov.html" title="hodnoty_ciselnikov" alt="" coords="5,1243,173,1325">
+<area shape="rect" id="node3" href="deklarovane_vydavky.html" title="deklarovane_vydavky" alt="" coords="1919,55,2159,617">
+<area shape="rect" id="node4" href="polozky_rozpoctu.html" title="polozky_rozpoctu" alt="" coords="1227,343,1387,425">
+<area shape="rect" id="node5" href="uctovne_doklady.html" title="uctovne_doklady" alt="" coords="704,681,1121,1081">
+<area shape="rect" id="node6" href="verejne_obstaravania.html" title="verejne_obstaravania" alt="" coords="829,273,997,356">
+<area shape="rect" id="node7" href="zmluvy_verejne_obstaravania.html" title="zmluvy_verejne_obstaravania" alt="" coords="1197,171,1416,253">
+<area shape="rect" id="node8" href="zop.html" title="zop" alt="" coords="1576,1203,1708,1285">
+<area shape="rect" id="node14" href="intenzity.html" title="intenzity" alt="" coords="839,581,987,664">
+<area shape="rect" id="node11" href="dodavatelia.html" title="dodavatelia" alt="" coords="409,651,660,1117">
+<area shape="rect" id="node17" href="projekty.html" title="projekty" alt="" coords="1229,1619,1385,1701">
+<area shape="rect" id="node9" href="deklarovane_vydavky_sumy_neschvalene_na_preplatenie.html" title="deklarovane_vydavky_sumy_neschvalene_na_preplatenie" alt="" coords="2287,5,2687,88">
+<area shape="rect" id="node10" href="deklarovane_vydavky_sumy_neziadane_na_preplatenie.html" title="deklarovane_vydavky_sumy_neziadane_na_preplatenie" alt="" coords="2293,105,2680,188">
+<area shape="rect" id="node15" href="nezrovnalosti.html" title="nezrovnalosti" alt="" coords="1572,1519,1712,1601">
+<area shape="rect" id="node16" href="operacne_programy.html" title="operacne_programy" alt="" coords="833,1411,992,1493">
+<area shape="rect" id="node22" href="zonfp.html" title="zonfp" alt="" coords="835,1827,991,1909">
+<area shape="rect" id="node23" href="vyzvy_vyhlasene.html" title="vyzvy_vyhlasene" alt="" coords="843,1583,983,1665">
+<area shape="rect" id="node18" href="nezrovnalosti_subjekty_ktore_sposobili_nezrovnalost.html" title="nezrovnalosti_subjekty_ktore_sposobili_nezrovnalost" alt="" coords="1856,1491,2223,1573">
+<area shape="rect" id="node19" href="nezrovnalosti_subjekty_ktore_zistili_nezrovnalost.html" title="nezrovnalosti_subjekty_ktore_zistili_nezrovnalost" alt="" coords="1869,1643,2210,1725">
+<area shape="rect" id="node20" href="nezrovnalosti_subjekty_zodpovedne_za_nasledne_konanie.html" title="nezrovnalosti_subjekty_zodpovedne_za_nasledne_konanie" alt="" coords="1836,1363,2243,1445">
+<area shape="rect" id="node21" href="pohladavkove_doklady.html" title="pohladavkove_doklady" alt="" coords="1952,1967,2127,2049">
+<area shape="rect" id="node24" href="projekty_partneri.html" title="projekty_partneri" alt="" coords="1573,1655,1711,1737">
+<area shape="rect" id="node25" href="uctovne_doklady_polozky_dokladu.html" title="uctovne_doklady_polozky_dokladu" alt="" coords="1181,675,1432,1117">
+<area shape="rect" id="node26" href="verejne_obstaravania_uctovne_doklady.html" title="verejne_obstaravania_uctovne_doklady" alt="" coords="1165,443,1448,621">
+<area shape="rect" id="node27" href="vyzvy_planovane.html" title="vyzvy_planovane" alt="" coords="843,1099,983,1181">
+<area shape="rect" id="node28" href="vyzvy_planovane_poskytovatelia.html" title="vyzvy_planovane_poskytovatelia" alt="" coords="1188,1135,1425,1217">
+<area shape="rect" id="node29" href="vyzvy_vyhlasene_poskytovatelia.html" title="vyzvy_vyhlasene_poskytovatelia" alt="" coords="1189,1519,1424,1601">
+<area shape="rect" id="node30" href="zmluvy_verejne_obstaravania_dodavatelia.html" title="zmluvy_verejne_obstaravania_dodavatelia" alt="" coords="1492,171,1792,253">
+<area shape="rect" id="node31" href="zonfp_aktivity_projekt.html" title="zonfp_aktivity_projekt" alt="" coords="1223,1791,1390,1873">
+<area shape="rect" id="node32" href="zonfp_partneri.html" title="zonfp_partneri" alt="" coords="1245,1891,1368,1973">
+<area shape="rect" id="node33" href="zop_predkladane_za_subjekty.html" title="zop_predkladane_za_subjekty" alt="" coords="1928,1232,2151,1315">
 </map>
 
   <a name='diagram'><img id='twoDegreesImg' src='../diagrams/uctovne_doklady.2degrees.png' usemap='#twoDegreesRelationshipsDiagram' class='diagram' border='0' alt='' align='left'></a>

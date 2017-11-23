@@ -17,7 +17,6 @@
  <ul>
   <li><a href='../index.html' title='All tables and views in the schema'>Tables</a></li>
   <li><a href='../relationships.html' title='Diagram of table relationships'>Relationships</a></li>
-  <li><a href='../utilities.html' title='View of tables with neither parents nor children'>Utility&nbsp;Tables</a></li>
   <li><a href='../constraints.html' title='Useful for diagnosing error messages that just give constraint name or number'>Constraints</a></li>
   <li><a href='../anomalies.html' title="Things that might not be quite right">Anomalies</a></li>
   <li><a href='../columns.byTable.html' title="All of the columns in the schema">Columns</a></li>
@@ -84,7 +83,7 @@
 </tr>
 </thead>
 <tbody valign='top'>
-<tr class='odd'>
+<tr class='even'>
  <td class='primaryKey' title='Primary Key'>id</td>
  <td class='detail'>serial</td>
  <td class='detail' align='right'>10</td>
@@ -93,7 +92,7 @@
  <td class='detail' align='right'>nextval('itms.ciselniky_id_seq'::regclass)</td>
  <td class='detail'>
   <table border='0' width='100%' cellspacing='0' cellpadding='0'>
-   <tr class='relative odd' valign='top'>
+   <tr class='relative even' valign='top'>
     <td class='relatedTable detail' title="hodnoty_ciselnikov.ciselnik_id refs ciselniky.id via fk_rails_8fb44e9504"><a href='hodnoty_ciselnikov.html'>hodnoty_ciselnikov</a><span class='relatedKey'>.ciselnik_id</span>
     </td>
     <td class='constraint detail'>fk_rails_8fb44e9504<span title='Restrict delete:
@@ -104,7 +103,7 @@
  <td class='detail'> </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='even'>
+<tr class='odd'>
  <td class='indexedColumn' title='Indexed'>ciselnik_kod</td>
  <td class='detail'>int4</td>
  <td class='detail' align='right'>10</td>
@@ -115,7 +114,7 @@
  <td class='detail'> </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='odd'>
+<tr class='even'>
  <td class='detail'>nazov</td>
  <td class='detail'>varchar</td>
  <td class='detail' align='right'>2147483647</td>
@@ -126,7 +125,7 @@
  <td class='detail'> </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='even'>
+<tr class='odd'>
  <td class='detail'>popis</td>
  <td class='detail'>varchar</td>
  <td class='detail' align='right'>2147483647</td>
@@ -137,7 +136,7 @@
  <td class='detail'> </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='odd'>
+<tr class='even'>
  <td class='detail'>created_at</td>
  <td class='detail'>timestamp</td>
  <td class='detail' align='right'>29,6</td>
@@ -148,7 +147,7 @@
  <td class='detail'> </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='even'>
+<tr class='odd'>
  <td class='detail'>updated_at</td>
  <td class='detail'>timestamp</td>
  <td class='detail' align='right'>29,6</td>
@@ -160,7 +159,7 @@
  <td class='comment detail'></td>
 </tr>
 </table>
-<p title='6 columns'>Table contained 24 rows at Thu Nov 23 14:20 CET 2017<p/>
+<p title='6 columns'>Table contained 18 rows at Thu Nov 23 18:12 CET 2017<p/>
 </td></tr></table>
 <div class='indent'>
 <b>Indexes:</b>
@@ -197,16 +196,16 @@
 </map>
   <a name='diagram'><img id='oneDegreeImg' src='../diagrams/ciselniky.1degree.png' usemap='#oneDegreeRelationshipsDiagram' class='diagram' border='0' alt='' align='left'></a>
 <map id="twoDegreesRelationshipsDiagram" name="twoDegreesRelationshipsDiagram">
-<area shape="rect" id="node1" href="dodavatelia.html" title="dodavatelia" alt="" coords="887,341,1047,424">
-<area shape="rect" id="node2" href="nuts_kody.html" title="nuts_kody" alt="" coords="578,289,738,372">
+<area shape="rect" id="node1" href="dodavatelia.html" title="dodavatelia" alt="" coords="893,341,1041,424">
+<area shape="rect" id="node2" href="nuts_kody.html" title="nuts_kody" alt="" coords="584,289,732,372">
 <area shape="rect" id="node3" href="hodnoty_ciselnikov.html" title="hodnoty_ciselnikov" alt="" coords="311,560,479,859">
 <area shape="rect" id="node4" href="ciselniky.html" title="ciselniky" alt="" coords="5,581,267,789">
-<area shape="rect" id="node5" href="intenzity_zdroje.html" title="intenzity_zdroje" alt="" coords="578,153,738,236">
-<area shape="rect" id="node6" href="konkretne_ciele.html" title="konkretne_ciele" alt="" coords="584,921,732,1004">
+<area shape="rect" id="node5" href="intenzity_zdroje.html" title="intenzity_zdroje" alt="" coords="584,153,732,236">
+<area shape="rect" id="node6" href="konkretne_ciele.html" title="konkretne_ciele" alt="" coords="588,921,728,1004">
 <area shape="rect" id="node7" href="konkretne_ciele_hodnoty_ciselnikov.html" title="konkretne_ciele_hodnoty_ciselnikov" alt="" coords="837,805,1096,888">
-<area shape="rect" id="node8" href="miesta_realizacie.html" title="miesta_realizacie" alt="" coords="887,241,1047,324">
-<area shape="rect" id="node9" href="nezrovnalosti.html" title="nezrovnalosti" alt="" coords="1146,1041,1302,1124">
-<area shape="rect" id="node10" href="subjekty.html" title="subjekty" alt="" coords="883,561,1051,644">
+<area shape="rect" id="node8" href="miesta_realizacie.html" title="miesta_realizacie" alt="" coords="893,241,1041,324">
+<area shape="rect" id="node9" href="nezrovnalosti.html" title="nezrovnalosti" alt="" coords="1154,1041,1294,1124">
+<area shape="rect" id="node10" href="subjekty.html" title="subjekty" alt="" coords="889,561,1045,644">
 <area shape="rect" id="node11" href="nezrovnalosti_typy_nezrovnalosti.html" title="nezrovnalosti_typy_nezrovnalosti" alt="" coords="1449,1135,1689,1217">
 <area shape="rect" id="node12" href="pohladavkove_doklady.html" title="pohladavkove_doklady" alt="" coords="1482,689,1657,772">
 <area shape="rect" id="node13" href="polozky_rozpoctu.html" title="polozky_rozpoctu" alt="" coords="1144,621,1304,704">
@@ -217,7 +216,7 @@
 <area shape="rect" id="node18" href="verejne_obstaravania_doplnujuce_predmety_hlavny_slovnik.html" title="verejne_obstaravania_doplnujuce_predmety_hlavny_slovnik" alt="" coords="1363,241,1775,324">
 <area shape="rect" id="node19" href="verejne_obstaravania_hlavne_predmety_doplnkovy_slovnik.html" title="verejne_obstaravania_hlavne_predmety_doplnkovy_slovnik" alt="" coords="1365,463,1773,545">
 <area shape="rect" id="node20" href="vyzvy_vyhlasene_fondy.html" title="vyzvy_vyhlasene_fondy" alt="" coords="568,1125,748,1208">
-<area shape="rect" id="node21" href="zonfp.html" title="zonfp" alt="" coords="1140,941,1308,1024">
+<area shape="rect" id="node21" href="zonfp.html" title="zonfp" alt="" coords="1146,941,1302,1024">
 <area shape="rect" id="node22" href="zonfp_polozky_rozpoctu.html" title="zonfp_polozky_rozpoctu" alt="" coords="1477,941,1661,1024">
 </map>
 

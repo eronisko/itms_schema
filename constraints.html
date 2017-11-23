@@ -14,7 +14,6 @@
  <ul>
   <li><a href='index.html' title='All tables and views in the schema'>Tables</a></li>
   <li><a href='relationships.html' title='Diagram of table relationships'>Relationships</a></li>
-  <li><a href='utilities.html' title='View of tables with neither parents nor children'>Utility&nbsp;Tables</a></li>
   <li id='current'><a href='constraints.html' title='Useful for diagnosing error messages that just give constraint name or number'>Constraints</a></li>
   <li><a href='anomalies.html' title="Things that might not be quite right">Anomalies</a></li>
   <li><a href='columns.byTable.html' title="All of the columns in the schema">Columns</a></li>
@@ -32,7 +31,7 @@
 <div class='indent'>
 <table width='100%'>
 <tr><td class='container' valign='bottom'><b>
-196 Foreign Key Constraints:</b>
+198 Foreign Key Constraints:</b>
 </td><td class='container' align='right'>
 <table>
   <tr><td class='container' align='right' valign='top'><a href='http://sourceforge.net' target='_blank'><img src='http://sourceforge.net/sflogo.php?group_id=137197&amp;type=1' alt='SourceForge.net' border='0' height='31' width='88'></a></td></tr>
@@ -167,134 +166,148 @@
  Parent cannot be deleted if children exist'>Restrict delete&nbsp;</span></td>
  </tr>
   <tr class='even'>
+  <td class='detail'>fk_rails_12b29bdafe</td>
+  <td class='detail'><a href='tables/zop_predkladane_za_subjekty.html'>zop_predkladane_za_subjekty</a>.zop_id</td>
+  <td class='detail'><a href='tables/zop.html'>zop</a>.id</td>
+  <td class='detail'><span title='Restrict delete:
+ Parent cannot be deleted if children exist'>Restrict delete&nbsp;</span></td>
+ </tr>
+  <tr class='odd'>
   <td class='detail'>fk_rails_136836cd96</td>
   <td class='detail'><a href='tables/nezrovnalosti_typy_nezrovnalosti.html'>nezrovnalosti_typy_nezrovnalosti</a>.nezrovnalost_id</td>
   <td class='detail'><a href='tables/nezrovnalosti.html'>nezrovnalosti</a>.id</td>
   <td class='detail'><span title='Restrict delete:
  Parent cannot be deleted if children exist'>Restrict delete&nbsp;</span></td>
  </tr>
-  <tr class='odd'>
+  <tr class='even'>
   <td class='detail'>fk_rails_140cb2bca8</td>
   <td class='detail'><a href='tables/pohladavkove_doklady.html'>pohladavkove_doklady</a>.dovod_vratenia_id</td>
   <td class='detail'><a href='tables/hodnoty_ciselnikov.html'>hodnoty_ciselnikov</a>.id</td>
   <td class='detail'><span title='Restrict delete:
  Parent cannot be deleted if children exist'>Restrict delete&nbsp;</span></td>
  </tr>
-  <tr class='even'>
+  <tr class='odd'>
   <td class='detail'>fk_rails_1792cc9243</td>
   <td class='detail'><a href='tables/vyzvy_vyhlasene.html'>vyzvy_vyhlasene</a>.vyhlasovatel_id</td>
   <td class='detail'><a href='tables/subjekty.html'>subjekty</a>.id</td>
   <td class='detail'><span title='Restrict delete:
  Parent cannot be deleted if children exist'>Restrict delete&nbsp;</span></td>
  </tr>
-  <tr class='odd'>
+  <tr class='even'>
   <td class='detail'>fk_rails_17b4b919d8</td>
   <td class='detail'><a href='tables/dodavatelia.html'>dodavatelia</a>.typ_ineho_identifikacneho_cisla_id</td>
   <td class='detail'><a href='tables/hodnoty_ciselnikov.html'>hodnoty_ciselnikov</a>.id</td>
   <td class='detail'><span title='Restrict delete:
  Parent cannot be deleted if children exist'>Restrict delete&nbsp;</span></td>
  </tr>
-  <tr class='even'>
+  <tr class='odd'>
   <td class='detail'>fk_rails_17faad18e6</td>
   <td class='detail'><a href='tables/nezrovnalosti_subjekty_ktore_sposobili_nezrovnalost.html'>nezrovnalosti_subjekty_ktore_sposobili_nezrovnalost</a>.subjekt_id</td>
   <td class='detail'><a href='tables/subjekty.html'>subjekty</a>.id</td>
   <td class='detail'><span title='Restrict delete:
  Parent cannot be deleted if children exist'>Restrict delete&nbsp;</span></td>
  </tr>
-  <tr class='odd'>
+  <tr class='even'>
   <td class='detail'>fk_rails_18381644cd</td>
   <td class='detail'><a href='tables/verejne_obstaravania.html'>verejne_obstaravania</a>.druh_zakazky_id</td>
   <td class='detail'><a href='tables/hodnoty_ciselnikov.html'>hodnoty_ciselnikov</a>.id</td>
   <td class='detail'><span title='Restrict delete:
  Parent cannot be deleted if children exist'>Restrict delete&nbsp;</span></td>
  </tr>
-  <tr class='even'>
+  <tr class='odd'>
   <td class='detail'>fk_rails_19863b7ff4</td>
   <td class='detail'><a href='tables/vyzvy_vyhlasene_poskytovatelia.html'>vyzvy_vyhlasene_poskytovatelia</a>.poskytovatel_id</td>
   <td class='detail'><a href='tables/subjekty.html'>subjekty</a>.id</td>
   <td class='detail'><span title='Restrict delete:
  Parent cannot be deleted if children exist'>Restrict delete&nbsp;</span></td>
  </tr>
-  <tr class='odd'>
+  <tr class='even'>
   <td class='detail'>fk_rails_1aede24bdd</td>
   <td class='detail'><a href='tables/intenzity_zdroje.html'>intenzity_zdroje</a>.zdroj_id</td>
   <td class='detail'><a href='tables/hodnoty_ciselnikov.html'>hodnoty_ciselnikov</a>.id</td>
   <td class='detail'><span title='Restrict delete:
  Parent cannot be deleted if children exist'>Restrict delete&nbsp;</span></td>
  </tr>
-  <tr class='even'>
+  <tr class='odd'>
   <td class='detail'>fk_rails_1c274e13bb</td>
   <td class='detail'><a href='tables/verejne_obstaravania.html'>verejne_obstaravania</a>.hlavny_predmet_hlavny_slovnik_id</td>
   <td class='detail'><a href='tables/hodnoty_ciselnikov.html'>hodnoty_ciselnikov</a>.id</td>
   <td class='detail'><span title='Restrict delete:
  Parent cannot be deleted if children exist'>Restrict delete&nbsp;</span></td>
  </tr>
-  <tr class='odd'>
+  <tr class='even'>
   <td class='detail'>fk_rails_1c418e1dd9</td>
   <td class='detail'><a href='tables/zonfp.html'>zonfp</a>.vysledok_konania_id</td>
   <td class='detail'><a href='tables/hodnoty_ciselnikov.html'>hodnoty_ciselnikov</a>.id</td>
   <td class='detail'><span title='Restrict delete:
  Parent cannot be deleted if children exist'>Restrict delete&nbsp;</span></td>
  </tr>
-  <tr class='even'>
+  <tr class='odd'>
   <td class='detail'>fk_rails_1d298f9f96</td>
   <td class='detail'><a href='tables/projekty_uzemne_mechanizmy.html'>projekty_uzemne_mechanizmy</a>.uzemny_mechanizmus_id</td>
   <td class='detail'><a href='tables/konkretne_ciele_hodnoty_ciselnikov.html'>konkretne_ciele_hodnoty_ciselnikov</a>.id</td>
   <td class='detail'><span title='Restrict delete:
  Parent cannot be deleted if children exist'>Restrict delete&nbsp;</span></td>
  </tr>
-  <tr class='odd'>
+  <tr class='even'>
   <td class='detail'>fk_rails_2137cdd4b6</td>
   <td class='detail'><a href='tables/vyzvy_vyhlasene_poskytovatelia.html'>vyzvy_vyhlasene_poskytovatelia</a>.vyzva_id</td>
   <td class='detail'><a href='tables/vyzvy_vyhlasene.html'>vyzvy_vyhlasene</a>.id</td>
   <td class='detail'><span title='Restrict delete:
  Parent cannot be deleted if children exist'>Restrict delete&nbsp;</span></td>
  </tr>
-  <tr class='even'>
+  <tr class='odd'>
   <td class='detail'>fk_rails_225a5db0b4</td>
   <td class='detail'><a href='tables/verejne_obstaravania_hlavne_predmety_doplnkovy_slovnik.html'>verejne_obstaravania_hlavne_predmety_doplnkovy_slovnik</a>.predmet_id</td>
   <td class='detail'><a href='tables/hodnoty_ciselnikov.html'>hodnoty_ciselnikov</a>.id</td>
   <td class='detail'><span title='Restrict delete:
  Parent cannot be deleted if children exist'>Restrict delete&nbsp;</span></td>
  </tr>
-  <tr class='odd'>
+  <tr class='even'>
   <td class='detail'>fk_rails_2425cf6aca</td>
   <td class='detail'><a href='tables/projekty_miesta_realizacie_mimo_uzemia_op.html'>projekty_miesta_realizacie_mimo_uzemia_op</a>.projekt_id</td>
   <td class='detail'><a href='tables/projekty.html'>projekty</a>.id</td>
   <td class='detail'><span title='Restrict delete:
  Parent cannot be deleted if children exist'>Restrict delete&nbsp;</span></td>
  </tr>
-  <tr class='even'>
+  <tr class='odd'>
   <td class='detail'>fk_rails_24965b7679</td>
   <td class='detail'><a href='tables/verejne_obstaravania_hlavne_predmety_doplnkovy_slovnik.html'>verejne_obstaravania_hlavne_predmety_doplnkovy_slovnik</a>.verejne_obstaravanie_id</td>
   <td class='detail'><a href='tables/verejne_obstaravania.html'>verejne_obstaravania</a>.id</td>
   <td class='detail'><span title='Restrict delete:
  Parent cannot be deleted if children exist'>Restrict delete&nbsp;</span></td>
  </tr>
-  <tr class='odd'>
+  <tr class='even'>
   <td class='detail'>fk_rails_257a019f0e</td>
   <td class='detail'><a href='tables/nezrovnalosti_typy_nezrovnalosti.html'>nezrovnalosti_typy_nezrovnalosti</a>.kod_id</td>
   <td class='detail'><a href='tables/hodnoty_ciselnikov.html'>hodnoty_ciselnikov</a>.id</td>
   <td class='detail'><span title='Restrict delete:
  Parent cannot be deleted if children exist'>Restrict delete&nbsp;</span></td>
  </tr>
-  <tr class='even'>
+  <tr class='odd'>
   <td class='detail'>fk_rails_25c3a95ab7</td>
   <td class='detail'><a href='tables/nezrovnalosti_subjekty_zodpovedne_za_nasledne_konanie.html'>nezrovnalosti_subjekty_zodpovedne_za_nasledne_konanie</a>.nezrovnalost_id</td>
   <td class='detail'><a href='tables/nezrovnalosti.html'>nezrovnalosti</a>.id</td>
   <td class='detail'><span title='Restrict delete:
  Parent cannot be deleted if children exist'>Restrict delete&nbsp;</span></td>
  </tr>
-  <tr class='odd'>
+  <tr class='even'>
   <td class='detail'>fk_rails_25e3a0891d</td>
   <td class='detail'><a href='tables/verejne_obstaravania_projekty.html'>verejne_obstaravania_projekty</a>.projekt_id</td>
   <td class='detail'><a href='tables/projekty.html'>projekty</a>.id</td>
   <td class='detail'><span title='Restrict delete:
  Parent cannot be deleted if children exist'>Restrict delete&nbsp;</span></td>
  </tr>
-  <tr class='even'>
+  <tr class='odd'>
   <td class='detail'>fk_rails_262be0aab1</td>
   <td class='detail'><a href='tables/projekty.html'>projekty</a>.prijimatel_id</td>
+  <td class='detail'><a href='tables/subjekty.html'>subjekty</a>.id</td>
+  <td class='detail'><span title='Restrict delete:
+ Parent cannot be deleted if children exist'>Restrict delete&nbsp;</span></td>
+ </tr>
+  <tr class='even'>
+  <td class='detail'>fk_rails_2c548e6f82</td>
+  <td class='detail'><a href='tables/zop_predkladane_za_subjekty.html'>zop_predkladane_za_subjekty</a>.subjekt_id</td>
   <td class='detail'><a href='tables/subjekty.html'>subjekty</a>.id</td>
   <td class='detail'><span title='Restrict delete:
  Parent cannot be deleted if children exist'>Restrict delete&nbsp;</span></td>

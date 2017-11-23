@@ -17,7 +17,6 @@
  <ul>
   <li><a href='../index.html' title='All tables and views in the schema'>Tables</a></li>
   <li><a href='../relationships.html' title='Diagram of table relationships'>Relationships</a></li>
-  <li><a href='../utilities.html' title='View of tables with neither parents nor children'>Utility&nbsp;Tables</a></li>
   <li><a href='../constraints.html' title='Useful for diagnosing error messages that just give constraint name or number'>Constraints</a></li>
   <li><a href='../anomalies.html' title="Things that might not be quite right">Anomalies</a></li>
   <li><a href='../columns.byTable.html' title="All of the columns in the schema">Columns</a></li>
@@ -84,7 +83,7 @@
 </tr>
 </thead>
 <tbody valign='top'>
-<tr class='even'>
+<tr class='odd'>
  <td class='primaryKey' title='Primary Key'>id</td>
  <td class='detail'>serial</td>
  <td class='detail' align='right'>10</td>
@@ -95,7 +94,7 @@
  <td class='detail'> </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='odd'>
+<tr class='even'>
  <td class='indexedColumn' title='Indexed'>pohladavkovy_doklad_id</td>
  <td class='detail'>int4</td>
  <td class='detail' align='right'>10</td>
@@ -105,7 +104,7 @@
  <td class='detail'></td>
  <td class='detail'>
   <table border='0' width='100%' cellspacing='0' cellpadding='0'>
-   <tr class='relative odd' valign='top'>
+   <tr class='relative even' valign='top'>
     <td class='relatedTable detail' title="pohladavkove_doklady_suvisiace_zop.pohladavkovy_doklad_id refs pohladavkove_doklady.id via fk_rails_47bdf1be19"><a href='pohladavkove_doklady.html'>pohladavkove_doklady</a><span class='relatedKey'>.id</span>
     </td>
     <td class='constraint detail'>fk_rails_47bdf1be19<span title='Restrict delete:
@@ -115,7 +114,7 @@
  </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='even'>
+<tr class='odd'>
  <td class='indexedColumn' title='Indexed'>zop_id</td>
  <td class='detail'>int4</td>
  <td class='detail' align='right'>10</td>
@@ -125,7 +124,7 @@
  <td class='detail'></td>
  <td class='detail'>
   <table border='0' width='100%' cellspacing='0' cellpadding='0'>
-   <tr class='relative even' valign='top'>
+   <tr class='relative odd' valign='top'>
     <td class='relatedTable detail' title="pohladavkove_doklady_suvisiace_zop.zop_id refs zop.id via fk_rails_bb988a1214"><a href='zop.html'>zop</a><span class='relatedKey'>.id</span>
     </td>
     <td class='constraint detail'>fk_rails_bb988a1214<span title='Restrict delete:
@@ -135,7 +134,7 @@
  </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='odd'>
+<tr class='even'>
  <td class='detail'>created_at</td>
  <td class='detail'>timestamp</td>
  <td class='detail' align='right'>29,6</td>
@@ -146,7 +145,7 @@
  <td class='detail'> </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='even'>
+<tr class='odd'>
  <td class='detail'>updated_at</td>
  <td class='detail'>timestamp</td>
  <td class='detail' align='right'>29,6</td>
@@ -158,7 +157,7 @@
  <td class='comment detail'></td>
 </tr>
 </table>
-<p title='5 columns'>Table contained 1,010 rows at Thu Nov 23 14:20 CET 2017<p/>
+<p title='5 columns'>Table contained 0 rows at Thu Nov 23 18:12 CET 2017<p/>
 </td></tr></table>
 <div class='indent'>
 <b>Indexes:</b>
@@ -204,23 +203,24 @@
 <map id="oneDegreeRelationshipsDiagram" name="oneDegreeRelationshipsDiagram">
 <area shape="rect" id="node1" href="pohladavkove_doklady_suvisiace_zop.html" title="pohladavkove_doklady_suvisiace_zop" alt="" coords="328,365,631,549">
 <area shape="rect" id="node2" href="pohladavkove_doklady.html" title="pohladavkove_doklady" alt="" coords="5,5,284,784">
-<area shape="rect" id="node3" href="zop.html" title="zop" alt="" coords="17,801,273,1364">
+<area shape="rect" id="node3" href="zop.html" title="zop" alt="" coords="17,801,273,1388">
 </map>
   <a name='diagram'><img id='oneDegreeImg' src='../diagrams/pohladavkove_doklady_suvisiace_zop.1degree.png' usemap='#oneDegreeRelationshipsDiagram' class='diagram' border='0' alt='' align='left'></a>
 <map id="twoDegreesRelationshipsDiagram" name="twoDegreesRelationshipsDiagram">
-<area shape="rect" id="node1" href="deklarovane_vydavky.html" title="deklarovane_vydavky" alt="" coords="997,969,1165,1052">
-<area shape="rect" id="node2" href="zop.html" title="zop" alt="" coords="641,777,897,1340">
-<area shape="rect" id="node7" href="subjekty.html" title="subjekty" alt="" coords="217,641,385,724">
-<area shape="rect" id="node8" href="projekty.html" title="projekty" alt="" coords="429,641,597,724">
-<area shape="rect" id="node3" href="konkretne_ciele.html" title="konkretne_ciele" alt="" coords="439,329,587,412">
-<area shape="rect" id="node4" href="hodnoty_ciselnikov.html" title="hodnoty_ciselnikov" alt="" coords="5,413,173,496">
-<area shape="rect" id="node5" href="prioritne_osi.html" title="prioritne_osi" alt="" coords="231,497,371,580">
-<area shape="rect" id="node6" href="nezrovnalosti.html" title="nezrovnalosti" alt="" coords="691,413,847,496">
-<area shape="rect" id="node9" href="nezrovnalosti_suvisiace_pohladavkove_doklady.html" title="nezrovnalosti_suvisiace_pohladavkove_doklady" alt="" coords="1291,5,1624,88">
-<area shape="rect" id="node10" href="pohladavkove_doklady.html" title="pohladavkove_doklady" alt="" coords="941,73,1220,852">
-<area shape="rect" id="node11" href="nezrovnalosti_suvisiace_zop.html" title="nezrovnalosti_suvisiace_zop" alt="" coords="975,869,1186,952">
-<area shape="rect" id="node12" href="pohladavkove_doklady_suvisiace_verejne_obstaravania.html" title="pohladavkove_doklady_suvisiace_verejne_obstaravania" alt="" coords="1264,105,1651,188">
-<area shape="rect" id="node13" href="pohladavkove_doklady_suvisiace_zop.html" title="pohladavkove_doklady_suvisiace_zop" alt="" coords="1306,596,1609,780">
+<area shape="rect" id="node1" href="deklarovane_vydavky.html" title="deklarovane_vydavky" alt="" coords="973,1005,1140,1088">
+<area shape="rect" id="node2" href="zop.html" title="zop" alt="" coords="617,771,873,1357">
+<area shape="rect" id="node7" href="subjekty.html" title="subjekty" alt="" coords="217,668,373,751">
+<area shape="rect" id="node8" href="projekty.html" title="projekty" alt="" coords="417,635,573,717">
+<area shape="rect" id="node3" href="konkretne_ciele.html" title="konkretne_ciele" alt="" coords="425,359,565,441">
+<area shape="rect" id="node4" href="hodnoty_ciselnikov.html" title="hodnoty_ciselnikov" alt="" coords="5,489,173,572">
+<area shape="rect" id="node5" href="prioritne_osi.html" title="prioritne_osi" alt="" coords="225,405,365,488">
+<area shape="rect" id="node6" href="nezrovnalosti.html" title="nezrovnalosti" alt="" coords="675,479,815,561">
+<area shape="rect" id="node9" href="nezrovnalosti_suvisiace_pohladavkove_doklady.html" title="nezrovnalosti_suvisiace_pohladavkove_doklady" alt="" coords="1267,5,1600,88">
+<area shape="rect" id="node10" href="pohladavkove_doklady.html" title="pohladavkove_doklady" alt="" coords="917,73,1196,852">
+<area shape="rect" id="node11" href="nezrovnalosti_suvisiace_zop.html" title="nezrovnalosti_suvisiace_zop" alt="" coords="951,869,1162,952">
+<area shape="rect" id="node12" href="pohladavkove_doklady_suvisiace_verejne_obstaravania.html" title="pohladavkove_doklady_suvisiace_verejne_obstaravania" alt="" coords="1240,105,1627,188">
+<area shape="rect" id="node13" href="pohladavkove_doklady_suvisiace_zop.html" title="pohladavkove_doklady_suvisiace_zop" alt="" coords="1282,545,1585,729">
+<area shape="rect" id="node14" href="zop_predkladane_za_subjekty.html" title="zop_predkladane_za_subjekty" alt="" coords="945,1217,1168,1300">
 </map>
 
   <a name='diagram'><img id='twoDegreesImg' src='../diagrams/pohladavkove_doklady_suvisiace_zop.2degrees.png' usemap='#twoDegreesRelationshipsDiagram' class='diagram' border='0' alt='' align='left'></a>

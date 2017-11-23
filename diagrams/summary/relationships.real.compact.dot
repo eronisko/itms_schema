@@ -28,7 +28,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="subjekt_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">subjekt_id</TD></TR>
       <TR><TD PORT="typ_aktivity_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">typ_aktivity_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">4,563 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">2 &gt;</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">737 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">2 &gt;</TD></TR>
     </TABLE>>
     URL="tables/aktivity.html"
     tooltip="aktivity"
@@ -40,7 +40,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="id" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">id</TD></TR>
       <TR><TD PORT="ciselnik_kod" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">ciselnik_kod</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">24 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">1 &gt;</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">18 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">1 &gt;</TD></TR>
     </TABLE>>
     URL="tables/ciselniky.html"
     tooltip="ciselniky"
@@ -57,7 +57,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="verejne_obstaravanie_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">verejne_obstaravanie_id</TD></TR>
       <TR><TD PORT="zmluva_verejne_obstaravanie_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">zmluva_verejne_obstaravanie_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 5</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">59,519 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">2 &gt;</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 5</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">2 &gt;</TD></TR>
     </TABLE>>
     URL="tables/deklarovane_vydavky.html"
     tooltip="deklarovane_vydavky"
@@ -70,7 +70,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="deklarovany_vydavok_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">deklarovany_vydavok_id</TD></TR>
       <TR><TD PORT="druh_neschvalenej_sumy" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">druh_neschvalenej_sumy</TD></TR>
       <TR><TD PORT="suma_neschvalena" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">suma_neschvalena</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 1</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">3,351 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 1</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/deklarovane_vydavky_sumy_neschvalene_na_preplatenie.html"
     tooltip="deklarovane_vydavky_sumy_neschvalene_na_preplatenie"
@@ -83,7 +83,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="deklarovany_vydavok_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">deklarovany_vydavok_id</TD></TR>
       <TR><TD PORT="druh_neziadanej_sumy" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">druh_neziadanej_sumy</TD></TR>
       <TR><TD PORT="suma_neziadana" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">suma_neziadana</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 1</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">9,188 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 1</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/deklarovane_vydavky_sumy_neziadane_na_preplatenie.html"
     tooltip="deklarovane_vydavky_sumy_neziadane_na_preplatenie"
@@ -98,7 +98,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="stat_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">stat_id</TD></TR>
       <TR><TD PORT="typ_ineho_identifikacneho_cisla_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">typ_ineho_identifikacneho_cisla_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 3</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">1,506 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">4 &gt;</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 3</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">374 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">4 &gt;</TD></TR>
     </TABLE>>
     URL="tables/dodavatelia.html"
     tooltip="dodavatelia"
@@ -111,7 +111,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="ciselnik_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">ciselnik_id</TD></TR>
       <TR><TD PORT="itms_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">itms_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 1</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">3,544 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">28 &gt;</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 1</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">1,040 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">28 &gt;</TD></TR>
     </TABLE>>
     URL="tables/hodnoty_ciselnikov.html"
     tooltip="hodnoty_ciselnikov"
@@ -129,7 +129,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="zdroj_vz_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">zdroj_vz_id</TD></TR>
       <TR><TD PORT="zdroj_yei_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">zdroj_yei_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 6</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">1,882 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">2 &gt;</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 6</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">267 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">2 &gt;</TD></TR>
     </TABLE>>
     URL="tables/intenzity.html"
     tooltip="intenzity"
@@ -141,7 +141,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="id" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">id</TD></TR>
       <TR><TD PORT="zdroj_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">zdroj_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 1</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">5,296 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">5 &gt;</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 1</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">727 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">5 &gt;</TD></TR>
     </TABLE>>
     URL="tables/intenzity_zdroje.html"
     tooltip="intenzity_zdroje"
@@ -156,7 +156,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="kategoria_regionov_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">kategoria_regionov_id</TD></TR>
       <TR><TD PORT="prioritna_os_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">prioritna_os_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 3</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">161 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">6 &gt;</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 3</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">60 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">6 &gt;</TD></TR>
     </TABLE>>
     URL="tables/konkretne_ciele.html"
     tooltip="konkretne_ciele"
@@ -169,7 +169,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="konkretny_ciel_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">konkretny_ciel_id</TD></TR>
       <TR><TD PORT="hodnota_ciselnika_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">hodnota_ciselnika_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">1,058 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">11 &gt;</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">318 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">11 &gt;</TD></TR>
     </TABLE>>
     URL="tables/konkretne_ciele_hodnoty_ciselnikov.html"
     tooltip="konkretne_ciele_hodnoty_ciselnikov"
@@ -182,7 +182,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="konkretny_ciel_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">konkretny_ciel_id</TD></TR>
       <TR><TD PORT="typ_aktivity_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">typ_aktivity_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">1,455 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">435 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/konkretne_ciele_typy_aktivit.html"
     tooltip="konkretne_ciele_typy_aktivit"
@@ -197,7 +197,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="nuts_5_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">nuts_5_id</TD></TR>
       <TR><TD PORT="stat_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">stat_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 4</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">2,300 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">4 &gt;</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 4</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">247 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">4 &gt;</TD></TR>
     </TABLE>>
     URL="tables/miesta_realizacie.html"
     tooltip="miesta_realizacie"
@@ -209,7 +209,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="id" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">id</TD></TR>
       <TR><TD PORT="projekt_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">projekt_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 1</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">3,669 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 1</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">517 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/monitorovacie_terminy.html"
     tooltip="monitorovacie_terminy"
@@ -229,7 +229,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="prioritna_os_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">prioritna_os_id</TD></TR>
       <TR><TD PORT="projekt_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">projekt_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 8</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">221 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">10 &gt;</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 8</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">10 &gt;</TD></TR>
     </TABLE>>
     URL="tables/nezrovnalosti.html"
     tooltip="nezrovnalosti"
@@ -242,7 +242,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="nezrovnalost_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">nezrovnalost_id</TD></TR>
       <TR><TD PORT="subjekt_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">subjekt_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">105 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/nezrovnalosti_subjekty_ktore_sposobili_nezrovnalost.html"
     tooltip="nezrovnalosti_subjekty_ktore_sposobili_nezrovnalost"
@@ -255,7 +255,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="nezrovnalost_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">nezrovnalost_id</TD></TR>
       <TR><TD PORT="subjekt_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">subjekt_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">227 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/nezrovnalosti_subjekty_ktore_zistili_nezrovnalost.html"
     tooltip="nezrovnalosti_subjekty_ktore_zistili_nezrovnalost"
@@ -268,7 +268,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="nezrovnalost_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">nezrovnalost_id</TD></TR>
       <TR><TD PORT="subjekt_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">subjekt_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">221 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/nezrovnalosti_subjekty_zodpovedne_za_nasledne_konanie.html"
     tooltip="nezrovnalosti_subjekty_zodpovedne_za_nasledne_konanie"
@@ -281,7 +281,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="nezrovnalost_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">nezrovnalost_id</TD></TR>
       <TR><TD PORT="suvisiaca_nezrovnalost_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">suvisiaca_nezrovnalost_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">16 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/nezrovnalosti_suvisiace_nezrovnalosti.html"
     tooltip="nezrovnalosti_suvisiace_nezrovnalosti"
@@ -294,7 +294,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="nezrovnalost_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">nezrovnalost_id</TD></TR>
       <TR><TD PORT="pohladavkovy_doklad_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">pohladavkovy_doklad_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">171 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/nezrovnalosti_suvisiace_pohladavkove_doklady.html"
     tooltip="nezrovnalosti_suvisiace_pohladavkove_doklady"
@@ -307,7 +307,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="nezrovnalost_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">nezrovnalost_id</TD></TR>
       <TR><TD PORT="verejne_obstaravanie_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">verejne_obstaravanie_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">56 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/nezrovnalosti_suvisiace_verejne_obstaravania.html"
     tooltip="nezrovnalosti_suvisiace_verejne_obstaravania"
@@ -320,7 +320,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="nezrovnalost_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">nezrovnalost_id</TD></TR>
       <TR><TD PORT="zop_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">zop_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">974 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/nezrovnalosti_suvisiace_zop.html"
     tooltip="nezrovnalosti_suvisiace_zop"
@@ -333,7 +333,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="nezrovnalost_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">nezrovnalost_id</TD></TR>
       <TR><TD PORT="kod_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">kod_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">287 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/nezrovnalosti_typy_nezrovnalosti.html"
     tooltip="nezrovnalosti_typy_nezrovnalosti"
@@ -345,7 +345,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="id" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">id</TD></TR>
       <TR><TD PORT="hodnota_nuts_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">hodnota_nuts_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 1</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">2,464 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">5 &gt;</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 1</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">475 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">5 &gt;</TD></TR>
     </TABLE>>
     URL="tables/nuts_kody.html"
     tooltip="nuts_kody"
@@ -370,7 +370,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="id" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">id</TD></TR>
       <TR><TD PORT="itms_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">itms_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">107 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">2 &gt;</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">5 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">2 &gt;</TD></TR>
     </TABLE>>
     URL="tables/organizacne_zlozky.html"
     tooltip="organizacne_zlozky"
@@ -382,7 +382,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="id" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">id</TD></TR>
       <TR><TD PORT="itms_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">itms_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">3 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">2 &gt;</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">1 row</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">2 &gt;</TD></TR>
     </TABLE>>
     URL="tables/osoby.html"
     tooltip="osoby"
@@ -401,7 +401,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="projekt_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">projekt_id</TD></TR>
       <TR><TD PORT="subjekt_zodpovedny_za_vymahanie_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">subjekt_zodpovedny_za_vymahanie_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 7</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">230 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">3 &gt;</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 7</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">3 &gt;</TD></TR>
     </TABLE>>
     URL="tables/pohladavkove_doklady.html"
     tooltip="pohladavkove_doklady"
@@ -414,7 +414,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="pohladavkovy_doklad_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">pohladavkovy_doklad_id</TD></TR>
       <TR><TD PORT="verejne_obstaravanie_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">verejne_obstaravanie_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">34 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/pohladavkove_doklady_suvisiace_verejne_obstaravania.html"
     tooltip="pohladavkove_doklady_suvisiace_verejne_obstaravania"
@@ -427,7 +427,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="pohladavkovy_doklad_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">pohladavkovy_doklad_id</TD></TR>
       <TR><TD PORT="zop_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">zop_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">1,010 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/pohladavkove_doklady_suvisiace_zop.html"
     tooltip="pohladavkove_doklady_suvisiace_zop"
@@ -443,7 +443,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="skupina_vydavkov_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">skupina_vydavkov_id</TD></TR>
       <TR><TD PORT="subjekt_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">subjekt_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 4</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">6,986 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">2 &gt;</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 4</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">1,394 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">2 &gt;</TD></TR>
     </TABLE>>
     URL="tables/polozky_rozpoctu.html"
     tooltip="polozky_rozpoctu"
@@ -456,7 +456,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="itms_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">itms_id</TD></TR>
       <TR><TD PORT="operacny_program_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">operacny_program_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 1</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">49 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">3 &gt;</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 1</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">23 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">3 &gt;</TD></TR>
     </TABLE>>
     URL="tables/prioritne_osi.html"
     tooltip="prioritne_osi"
@@ -468,7 +468,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="id" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">id</TD></TR>
       <TR><TD PORT="itms_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">itms_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">855 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">4 &gt;</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">251 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">4 &gt;</TD></TR>
     </TABLE>>
     URL="tables/projektove_ukazovatele.html"
     tooltip="projektove_ukazovatele"
@@ -481,7 +481,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="projektovy_ukazovatel_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">projektovy_ukazovatel_id</TD></TR>
       <TR><TD PORT="kod_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">kod_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">893 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">257 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/projektove_ukazovatele_casy_plnenia.html"
     tooltip="projektove_ukazovatele_casy_plnenia"
@@ -494,7 +494,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="projektovy_ukazovatel_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">projektovy_ukazovatel_id</TD></TR>
       <TR><TD PORT="kod_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">kod_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">885 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">271 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/projektove_ukazovatele_fondy.html"
     tooltip="projektove_ukazovatele_fondy"
@@ -509,7 +509,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="schvalena_zonfp_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">schvalena_zonfp_id</TD></TR>
       <TR><TD PORT="vyzva_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">vyzva_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 3</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">1,540 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">19 &gt;</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 3</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">232 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">19 &gt;</TD></TR>
     </TABLE>>
     URL="tables/projekty.html"
     tooltip="projekty"
@@ -522,7 +522,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="projekt_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">projekt_id</TD></TR>
       <TR><TD PORT="aktivita_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">aktivita_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">4,563 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">737 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/projekty_aktivity.html"
     tooltip="projekty_aktivity"
@@ -535,7 +535,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="projekt_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">projekt_id</TD></TR>
       <TR><TD PORT="forma_financovania_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">forma_financovania_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">1,648 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">278 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/projekty_formy_financovania.html"
     tooltip="projekty_formy_financovania"
@@ -548,7 +548,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="projekt_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">projekt_id</TD></TR>
       <TR><TD PORT="hospodarska_cinnost_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">hospodarska_cinnost_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">1,711 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">280 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/projekty_hospodarske_cinnosti.html"
     tooltip="projekty_hospodarske_cinnosti"
@@ -561,7 +561,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="projekt_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">projekt_id</TD></TR>
       <TR><TD PORT="intenzita_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">intenzita_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">1,882 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">267 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/projekty_intenzity.html"
     tooltip="projekty_intenzity"
@@ -574,7 +574,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="projekt_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">projekt_id</TD></TR>
       <TR><TD PORT="projektovy_ukazovatel_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">projektovy_ukazovatel_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">12,035 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">2,446 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/projekty_meratelne_ukazovatele.html"
     tooltip="projekty_meratelne_ukazovatele"
@@ -586,7 +586,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="id" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">id</TD></TR>
       <TR><TD PORT="projekt_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">projekt_id</TD></TR>
       <TR><TD PORT="miesto_realizacie_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">miesto_realizacie_id</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">3,428 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">728 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/projekty_miesta_realizacie.html"
     tooltip="projekty_miesta_realizacie"
@@ -611,7 +611,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="projekt_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">projekt_id</TD></TR>
       <TR><TD PORT="oblast_intervencie_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">oblast_intervencie_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">2,199 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">307 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/projekty_oblasti_intervencie.html"
     tooltip="projekty_oblasti_intervencie"
@@ -624,7 +624,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="projekt_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">projekt_id</TD></TR>
       <TR><TD PORT="organizacna_zlozka_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">organizacna_zlozka_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">36 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">6 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/projekty_organizacne_zlozky.html"
     tooltip="projekty_organizacne_zlozky"
@@ -637,7 +637,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="projekt_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">projekt_id</TD></TR>
       <TR><TD PORT="partner_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">partner_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">172 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">7 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/projekty_partneri.html"
     tooltip="projekty_partneri"
@@ -650,7 +650,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="projekt_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">projekt_id</TD></TR>
       <TR><TD PORT="polozka_rozpoctu_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">polozka_rozpoctu_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">6,986 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">1,394 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/projekty_polozky_rozpoctu.html"
     tooltip="projekty_polozky_rozpoctu"
@@ -663,7 +663,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="projekt_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">projekt_id</TD></TR>
       <TR><TD PORT="sekundarny_tematicky_okruh_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">sekundarny_tematicky_okruh_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">292 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">8 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/projekty_sekundarne_tematicke_okruhy.html"
     tooltip="projekty_sekundarne_tematicke_okruhy"
@@ -676,7 +676,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="projekt_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">projekt_id</TD></TR>
       <TR><TD PORT="typ_uzemia_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">typ_uzemia_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">1,777 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">294 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/projekty_typy_uzemia.html"
     tooltip="projekty_typy_uzemia"
@@ -689,7 +689,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="projekt_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">projekt_id</TD></TR>
       <TR><TD PORT="uzemny_mechanizmus_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">uzemny_mechanizmus_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">1,395 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">197 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/projekty_uzemne_mechanizmy.html"
     tooltip="projekty_uzemne_mechanizmy"
@@ -704,7 +704,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="stat_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">stat_id</TD></TR>
       <TR><TD PORT="typ_ineho_identifikacneho_cisla_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">typ_ineho_identifikacneho_cisla_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 3</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">5,310 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">28 &gt;</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 3</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">340 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">29 &gt;</TD></TR>
     </TABLE>>
     URL="tables/subjekty.html"
     tooltip="subjekty"
@@ -716,7 +716,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="id" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">id</TD></TR>
       <TR><TD PORT="itms_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">itms_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">1,455 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">4 &gt;</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">435 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">4 &gt;</TD></TR>
     </TABLE>>
     URL="tables/typy_aktivit.html"
     tooltip="typy_aktivit"
@@ -731,7 +731,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="dodavatel_subjekt_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">dodavatel_subjekt_id</TD></TR>
       <TR><TD PORT="vlastnik_dokladu_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">vlastnik_dokladu_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 3</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">10,454 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">3 &gt;</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 3</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">2,245 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">3 &gt;</TD></TR>
     </TABLE>>
     URL="tables/uctovne_doklady.html"
     tooltip="uctovne_doklady"
@@ -744,7 +744,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="uctovny_doklad_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">uctovny_doklad_id</TD></TR>
       <TR><TD PORT="itms_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">itms_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 1</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">32,179 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 1</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">3,432 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/uctovne_doklady_polozky_dokladu.html"
     tooltip="uctovne_doklady_polozky_dokladu"
@@ -763,7 +763,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="postup_obstaravania_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">postup_obstaravania_id</TD></TR>
       <TR><TD PORT="zadavatel_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">zadavatel_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 7</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">3,174 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">10 &gt;</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 7</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">1,105 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">10 &gt;</TD></TR>
     </TABLE>>
     URL="tables/verejne_obstaravania.html"
     tooltip="verejne_obstaravania"
@@ -776,7 +776,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="verejne_obstaravanie_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">verejne_obstaravanie_id</TD></TR>
       <TR><TD PORT="predmet_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">predmet_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">10 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">1 row</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/verejne_obstaravania_doplnujuce_predmety_doplnkovy_slovnik.html"
     tooltip="verejne_obstaravania_doplnujuce_predmety_doplnkovy_slovnik"
@@ -789,7 +789,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="verejne_obstaravanie_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">verejne_obstaravanie_id</TD></TR>
       <TR><TD PORT="predmet_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">predmet_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">1,028 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">506 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/verejne_obstaravania_doplnujuce_predmety_hlavny_slovnik.html"
     tooltip="verejne_obstaravania_doplnujuce_predmety_hlavny_slovnik"
@@ -802,7 +802,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="verejne_obstaravanie_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">verejne_obstaravanie_id</TD></TR>
       <TR><TD PORT="predmet_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">predmet_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">44 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">20 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/verejne_obstaravania_hlavne_predmety_doplnkovy_slovnik.html"
     tooltip="verejne_obstaravania_hlavne_predmety_doplnkovy_slovnik"
@@ -815,7 +815,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="verejne_obstaravanie_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">verejne_obstaravanie_id</TD></TR>
       <TR><TD PORT="operacny_program_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">operacny_program_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">3,236 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">1,147 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/verejne_obstaravania_operacne_programy.html"
     tooltip="verejne_obstaravania_operacne_programy"
@@ -828,7 +828,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="verejne_obstaravanie_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">verejne_obstaravanie_id</TD></TR>
       <TR><TD PORT="projekt_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">projekt_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">944 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">570 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/verejne_obstaravania_projekty.html"
     tooltip="verejne_obstaravania_projekty"
@@ -841,7 +841,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="verejne_obstaravanie_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">verejne_obstaravanie_id</TD></TR>
       <TR><TD PORT="uctovny_doklad_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">uctovny_doklad_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">3,130 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">2,257 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/verejne_obstaravania_uctovne_doklady.html"
     tooltip="verejne_obstaravania_uctovne_doklady"
@@ -854,7 +854,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="itms_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">itms_id</TD></TR>
       <TR><TD PORT="vyhlasovatel_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">vyhlasovatel_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 1</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">222 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">4 &gt;</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 1</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">10 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">4 &gt;</TD></TR>
     </TABLE>>
     URL="tables/vyzvy_planovane.html"
     tooltip="vyzvy_planovane"
@@ -866,7 +866,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="id" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">id</TD></TR>
       <TR><TD PORT="vyzva_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">vyzva_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 1</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">71 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 1</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">9 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/vyzvy_planovane_doplnujuce_info.html"
     tooltip="vyzvy_planovane_doplnujuce_info"
@@ -879,7 +879,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="vyzva_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">vyzva_id</TD></TR>
       <TR><TD PORT="konkretny_ciel_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">konkretny_ciel_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">296 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">11 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/vyzvy_planovane_konkretne_ciele.html"
     tooltip="vyzvy_planovane_konkretne_ciele"
@@ -892,7 +892,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="vyzva_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">vyzva_id</TD></TR>
       <TR><TD PORT="poskytovatel_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">poskytovatel_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">222 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">10 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/vyzvy_planovane_poskytovatelia.html"
     tooltip="vyzvy_planovane_poskytovatelia"
@@ -905,7 +905,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="itms_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">itms_id</TD></TR>
       <TR><TD PORT="vyhlasovatel_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">vyhlasovatel_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 1</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">289 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">8 &gt;</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 1</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">64 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">8 &gt;</TD></TR>
     </TABLE>>
     URL="tables/vyzvy_vyhlasene.html"
     tooltip="vyzvy_vyhlasene"
@@ -917,7 +917,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="id" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">id</TD></TR>
       <TR><TD PORT="vyzva_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">vyzva_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 1</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">163 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 1</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">52 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/vyzvy_vyhlasene_doplnujuce_info.html"
     tooltip="vyzvy_vyhlasene_doplnujuce_info"
@@ -930,7 +930,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="vyzva_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">vyzva_id</TD></TR>
       <TR><TD PORT="fond_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">fond_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">289 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">64 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/vyzvy_vyhlasene_fondy.html"
     tooltip="vyzvy_vyhlasene_fondy"
@@ -944,7 +944,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="konkretny_ciel_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">konkretny_ciel_id</TD></TR>
       <TR><TD PORT="typ_aktivity_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">typ_aktivity_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 3</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">1,527 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 3</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">399 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/vyzvy_vyhlasene_konkretne_ciele_typy_aktivit.html"
     tooltip="vyzvy_vyhlasene_konkretne_ciele_typy_aktivit"
@@ -957,7 +957,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="vyzva_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">vyzva_id</TD></TR>
       <TR><TD PORT="osoba_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">osoba_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">289 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">64 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/vyzvy_vyhlasene_kontaktne_osoby.html"
     tooltip="vyzvy_vyhlasene_kontaktne_osoby"
@@ -970,7 +970,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="vyzva_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">vyzva_id</TD></TR>
       <TR><TD PORT="poskytovatel_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">poskytovatel_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">289 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">64 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/vyzvy_vyhlasene_poskytovatelia.html"
     tooltip="vyzvy_vyhlasene_poskytovatelia"
@@ -982,7 +982,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="id" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">id</TD></TR>
       <TR><TD PORT="vyzva_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">vyzva_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 1</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">104 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 1</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">6 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/vyzvy_vyhlasene_posudzovane_obdobia.html"
     tooltip="vyzvy_vyhlasene_posudzovane_obdobia"
@@ -995,7 +995,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="vyhlasena_vyzva_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">vyhlasena_vyzva_id</TD></TR>
       <TR><TD PORT="planovana_vyzva_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">planovana_vyzva_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">122 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">10 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/vyzvy_vyhlasene_vyzvy_planovane.html"
     tooltip="vyzvy_vyhlasene_vyzvy_planovane"
@@ -1010,7 +1010,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="hlavny_dodavatel_subjekt_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">hlavny_dodavatel_subjekt_id</TD></TR>
       <TR><TD PORT="verejne_obstaravanie_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">verejne_obstaravanie_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 3</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">2,999 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">3 &gt;</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 3</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">3 &gt;</TD></TR>
     </TABLE>>
     URL="tables/zmluvy_verejne_obstaravania.html"
     tooltip="zmluvy_verejne_obstaravania"
@@ -1022,7 +1022,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="id" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">id</TD></TR>
       <TR><TD PORT="zmluva_verejne_obstaravanie_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">zmluva_verejne_obstaravanie_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 1</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">113 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 1</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/zmluvy_verejne_obstaravania_dalsie_url.html"
     tooltip="zmluvy_verejne_obstaravania_dalsie_url"
@@ -1036,7 +1036,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="dodavatel_dodavatel_obstaravatel_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">dodavatel_dodavatel_obstaravatel_id</TD></TR>
       <TR><TD PORT="dodavatel_subjekt_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">dodavatel_subjekt_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 3</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">3,098 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 3</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/zmluvy_verejne_obstaravania_dodavatelia.html"
     tooltip="zmluvy_verejne_obstaravania_dodavatelia"
@@ -1051,7 +1051,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="vyzva_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">vyzva_id</TD></TR>
       <TR><TD PORT="ziadatel_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">ziadatel_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">8,372 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">14 &gt;</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">232 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">14 &gt;</TD></TR>
     </TABLE>>
     URL="tables/zonfp.html"
     tooltip="zonfp"
@@ -1065,7 +1065,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="subjekt_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">subjekt_id</TD></TR>
       <TR><TD PORT="typ_aktivity_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">typ_aktivity_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 3</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">27,397 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 3</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">736 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/zonfp_aktivity_projekt.html"
     tooltip="zonfp_aktivity_projekt"
@@ -1078,7 +1078,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="zonfp_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">zonfp_id</TD></TR>
       <TR><TD PORT="forma_financovania_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">forma_financovania_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">8,564 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">278 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/zonfp_formy_financovania.html"
     tooltip="zonfp_formy_financovania"
@@ -1091,7 +1091,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="zonfp_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">zonfp_id</TD></TR>
       <TR><TD PORT="hodnotitel_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">hodnotitel_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">2 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/zonfp_hodnotitelia.html"
     tooltip="zonfp_hodnotitelia"
@@ -1104,7 +1104,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="zonfp_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">zonfp_id</TD></TR>
       <TR><TD PORT="hospodarska_cinnost_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">hospodarska_cinnost_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">9,116 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">281 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/zonfp_hospodarske_cinnosti.html"
     tooltip="zonfp_hospodarske_cinnosti"
@@ -1117,7 +1117,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="zonfp_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">zonfp_id</TD></TR>
       <TR><TD PORT="projektovy_ukazovatel_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">projektovy_ukazovatel_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">59,402 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">2,446 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/zonfp_meratelne_ukazovatele.html"
     tooltip="zonfp_meratelne_ukazovatele"
@@ -1130,7 +1130,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="zonfp_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">zonfp_id</TD></TR>
       <TR><TD PORT="miesto_realizacie_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">miesto_realizacie_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">14,886 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">729 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/zonfp_miesta_realizacie.html"
     tooltip="zonfp_miesta_realizacie"
@@ -1143,7 +1143,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="zonfp_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">zonfp_id</TD></TR>
       <TR><TD PORT="miesto_realizacie_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">miesto_realizacie_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">154 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/zonfp_miesta_realizacie_mimo_uzemia_op.html"
     tooltip="zonfp_miesta_realizacie_mimo_uzemia_op"
@@ -1156,7 +1156,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="zonfp_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">zonfp_id</TD></TR>
       <TR><TD PORT="oblast_intervencie_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">oblast_intervencie_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">10,459 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">307 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/zonfp_oblasti_intervencie.html"
     tooltip="zonfp_oblasti_intervencie"
@@ -1169,7 +1169,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="zonfp_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">zonfp_id</TD></TR>
       <TR><TD PORT="organizacna_zlozka_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">organizacna_zlozka_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">195 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">6 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/zonfp_organizacne_zlozky.html"
     tooltip="zonfp_organizacne_zlozky"
@@ -1182,7 +1182,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="zonfp_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">zonfp_id</TD></TR>
       <TR><TD PORT="partner_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">partner_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">1,349 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">7 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/zonfp_partneri.html"
     tooltip="zonfp_partneri"
@@ -1196,7 +1196,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="itms_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">itms_id</TD></TR>
       <TR><TD PORT="skupina_vydavkov_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">skupina_vydavkov_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">42,855 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">1,364 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/zonfp_polozky_rozpoctu.html"
     tooltip="zonfp_polozky_rozpoctu"
@@ -1209,7 +1209,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="zonfp_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">zonfp_id</TD></TR>
       <TR><TD PORT="sekundarny_tematicky_okruh_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">sekundarny_tematicky_okruh_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">1,211 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">8 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/zonfp_sekundarne_tematicke_okruhy.html"
     tooltip="zonfp_sekundarne_tematicke_okruhy"
@@ -1222,7 +1222,7 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="zonfp_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">zonfp_id</TD></TR>
       <TR><TD PORT="typ_uzemia_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">typ_uzemia_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">9,154 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">296 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
     </TABLE>>
     URL="tables/zonfp_typy_uzemia.html"
     tooltip="zonfp_typy_uzemia"
@@ -1239,10 +1239,23 @@ digraph "compactRelationshipsDiagram" {
       <TR><TD PORT="prijimatel_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">prijimatel_id</TD></TR>
       <TR><TD PORT="projekt_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">projekt_id</TD></TR>
       <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 5</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">2,966 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">4 &gt;</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 5</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">5 &gt;</TD></TR>
     </TABLE>>
     URL="tables/zop.html"
     tooltip="zop"
+  ];
+  "zop_predkladane_za_subjekty" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">zop_predkladane_za_subjekty</TD></TR>
+      <TR><TD PORT="id" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">id</TD></TR>
+      <TR><TD PORT="zop_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">zop_id</TD></TR>
+      <TR><TD PORT="subjekt_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">subjekt_id</TD></TR>
+      <TR><TD PORT="elipses" COLSPAN="3" ALIGN="LEFT">...</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/zop_predkladane_za_subjekty.html"
+    tooltip="zop_predkladane_za_subjekty"
   ];
   "aktivity":"subjekt_id":w -> "subjekty":"id":e [arrowhead=none dir=back arrowtail=crowodot];
   "aktivity":"typ_aktivity_id":w -> "typy_aktivit":"id":e [arrowhead=none dir=back arrowtail=crowodot];
@@ -1440,4 +1453,6 @@ digraph "compactRelationshipsDiagram" {
   "zop":"predkladana_za_id":w -> "subjekty":"id":e [arrowhead=none dir=back arrowtail=crowodot];
   "zop":"prijimatel_id":w -> "subjekty":"id":e [arrowhead=none dir=back arrowtail=crowodot];
   "zop":"projekt_id":w -> "projekty":"id":e [arrowhead=none dir=back arrowtail=crowodot];
+  "zop_predkladane_za_subjekty":"subjekt_id":w -> "subjekty":"id":e [arrowhead=none dir=back arrowtail=crowodot];
+  "zop_predkladane_za_subjekty":"zop_id":w -> "zop":"id":e [arrowhead=none dir=back arrowtail=crowodot];
 }

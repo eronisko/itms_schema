@@ -66,7 +66,7 @@ digraph "oneDegreeRelationshipsDiagram" {
       <TR><TD PORT="vratena_suma_zdroj_sr" COLSPAN="3" ALIGN="LEFT">vratena_suma_zdroj_sr</TD></TR>
       <TR><TD PORT="created_at" COLSPAN="3" ALIGN="LEFT">created_at</TD></TR>
       <TR><TD PORT="updated_at" COLSPAN="3" ALIGN="LEFT">updated_at</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 8</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">221 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">10 &gt;</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 8</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">10 &gt;</TD></TR>
     </TABLE>>
     URL="nezrovnalosti.html"
     tooltip="nezrovnalosti"
@@ -80,7 +80,7 @@ digraph "oneDegreeRelationshipsDiagram" {
       <TR><TD PORT="zop_id" COLSPAN="2" BGCOLOR="#f4f7da" ALIGN="LEFT">zop_id</TD><TD PORT="zop_id.type" ALIGN="LEFT">int4[10]</TD></TR>
       <TR><TD PORT="created_at" COLSPAN="2" ALIGN="LEFT">created_at</TD><TD PORT="created_at.type" ALIGN="LEFT">timestamp[29,6]</TD></TR>
       <TR><TD PORT="updated_at" COLSPAN="2" ALIGN="LEFT">updated_at</TD><TD PORT="updated_at.type" ALIGN="LEFT">timestamp[29,6]</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">974 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 &gt;</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 2</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 &gt;</TD></TR>
     </TABLE>>
     URL="nezrovnalosti_suvisiace_zop.html"
     tooltip="nezrovnalosti_suvisiace_zop"
@@ -94,6 +94,7 @@ digraph "oneDegreeRelationshipsDiagram" {
       <TR><TD PORT="itms_href" COLSPAN="3" ALIGN="LEFT">itms_href</TD></TR>
       <TR><TD PORT="itms_created_at" COLSPAN="3" ALIGN="LEFT">itms_created_at</TD></TR>
       <TR><TD PORT="itms_updated_at" COLSPAN="3" ALIGN="LEFT">itms_updated_at</TD></TR>
+      <TR><TD PORT="ekosystem_stav" COLSPAN="3" ALIGN="LEFT">ekosystem_stav</TD></TR>
       <TR><TD PORT="datum_prijatia" COLSPAN="3" ALIGN="LEFT">datum_prijatia</TD></TR>
       <TR><TD PORT="datum_uhrady" COLSPAN="3" ALIGN="LEFT">datum_uhrady</TD></TR>
       <TR><TD PORT="datum_zamietnutia" COLSPAN="3" ALIGN="LEFT">datum_zamietnutia</TD></TR>
@@ -110,7 +111,7 @@ digraph "oneDegreeRelationshipsDiagram" {
       <TR><TD PORT="vyplaca_sa_partnerovi" COLSPAN="3" ALIGN="LEFT">vyplaca_sa_partnerovi</TD></TR>
       <TR><TD PORT="zop_je_zaverecna" COLSPAN="3" ALIGN="LEFT">zop_je_zaverecna</TD></TR>
       <TR><TD PORT="zop_predlozena_za_viac_subjektov" COLSPAN="3" ALIGN="LEFT">zop_predlozena_za_viac_subjektov</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 5</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">2,966 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">4 &gt;</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 5</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">5 &gt;</TD></TR>
     </TABLE>>
     URL="zop.html"
     tooltip="zop"
