@@ -45,7 +45,7 @@ digraph "oneDegreeRelationshipsDiagram" {
       <TR><TD PORT="verejne_obstaravanie_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">verejne_obstaravanie_id</TD></TR>
       <TR><TD PORT="vyska_bez_dph" COLSPAN="3" ALIGN="LEFT">vyska_bez_dph</TD></TR>
       <TR><TD PORT="zmluva_verejne_obstaravanie_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">zmluva_verejne_obstaravanie_id</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 5</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">2 &gt;</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 5</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">59,519 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">2 &gt;</TD></TR>
     </TABLE>>
     URL="deklarovane_vydavky.html"
     tooltip="deklarovane_vydavky"
@@ -58,7 +58,7 @@ digraph "oneDegreeRelationshipsDiagram" {
       <TR><TD PORT="deklarovany_vydavok_id" COLSPAN="2" BGCOLOR="#f4f7da" ALIGN="LEFT">deklarovany_vydavok_id</TD><TD PORT="deklarovany_vydavok_id.type" ALIGN="LEFT">int4[10]</TD></TR>
       <TR><TD PORT="druh_neziadanej_sumy" COLSPAN="2" BGCOLOR="#f4f7da" ALIGN="LEFT">druh_neziadanej_sumy</TD><TD PORT="druh_neziadanej_sumy.type" ALIGN="LEFT">varchar[2147483647]</TD></TR>
       <TR><TD PORT="suma_neziadana" COLSPAN="2" BGCOLOR="#f4f7da" ALIGN="LEFT">suma_neziadana</TD><TD PORT="suma_neziadana.type" ALIGN="LEFT">numeric[131089]</TD></TR>
-      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 1</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 &gt;</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">&lt; 1</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">9,188 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 &gt;</TD></TR>
     </TABLE>>
     URL="deklarovane_vydavky_sumy_neziadane_na_preplatenie.html"
     tooltip="deklarovane_vydavky_sumy_neziadane_na_preplatenie"

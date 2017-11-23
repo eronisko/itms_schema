@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <database name="datahub_development" schema="itms" type="PostgreSQL - 9.5.6">
    <tables>
-      <table name="aktivity" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="aktivity" numRows="4563" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.aktivity_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial">
             <child column="aktivita_id" foreignKey="fk_rails_5bea80ee4e" implied="false" onDeleteCascade="false" table="polozky_rozpoctu"/>
             <child column="aktivita_id" foreignKey="fk_rails_e8fee81bd1" implied="false" onDeleteCascade="false" table="projekty_aktivity"/>
@@ -36,7 +36,7 @@
             <column ascending="true" name="typ_aktivity_id"/>
          </index>
       </table>
-      <table name="ciselniky" numRows="4" remarks="" schema="itms" type="TABLE">
+      <table name="ciselniky" numRows="24" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.ciselniky_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial">
             <child column="ciselnik_id" foreignKey="fk_rails_8fb44e9504" implied="false" onDeleteCascade="false" table="hodnoty_ciselnikov"/>
          </column>
@@ -53,7 +53,7 @@
             <column ascending="true" name="ciselnik_kod"/>
          </index>
       </table>
-      <table name="deklarovane_vydavky" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="deklarovane_vydavky" numRows="59519" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.deklarovane_vydavky_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial">
             <child column="deklarovany_vydavok_id" foreignKey="fk_rails_3fb64d1f6a" implied="false" onDeleteCascade="false" table="deklarovane_vydavky_sumy_neschvalene_na_preplatenie"/>
             <child column="deklarovany_vydavok_id" foreignKey="fk_rails_65cd02ab8f" implied="false" onDeleteCascade="false" table="deklarovane_vydavky_sumy_neziadane_na_preplatenie"/>
@@ -111,7 +111,7 @@
             <column ascending="true" name="zop_id"/>
          </index>
       </table>
-      <table name="deklarovane_vydavky_sumy_neschvalene_na_preplatenie" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="deklarovane_vydavky_sumy_neschvalene_na_preplatenie" numRows="3351" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.deklarovane_vydavky_sumy_neschvalene_na_preplatenie_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="deklarovany_vydavok_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_3fb64d1f6a" implied="false" onDeleteCascade="false" table="deklarovane_vydavky"/>
@@ -132,7 +132,7 @@
             <column ascending="true" name="suma_neschvalena"/>
          </index>
       </table>
-      <table name="deklarovane_vydavky_sumy_neziadane_na_preplatenie" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="deklarovane_vydavky_sumy_neziadane_na_preplatenie" numRows="9188" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.deklarovane_vydavky_sumy_neziadane_na_preplatenie_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="deklarovany_vydavok_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_65cd02ab8f" implied="false" onDeleteCascade="false" table="deklarovane_vydavky"/>
@@ -153,7 +153,7 @@
             <column ascending="true" name="suma_neziadana"/>
          </index>
       </table>
-      <table name="dodavatelia" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="dodavatelia" numRows="1506" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.dodavatelia_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial">
             <child column="dodavatel_dodavatel_obstaravatel_id" foreignKey="fk_rails_a3e6b23ab9" implied="false" onDeleteCascade="false" table="uctovne_doklady"/>
             <child column="obstaravatel_dodavatel_obstaravatel_id" foreignKey="fk_rails_4f0c3f949a" implied="false" onDeleteCascade="false" table="verejne_obstaravania"/>
@@ -199,7 +199,7 @@
             <column ascending="true" name="typ_ineho_identifikacneho_cisla_id"/>
          </index>
       </table>
-      <table name="hodnoty_ciselnikov" numRows="8" remarks="" schema="itms" type="TABLE">
+      <table name="hodnoty_ciselnikov" numRows="3544" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.hodnoty_ciselnikov_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial">
             <child column="stat_id" foreignKey="fk_rails_9ea404b7ef" implied="false" onDeleteCascade="false" table="dodavatelia"/>
             <child column="typ_ineho_identifikacneho_cisla_id" foreignKey="fk_rails_17b4b919d8" implied="false" onDeleteCascade="false" table="dodavatelia"/>
@@ -256,7 +256,7 @@
             <column ascending="true" name="itms_id"/>
          </index>
       </table>
-      <table name="intenzity" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="intenzity" numRows="1882" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.intenzity_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial">
             <child column="intenzita_id" foreignKey="fk_rails_8ed1a0f859" implied="false" onDeleteCascade="false" table="polozky_rozpoctu"/>
             <child column="intenzita_id" foreignKey="fk_rails_7c26d63282" implied="false" onDeleteCascade="false" table="projekty_intenzity"/>
@@ -310,7 +310,7 @@
             <column ascending="true" name="zdroj_yei_id"/>
          </index>
       </table>
-      <table name="intenzity_zdroje" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="intenzity_zdroje" numRows="5296" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.intenzity_zdroje_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial">
             <child column="zdroj_eu_id" foreignKey="fk_rails_818c3c0e61" implied="false" onDeleteCascade="false" table="intenzity"/>
             <child column="zdroj_pr_id" foreignKey="fk_rails_cc33bd1188" implied="false" onDeleteCascade="false" table="intenzity"/>
@@ -347,7 +347,7 @@
             <column ascending="true" name="id"/>
          </index>
       </table>
-      <table name="konkretne_ciele" numRows="153" remarks="" schema="itms" type="TABLE">
+      <table name="konkretne_ciele" numRows="161" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.konkretne_ciele_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial">
             <child column="konkretny_ciel_id" foreignKey="fk_rails_7a7cdcf0c3" implied="false" onDeleteCascade="false" table="konkretne_ciele_hodnoty_ciselnikov"/>
             <child column="konkretny_ciel_id" foreignKey="fk_rails_2f20a81991" implied="false" onDeleteCascade="false" table="konkretne_ciele_typy_aktivit"/>
@@ -391,7 +391,7 @@
             <column ascending="true" name="prioritna_os_id"/>
          </index>
       </table>
-      <table name="konkretne_ciele_hodnoty_ciselnikov" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="konkretne_ciele_hodnoty_ciselnikov" numRows="1058" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.konkretne_ciele_hodnoty_ciselnikov_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial">
             <child column="forma_financovania_id" foreignKey="fk_rails_7b6ee5736e" implied="false" onDeleteCascade="false" table="projekty_formy_financovania"/>
             <child column="hospodarska_cinnost_id" foreignKey="fk_rails_73b32244be" implied="false" onDeleteCascade="false" table="projekty_hospodarske_cinnosti"/>
@@ -428,7 +428,7 @@
             <column ascending="true" name="hodnota_ciselnika_id"/>
          </index>
       </table>
-      <table name="konkretne_ciele_typy_aktivit" numRows="1424" remarks="" schema="itms" type="TABLE">
+      <table name="konkretne_ciele_typy_aktivit" numRows="1455" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.konkretne_ciele_typy_aktivit_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="konkretny_ciel_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_2f20a81991" implied="false" onDeleteCascade="false" table="konkretne_ciele"/>
@@ -453,7 +453,7 @@
             <column ascending="true" name="typ_aktivity_id"/>
          </index>
       </table>
-      <table name="miesta_realizacie" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="miesta_realizacie" numRows="2300" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.miesta_realizacie_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial">
             <child column="miesto_realizacie_id" foreignKey="fk_rails_9f12cb21f5" implied="false" onDeleteCascade="false" table="projekty_miesta_realizacie"/>
             <child column="miesto_realizacie_id" foreignKey="fk_rails_0496cc57e6" implied="false" onDeleteCascade="false" table="projekty_miesta_realizacie_mimo_uzemia_op"/>
@@ -491,7 +491,7 @@
             <column ascending="true" name="stat_id"/>
          </index>
       </table>
-      <table name="monitorovacie_terminy" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="monitorovacie_terminy" numRows="3669" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.monitorovacie_terminy_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="projekt_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_83b35e71b4" implied="false" onDeleteCascade="false" table="projekty"/>
@@ -510,7 +510,7 @@
             <column ascending="true" name="projekt_id"/>
          </index>
       </table>
-      <table name="nezrovnalosti" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="nezrovnalosti" numRows="221" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.nezrovnalosti_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial">
             <child column="nezrovnalost_id" foreignKey="fk_rails_5f723e1acd" implied="false" onDeleteCascade="false" table="nezrovnalosti_subjekty_ktore_sposobili_nezrovnalost"/>
             <child column="nezrovnalost_id" foreignKey="fk_rails_803c402796" implied="false" onDeleteCascade="false" table="nezrovnalosti_subjekty_ktore_zistili_nezrovnalost"/>
@@ -611,7 +611,7 @@
             <column ascending="true" name="projekt_id"/>
          </index>
       </table>
-      <table name="nezrovnalosti_subjekty_ktore_sposobili_nezrovnalost" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="nezrovnalosti_subjekty_ktore_sposobili_nezrovnalost" numRows="105" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.nezrovnalosti_subjekty_ktore_sposobili_nezrovnalost_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="nezrovnalost_id" nullable="true" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_5f723e1acd" implied="false" onDeleteCascade="false" table="nezrovnalosti"/>
@@ -632,7 +632,7 @@
             <column ascending="true" name="subjekt_id"/>
          </index>
       </table>
-      <table name="nezrovnalosti_subjekty_ktore_zistili_nezrovnalost" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="nezrovnalosti_subjekty_ktore_zistili_nezrovnalost" numRows="227" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.nezrovnalosti_subjekty_ktore_zistili_nezrovnalost_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="nezrovnalost_id" nullable="true" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_803c402796" implied="false" onDeleteCascade="false" table="nezrovnalosti"/>
@@ -653,7 +653,7 @@
             <column ascending="true" name="subjekt_id"/>
          </index>
       </table>
-      <table name="nezrovnalosti_subjekty_zodpovedne_za_nasledne_konanie" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="nezrovnalosti_subjekty_zodpovedne_za_nasledne_konanie" numRows="221" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.nezrovnalosti_subjekty_zodpovedne_za_nasledne_konanie_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="nezrovnalost_id" nullable="true" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_25c3a95ab7" implied="false" onDeleteCascade="false" table="nezrovnalosti"/>
@@ -674,7 +674,7 @@
             <column ascending="true" name="subjekt_id"/>
          </index>
       </table>
-      <table name="nezrovnalosti_suvisiace_nezrovnalosti" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="nezrovnalosti_suvisiace_nezrovnalosti" numRows="16" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.nezrovnalosti_suvisiace_nezrovnalosti_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="nezrovnalost_id" nullable="true" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_03702170c9" implied="false" onDeleteCascade="false" table="nezrovnalosti"/>
@@ -695,7 +695,7 @@
             <column ascending="true" name="suvisiaca_nezrovnalost_id"/>
          </index>
       </table>
-      <table name="nezrovnalosti_suvisiace_pohladavkove_doklady" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="nezrovnalosti_suvisiace_pohladavkove_doklady" numRows="171" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.nezrovnalosti_suvisiace_pohladavkove_doklady_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="nezrovnalost_id" nullable="true" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_8d000a95b1" implied="false" onDeleteCascade="false" table="nezrovnalosti"/>
@@ -716,7 +716,7 @@
             <column ascending="true" name="nezrovnalost_id"/>
          </index>
       </table>
-      <table name="nezrovnalosti_suvisiace_verejne_obstaravania" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="nezrovnalosti_suvisiace_verejne_obstaravania" numRows="56" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.nezrovnalosti_suvisiace_verejne_obstaravania_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="nezrovnalost_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_8d1b1169fa" implied="false" onDeleteCascade="false" table="nezrovnalosti"/>
@@ -741,7 +741,7 @@
             <column ascending="true" name="verejne_obstaravanie_id"/>
          </index>
       </table>
-      <table name="nezrovnalosti_suvisiace_zop" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="nezrovnalosti_suvisiace_zop" numRows="974" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.nezrovnalosti_suvisiace_zop_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="nezrovnalost_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_6e331313aa" implied="false" onDeleteCascade="false" table="nezrovnalosti"/>
@@ -766,7 +766,7 @@
             <column ascending="true" name="zop_id"/>
          </index>
       </table>
-      <table name="nezrovnalosti_typy_nezrovnalosti" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="nezrovnalosti_typy_nezrovnalosti" numRows="287" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.nezrovnalosti_typy_nezrovnalosti_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="nezrovnalost_id" nullable="true" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_136836cd96" implied="false" onDeleteCascade="false" table="nezrovnalosti"/>
@@ -787,7 +787,7 @@
             <column ascending="true" name="nezrovnalost_id"/>
          </index>
       </table>
-      <table name="nuts_kody" numRows="1" remarks="" schema="itms" type="TABLE">
+      <table name="nuts_kody" numRows="2464" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.nuts_kody_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial">
             <child column="obec_id" foreignKey="fk_rails_97435e089d" implied="false" onDeleteCascade="false" table="dodavatelia"/>
             <child column="nuts_3_id" foreignKey="fk_rails_ea79d69beb" implied="false" onDeleteCascade="false" table="miesta_realizacie"/>
@@ -843,7 +843,7 @@
             <column ascending="true" name="subjekt_id"/>
          </index>
       </table>
-      <table name="organizacne_zlozky" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="organizacne_zlozky" numRows="107" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.organizacne_zlozky_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial">
             <child column="organizacna_zlozka_id" foreignKey="fk_rails_e184bf1313" implied="false" onDeleteCascade="false" table="projekty_organizacne_zlozky"/>
             <child column="organizacna_zlozka_id" foreignKey="fk_rails_0f2aac883b" implied="false" onDeleteCascade="false" table="zonfp_organizacne_zlozky"/>
@@ -861,7 +861,7 @@
             <column ascending="true" name="itms_id"/>
          </index>
       </table>
-      <table name="osoby" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="osoby" numRows="3" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.osoby_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial">
             <child column="osoba_id" foreignKey="fk_rails_6c4cefed09" implied="false" onDeleteCascade="false" table="vyzvy_vyhlasene_kontaktne_osoby"/>
             <child column="hodnotitel_id" foreignKey="fk_rails_4f280e9b20" implied="false" onDeleteCascade="false" table="zonfp_hodnotitelia"/>
@@ -882,7 +882,7 @@
             <column ascending="true" name="itms_id"/>
          </index>
       </table>
-      <table name="pohladavkove_doklady" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="pohladavkove_doklady" numRows="230" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.pohladavkove_doklady_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial">
             <child column="pohladavkovy_doklad_id" foreignKey="fk_rails_0ec85641c2" implied="false" onDeleteCascade="false" table="nezrovnalosti_suvisiace_pohladavkove_doklady"/>
             <child column="pohladavkovy_doklad_id" foreignKey="fk_rails_5f28bffb76" implied="false" onDeleteCascade="false" table="pohladavkove_doklady_suvisiace_verejne_obstaravania"/>
@@ -960,7 +960,7 @@
             <column ascending="true" name="subjekt_zodpovedny_za_vymahanie_id"/>
          </index>
       </table>
-      <table name="pohladavkove_doklady_suvisiace_verejne_obstaravania" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="pohladavkove_doklady_suvisiace_verejne_obstaravania" numRows="34" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.pohladavkove_doklady_suvisiace_verejne_obstaravania_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="pohladavkovy_doklad_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_5f28bffb76" implied="false" onDeleteCascade="false" table="pohladavkove_doklady"/>
@@ -985,7 +985,7 @@
             <column ascending="true" name="verejne_obstaravanie_id"/>
          </index>
       </table>
-      <table name="pohladavkove_doklady_suvisiace_zop" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="pohladavkove_doklady_suvisiace_zop" numRows="1010" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.pohladavkove_doklady_suvisiace_zop_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="pohladavkovy_doklad_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_47bdf1be19" implied="false" onDeleteCascade="false" table="pohladavkove_doklady"/>
@@ -1010,7 +1010,7 @@
             <column ascending="true" name="zop_id"/>
          </index>
       </table>
-      <table name="polozky_rozpoctu" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="polozky_rozpoctu" numRows="6986" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.polozky_rozpoctu_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial">
             <child column="polozka_rozpoctu_id" foreignKey="fk_rails_3a22dd6f01" implied="false" onDeleteCascade="false" table="deklarovane_vydavky"/>
             <child column="polozka_rozpoctu_id" foreignKey="fk_rails_c27d7f2c80" implied="false" onDeleteCascade="false" table="projekty_polozky_rozpoctu"/>
@@ -1055,7 +1055,7 @@
             <column ascending="true" name="subjekt_id"/>
          </index>
       </table>
-      <table name="prioritne_osi" numRows="48" remarks="" schema="itms" type="TABLE">
+      <table name="prioritne_osi" numRows="49" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.prioritne_osi_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial">
             <child column="prioritna_os_id" foreignKey="fk_rails_7e925d13d4" implied="false" onDeleteCascade="false" table="konkretne_ciele"/>
             <child column="prioritna_os_id" foreignKey="fk_rails_6e7c1b8881" implied="false" onDeleteCascade="false" table="nezrovnalosti"/>
@@ -1086,7 +1086,7 @@
             <column ascending="true" name="operacny_program_id"/>
          </index>
       </table>
-      <table name="projektove_ukazovatele" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="projektove_ukazovatele" numRows="855" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.projektove_ukazovatele_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial">
             <child column="projektovy_ukazovatel_id" foreignKey="fk_rails_ec6c3cb4c4" implied="false" onDeleteCascade="false" table="projektove_ukazovatele_casy_plnenia"/>
             <child column="projektovy_ukazovatel_id" foreignKey="fk_rails_09e399f617" implied="false" onDeleteCascade="false" table="projektove_ukazovatele_fondy"/>
@@ -1114,7 +1114,7 @@
             <column ascending="true" name="itms_id"/>
          </index>
       </table>
-      <table name="projektove_ukazovatele_casy_plnenia" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="projektove_ukazovatele_casy_plnenia" numRows="893" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.projektove_ukazovatele_casy_plnenia_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="projektovy_ukazovatel_id" nullable="true" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_ec6c3cb4c4" implied="false" onDeleteCascade="false" table="projektove_ukazovatele"/>
@@ -1135,7 +1135,7 @@
             <column ascending="true" name="projektovy_ukazovatel_id"/>
          </index>
       </table>
-      <table name="projektove_ukazovatele_fondy" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="projektove_ukazovatele_fondy" numRows="885" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.projektove_ukazovatele_fondy_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="projektovy_ukazovatel_id" nullable="true" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_09e399f617" implied="false" onDeleteCascade="false" table="projektove_ukazovatele"/>
@@ -1156,7 +1156,7 @@
             <column ascending="true" name="projektovy_ukazovatel_id"/>
          </index>
       </table>
-      <table name="projekty" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="projekty" numRows="1540" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.projekty_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial">
             <child column="projekt_id" foreignKey="fk_rails_83b35e71b4" implied="false" onDeleteCascade="false" table="monitorovacie_terminy"/>
             <child column="projekt_id" foreignKey="fk_rails_b88db6d3d7" implied="false" onDeleteCascade="false" table="nezrovnalosti"/>
@@ -1235,7 +1235,7 @@
             <column ascending="true" name="vyzva_id"/>
          </index>
       </table>
-      <table name="projekty_aktivity" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="projekty_aktivity" numRows="4563" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.projekty_aktivity_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="projekt_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_41d0028c9d" implied="false" onDeleteCascade="false" table="projekty"/>
@@ -1256,7 +1256,7 @@
             <column ascending="true" name="projekt_id"/>
          </index>
       </table>
-      <table name="projekty_formy_financovania" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="projekty_formy_financovania" numRows="1648" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.projekty_formy_financovania_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="projekt_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_ccb963193d" implied="false" onDeleteCascade="false" table="projekty"/>
@@ -1281,7 +1281,7 @@
             <column ascending="true" name="projekt_id"/>
          </index>
       </table>
-      <table name="projekty_hospodarske_cinnosti" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="projekty_hospodarske_cinnosti" numRows="1711" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.projekty_hospodarske_cinnosti_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="projekt_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_5827b58bb9" implied="false" onDeleteCascade="false" table="projekty"/>
@@ -1306,7 +1306,7 @@
             <column ascending="true" name="projekt_id"/>
          </index>
       </table>
-      <table name="projekty_intenzity" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="projekty_intenzity" numRows="1882" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.projekty_intenzity_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="projekt_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_7d596202b5" implied="false" onDeleteCascade="false" table="projekty"/>
@@ -1331,7 +1331,7 @@
             <column ascending="true" name="intenzita_id"/>
          </index>
       </table>
-      <table name="projekty_meratelne_ukazovatele" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="projekty_meratelne_ukazovatele" numRows="12035" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.projekty_meratelne_ukazovatele_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="projekt_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_546a109c63" implied="false" onDeleteCascade="false" table="projekty"/>
@@ -1358,7 +1358,7 @@
             <column ascending="true" name="projektovy_ukazovatel_id"/>
          </index>
       </table>
-      <table name="projekty_miesta_realizacie" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="projekty_miesta_realizacie" numRows="3428" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.projekty_miesta_realizacie_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="projekt_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_dc617d6865" implied="false" onDeleteCascade="false" table="projekty"/>
@@ -1396,7 +1396,7 @@
             <column ascending="true" name="projekt_id"/>
          </index>
       </table>
-      <table name="projekty_oblasti_intervencie" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="projekty_oblasti_intervencie" numRows="2199" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.projekty_oblasti_intervencie_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="projekt_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_f1873062c5" implied="false" onDeleteCascade="false" table="projekty"/>
@@ -1421,7 +1421,7 @@
             <column ascending="true" name="projekt_id"/>
          </index>
       </table>
-      <table name="projekty_organizacne_zlozky" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="projekty_organizacne_zlozky" numRows="36" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.projekty_organizacne_zlozky_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="projekt_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_8aa8b44f6c" implied="false" onDeleteCascade="false" table="projekty"/>
@@ -1442,7 +1442,7 @@
             <column ascending="true" name="organizacna_zlozka_id"/>
          </index>
       </table>
-      <table name="projekty_partneri" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="projekty_partneri" numRows="172" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.projekty_partneri_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="projekt_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_fb2a83b9a4" implied="false" onDeleteCascade="false" table="projekty"/>
@@ -1467,7 +1467,7 @@
             <column ascending="true" name="partner_id"/>
          </index>
       </table>
-      <table name="projekty_polozky_rozpoctu" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="projekty_polozky_rozpoctu" numRows="6986" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.projekty_polozky_rozpoctu_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="projekt_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_4fc331a058" implied="false" onDeleteCascade="false" table="projekty"/>
@@ -1492,7 +1492,7 @@
             <column ascending="true" name="projekt_id"/>
          </index>
       </table>
-      <table name="projekty_sekundarne_tematicke_okruhy" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="projekty_sekundarne_tematicke_okruhy" numRows="292" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.projekty_sekundarne_tematicke_okruhy_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="projekt_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_bc31563b61" implied="false" onDeleteCascade="false" table="projekty"/>
@@ -1517,7 +1517,7 @@
             <column ascending="true" name="sekundarny_tematicky_okruh_id"/>
          </index>
       </table>
-      <table name="projekty_typy_uzemia" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="projekty_typy_uzemia" numRows="1777" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.projekty_typy_uzemia_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="projekt_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_4e304a144d" implied="false" onDeleteCascade="false" table="projekty"/>
@@ -1542,7 +1542,7 @@
             <column ascending="true" name="typ_uzemia_id"/>
          </index>
       </table>
-      <table name="projekty_uzemne_mechanizmy" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="projekty_uzemne_mechanizmy" numRows="1395" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.projekty_uzemne_mechanizmy_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="projekt_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_ea9eccefc6" implied="false" onDeleteCascade="false" table="projekty"/>
@@ -1567,7 +1567,7 @@
             <column ascending="true" name="uzemny_mechanizmus_id"/>
          </index>
       </table>
-      <table name="subjekty" numRows="7" remarks="" schema="itms" type="TABLE">
+      <table name="subjekty" numRows="5310" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.subjekty_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial">
             <child column="subjekt_id" foreignKey="fk_rails_47b7955fdd" implied="false" onDeleteCascade="false" table="aktivity"/>
             <child column="subjekt_id" foreignKey="fk_rails_b607ab30e5" implied="false" onDeleteCascade="false" table="intenzity"/>
@@ -1637,7 +1637,7 @@
             <column ascending="true" name="typ_ineho_identifikacneho_cisla_id"/>
          </index>
       </table>
-      <table name="typy_aktivit" numRows="1424" remarks="" schema="itms" type="TABLE">
+      <table name="typy_aktivit" numRows="1455" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.typy_aktivit_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial">
             <child column="typ_aktivity_id" foreignKey="fk_rails_daa70d785a" implied="false" onDeleteCascade="false" table="aktivity"/>
             <child column="typ_aktivity_id" foreignKey="fk_rails_2ce092e5a7" implied="false" onDeleteCascade="false" table="konkretne_ciele_typy_aktivit"/>
@@ -1660,7 +1660,7 @@
             <column ascending="true" name="itms_id"/>
          </index>
       </table>
-      <table name="uctovne_doklady" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="uctovne_doklady" numRows="10454" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.uctovne_doklady_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial">
             <child column="uctovny_doklad_id" foreignKey="fk_rails_6af1d0518f" implied="false" onDeleteCascade="false" table="deklarovane_vydavky"/>
             <child column="uctovny_doklad_id" foreignKey="fk_rails_390d8ee387" implied="false" onDeleteCascade="false" table="uctovne_doklady_polozky_dokladu"/>
@@ -1702,7 +1702,7 @@
             <column ascending="true" name="vlastnik_dokladu_id"/>
          </index>
       </table>
-      <table name="uctovne_doklady_polozky_dokladu" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="uctovne_doklady_polozky_dokladu" numRows="32179" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.uctovne_doklady_polozky_dokladu_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="uctovny_doklad_id" nullable="true" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_390d8ee387" implied="false" onDeleteCascade="false" table="uctovne_doklady"/>
@@ -1732,7 +1732,7 @@
             <column ascending="true" name="uctovny_doklad_id"/>
          </index>
       </table>
-      <table name="verejne_obstaravania" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="verejne_obstaravania" numRows="3174" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.verejne_obstaravania_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial">
             <child column="verejne_obstaravanie_id" foreignKey="fk_rails_efa9344803" implied="false" onDeleteCascade="false" table="deklarovane_vydavky"/>
             <child column="verejne_obstaravanie_id" foreignKey="fk_rails_53091b9df9" implied="false" onDeleteCascade="false" table="nezrovnalosti_suvisiace_verejne_obstaravania"/>
@@ -1822,7 +1822,7 @@
             <column ascending="true" name="obstaravatel_dodavatel_obstaravatel_id"/>
          </index>
       </table>
-      <table name="verejne_obstaravania_doplnujuce_predmety_doplnkovy_slovnik" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="verejne_obstaravania_doplnujuce_predmety_doplnkovy_slovnik" numRows="10" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.verejne_obstaravania_doplnujuce_predmety_doplnkovy_slovn_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="verejne_obstaravanie_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_f529907463" implied="false" onDeleteCascade="false" table="verejne_obstaravania"/>
@@ -1847,7 +1847,7 @@
             <column ascending="true" name="predmet_id"/>
          </index>
       </table>
-      <table name="verejne_obstaravania_doplnujuce_predmety_hlavny_slovnik" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="verejne_obstaravania_doplnujuce_predmety_hlavny_slovnik" numRows="1028" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.verejne_obstaravania_doplnujuce_predmety_hlavny_slovnik_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="verejne_obstaravanie_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_4da2ae7a20" implied="false" onDeleteCascade="false" table="verejne_obstaravania"/>
@@ -1872,7 +1872,7 @@
             <column ascending="true" name="predmet_id"/>
          </index>
       </table>
-      <table name="verejne_obstaravania_hlavne_predmety_doplnkovy_slovnik" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="verejne_obstaravania_hlavne_predmety_doplnkovy_slovnik" numRows="44" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.verejne_obstaravania_hlavne_predmety_doplnkovy_slovnik_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="verejne_obstaravanie_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_24965b7679" implied="false" onDeleteCascade="false" table="verejne_obstaravania"/>
@@ -1897,7 +1897,7 @@
             <column ascending="true" name="predmet_id"/>
          </index>
       </table>
-      <table name="verejne_obstaravania_operacne_programy" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="verejne_obstaravania_operacne_programy" numRows="3236" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.verejne_obstaravania_operacne_programy_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="verejne_obstaravanie_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_94aa9b848a" implied="false" onDeleteCascade="false" table="verejne_obstaravania"/>
@@ -1922,7 +1922,7 @@
             <column ascending="true" name="operacny_program_id"/>
          </index>
       </table>
-      <table name="verejne_obstaravania_projekty" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="verejne_obstaravania_projekty" numRows="944" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.verejne_obstaravania_projekty_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="verejne_obstaravanie_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_666b79ae9b" implied="false" onDeleteCascade="false" table="verejne_obstaravania"/>
@@ -1947,7 +1947,7 @@
             <column ascending="true" name="projekt_id"/>
          </index>
       </table>
-      <table name="verejne_obstaravania_uctovne_doklady" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="verejne_obstaravania_uctovne_doklady" numRows="3130" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.verejne_obstaravania_uctovne_doklady_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="verejne_obstaravanie_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_89fad4de08" implied="false" onDeleteCascade="false" table="verejne_obstaravania"/>
@@ -1972,7 +1972,7 @@
             <column ascending="true" name="uctovny_doklad_id"/>
          </index>
       </table>
-      <table name="vyzvy_planovane" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="vyzvy_planovane" numRows="222" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.vyzvy_planovane_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial">
             <child column="vyzva_id" foreignKey="fk_rails_3ffd858a5d" implied="false" onDeleteCascade="false" table="vyzvy_planovane_doplnujuce_info"/>
             <child column="vyzva_id" foreignKey="fk_rails_f515e5059d" implied="false" onDeleteCascade="false" table="vyzvy_planovane_konkretne_ciele"/>
@@ -2011,7 +2011,7 @@
             <column ascending="true" name="vyhlasovatel_id"/>
          </index>
       </table>
-      <table name="vyzvy_planovane_doplnujuce_info" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="vyzvy_planovane_doplnujuce_info" numRows="71" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.vyzvy_planovane_doplnujuce_info_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="vyzva_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_3ffd858a5d" implied="false" onDeleteCascade="false" table="vyzvy_planovane"/>
@@ -2028,7 +2028,7 @@
             <column ascending="true" name="vyzva_id"/>
          </index>
       </table>
-      <table name="vyzvy_planovane_konkretne_ciele" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="vyzvy_planovane_konkretne_ciele" numRows="296" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.vyzvy_planovane_konkretne_ciele_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="vyzva_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_f515e5059d" implied="false" onDeleteCascade="false" table="vyzvy_planovane"/>
@@ -2049,7 +2049,7 @@
             <column ascending="true" name="vyzva_id"/>
          </index>
       </table>
-      <table name="vyzvy_planovane_poskytovatelia" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="vyzvy_planovane_poskytovatelia" numRows="222" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.vyzvy_planovane_poskytovatelia_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="vyzva_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_4b2cc174c3" implied="false" onDeleteCascade="false" table="vyzvy_planovane"/>
@@ -2070,7 +2070,7 @@
             <column ascending="true" name="vyzva_id"/>
          </index>
       </table>
-      <table name="vyzvy_vyhlasene" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="vyzvy_vyhlasene" numRows="289" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.vyzvy_vyhlasene_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial">
             <child column="vyzva_id" foreignKey="fk_rails_c67c463462" implied="false" onDeleteCascade="false" table="projekty"/>
             <child column="vyzva_id" foreignKey="fk_rails_b0d1bbc3a6" implied="false" onDeleteCascade="false" table="vyzvy_vyhlasene_doplnujuce_info"/>
@@ -2111,7 +2111,7 @@
             <column ascending="true" name="vyhlasovatel_id"/>
          </index>
       </table>
-      <table name="vyzvy_vyhlasene_doplnujuce_info" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="vyzvy_vyhlasene_doplnujuce_info" numRows="163" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.vyzvy_vyhlasene_doplnujuce_info_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="vyzva_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_b0d1bbc3a6" implied="false" onDeleteCascade="false" table="vyzvy_vyhlasene"/>
@@ -2128,7 +2128,7 @@
             <column ascending="true" name="vyzva_id"/>
          </index>
       </table>
-      <table name="vyzvy_vyhlasene_fondy" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="vyzvy_vyhlasene_fondy" numRows="289" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.vyzvy_vyhlasene_fondy_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="vyzva_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_43ac458ef5" implied="false" onDeleteCascade="false" table="vyzvy_vyhlasene"/>
@@ -2149,7 +2149,7 @@
             <column ascending="true" name="vyzva_id"/>
          </index>
       </table>
-      <table name="vyzvy_vyhlasene_konkretne_ciele_typy_aktivit" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="vyzvy_vyhlasene_konkretne_ciele_typy_aktivit" numRows="1527" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.vyzvy_vyhlasene_konkretne_ciele_typy_aktivit_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="vyzva_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_940d7db37d" implied="false" onDeleteCascade="false" table="vyzvy_vyhlasene"/>
@@ -2176,7 +2176,7 @@
             <column ascending="true" name="vyzva_id"/>
          </index>
       </table>
-      <table name="vyzvy_vyhlasene_kontaktne_osoby" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="vyzvy_vyhlasene_kontaktne_osoby" numRows="289" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.vyzvy_vyhlasene_kontaktne_osoby_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="vyzva_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_cbe8943658" implied="false" onDeleteCascade="false" table="vyzvy_vyhlasene"/>
@@ -2197,7 +2197,7 @@
             <column ascending="true" name="vyzva_id"/>
          </index>
       </table>
-      <table name="vyzvy_vyhlasene_poskytovatelia" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="vyzvy_vyhlasene_poskytovatelia" numRows="289" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.vyzvy_vyhlasene_poskytovatelia_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="vyzva_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_2137cdd4b6" implied="false" onDeleteCascade="false" table="vyzvy_vyhlasene"/>
@@ -2218,7 +2218,7 @@
             <column ascending="true" name="vyzva_id"/>
          </index>
       </table>
-      <table name="vyzvy_vyhlasene_posudzovane_obdobia" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="vyzvy_vyhlasene_posudzovane_obdobia" numRows="104" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.vyzvy_vyhlasene_posudzovane_obdobia_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="vyzva_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_f52dc2f93f" implied="false" onDeleteCascade="false" table="vyzvy_vyhlasene"/>
@@ -2235,7 +2235,7 @@
             <column ascending="true" name="vyzva_id"/>
          </index>
       </table>
-      <table name="vyzvy_vyhlasene_vyzvy_planovane" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="vyzvy_vyhlasene_vyzvy_planovane" numRows="122" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.vyzvy_vyhlasene_vyzvy_planovane_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="vyhlasena_vyzva_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_9ea2c85d7e" implied="false" onDeleteCascade="false" table="vyzvy_vyhlasene"/>
@@ -2256,7 +2256,7 @@
             <column ascending="true" name="vyhlasena_vyzva_id"/>
          </index>
       </table>
-      <table name="zmluvy_verejne_obstaravania" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="zmluvy_verejne_obstaravania" numRows="2999" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.zmluvy_verejne_obstaravania_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial">
             <child column="zmluva_verejne_obstaravanie_id" foreignKey="fk_rails_01546df3bb" implied="false" onDeleteCascade="false" table="deklarovane_vydavky"/>
             <child column="zmluva_verejne_obstaravanie_id" foreignKey="fk_rails_d40543fb1d" implied="false" onDeleteCascade="false" table="zmluvy_verejne_obstaravania_dalsie_url"/>
@@ -2301,7 +2301,7 @@
             <column ascending="true" name="verejne_obstaravanie_id"/>
          </index>
       </table>
-      <table name="zmluvy_verejne_obstaravania_dalsie_url" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="zmluvy_verejne_obstaravania_dalsie_url" numRows="113" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.zmluvy_verejne_obstaravania_dalsie_url_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="zmluva_verejne_obstaravanie_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_d40543fb1d" implied="false" onDeleteCascade="false" table="zmluvy_verejne_obstaravania"/>
@@ -2318,7 +2318,7 @@
             <column ascending="true" name="zmluva_verejne_obstaravanie_id"/>
          </index>
       </table>
-      <table name="zmluvy_verejne_obstaravania_dodavatelia" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="zmluvy_verejne_obstaravania_dodavatelia" numRows="3098" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.zmluvy_verejne_obstaravania_dodavatelia_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="zmluva_verejne_obstaravanie_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_4da1c132e1" implied="false" onDeleteCascade="false" table="zmluvy_verejne_obstaravania"/>
@@ -2346,7 +2346,7 @@
             <column ascending="true" name="zmluva_verejne_obstaravanie_id"/>
          </index>
       </table>
-      <table name="zonfp" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="zonfp" numRows="8372" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.zonfp_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial">
             <child column="schvalena_zonfp_id" foreignKey="fk_rails_35284387ac" implied="false" onDeleteCascade="false" table="projekty"/>
             <child column="zonfp_id" foreignKey="fk_rails_05b9e9ab0a" implied="false" onDeleteCascade="false" table="zonfp_aktivity_projekt"/>
@@ -2424,7 +2424,7 @@
             <column ascending="true" name="ziadatel_id"/>
          </index>
       </table>
-      <table name="zonfp_aktivity_projekt" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="zonfp_aktivity_projekt" numRows="27397" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.zonfp_aktivity_projekt_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="zonfp_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_05b9e9ab0a" implied="false" onDeleteCascade="false" table="zonfp"/>
@@ -2457,7 +2457,7 @@
             <column ascending="true" name="zonfp_id"/>
          </index>
       </table>
-      <table name="zonfp_formy_financovania" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="zonfp_formy_financovania" numRows="8564" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.zonfp_formy_financovania_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="zonfp_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_0f3db1df5e" implied="false" onDeleteCascade="false" table="zonfp"/>
@@ -2482,7 +2482,7 @@
             <column ascending="true" name="zonfp_id"/>
          </index>
       </table>
-      <table name="zonfp_hodnotitelia" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="zonfp_hodnotitelia" numRows="2" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.zonfp_hodnotitelia_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="zonfp_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_42d321084b" implied="false" onDeleteCascade="false" table="zonfp"/>
@@ -2507,7 +2507,7 @@
             <column ascending="true" name="hodnotitel_id"/>
          </index>
       </table>
-      <table name="zonfp_hospodarske_cinnosti" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="zonfp_hospodarske_cinnosti" numRows="9116" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.zonfp_hospodarske_cinnosti_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="zonfp_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_5cac1f1c7e" implied="false" onDeleteCascade="false" table="zonfp"/>
@@ -2532,7 +2532,7 @@
             <column ascending="true" name="zonfp_id"/>
          </index>
       </table>
-      <table name="zonfp_meratelne_ukazovatele" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="zonfp_meratelne_ukazovatele" numRows="59402" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.zonfp_meratelne_ukazovatele_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="zonfp_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_899eb09f3c" implied="false" onDeleteCascade="false" table="zonfp"/>
@@ -2559,7 +2559,7 @@
             <column ascending="true" name="projektovy_ukazovatel_id"/>
          </index>
       </table>
-      <table name="zonfp_miesta_realizacie" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="zonfp_miesta_realizacie" numRows="14886" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.zonfp_miesta_realizacie_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="zonfp_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_2f9bbaa2d6" implied="false" onDeleteCascade="false" table="zonfp"/>
@@ -2584,7 +2584,7 @@
             <column ascending="true" name="zonfp_id"/>
          </index>
       </table>
-      <table name="zonfp_miesta_realizacie_mimo_uzemia_op" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="zonfp_miesta_realizacie_mimo_uzemia_op" numRows="154" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.zonfp_miesta_realizacie_mimo_uzemia_op_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="zonfp_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_64ec721cb6" implied="false" onDeleteCascade="false" table="zonfp"/>
@@ -2609,7 +2609,7 @@
             <column ascending="true" name="zonfp_id"/>
          </index>
       </table>
-      <table name="zonfp_oblasti_intervencie" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="zonfp_oblasti_intervencie" numRows="10459" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.zonfp_oblasti_intervencie_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="zonfp_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_68aa37fcce" implied="false" onDeleteCascade="false" table="zonfp"/>
@@ -2634,7 +2634,7 @@
             <column ascending="true" name="zonfp_id"/>
          </index>
       </table>
-      <table name="zonfp_organizacne_zlozky" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="zonfp_organizacne_zlozky" numRows="195" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.zonfp_organizacne_zlozky_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="zonfp_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_af89f96e79" implied="false" onDeleteCascade="false" table="zonfp"/>
@@ -2659,7 +2659,7 @@
             <column ascending="true" name="zonfp_id"/>
          </index>
       </table>
-      <table name="zonfp_partneri" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="zonfp_partneri" numRows="1349" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.zonfp_partneri_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="zonfp_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_00c0160bcd" implied="false" onDeleteCascade="false" table="zonfp"/>
@@ -2684,7 +2684,7 @@
             <column ascending="true" name="partner_id"/>
          </index>
       </table>
-      <table name="zonfp_polozky_rozpoctu" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="zonfp_polozky_rozpoctu" numRows="42855" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.zonfp_polozky_rozpoctu_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="zonfp_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_56c4e15d44" implied="false" onDeleteCascade="false" table="zonfp"/>
@@ -2709,7 +2709,7 @@
             <column ascending="true" name="zonfp_id"/>
          </index>
       </table>
-      <table name="zonfp_sekundarne_tematicke_okruhy" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="zonfp_sekundarne_tematicke_okruhy" numRows="1211" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.zonfp_sekundarne_tematicke_okruhy_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="zonfp_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_9a28904f8b" implied="false" onDeleteCascade="false" table="zonfp"/>
@@ -2734,7 +2734,7 @@
             <column ascending="true" name="zonfp_id"/>
          </index>
       </table>
-      <table name="zonfp_typy_uzemia" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="zonfp_typy_uzemia" numRows="9154" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.zonfp_typy_uzemia_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="zonfp_id" nullable="false" remarks="" size="10" type="int4">
             <parent column="id" foreignKey="fk_rails_b9aa6d8591" implied="false" onDeleteCascade="false" table="zonfp"/>
@@ -2759,7 +2759,7 @@
             <column ascending="true" name="typ_uzemia_id"/>
          </index>
       </table>
-      <table name="zop" numRows="0" remarks="" schema="itms" type="TABLE">
+      <table name="zop" numRows="2966" remarks="" schema="itms" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('itms.zop_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial">
             <child column="zop_id" foreignKey="fk_rails_94f260648c" implied="false" onDeleteCascade="false" table="deklarovane_vydavky"/>
             <child column="zop_id" foreignKey="fk_rails_3ab8350341" implied="false" onDeleteCascade="false" table="nezrovnalosti_suvisiace_zop"/>
